@@ -55,3 +55,99 @@
   outline: 3px solid #009CDE;
   outline-offset: 2px;
 }
+
+/* ---------------------------------------------------------
+   Minimal, no-layout-break styling for image source details
+   Purpose:
+   - Keep image source present but unobtrusive
+   - Avoid Material for MkDocs button/admonition styling
+   - Prevent layout breakage or icon overlap
+   --------------------------------------------------------- */
+
+/* Let the details container shrink to content */
+details.image-source {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 0.25rem;
+}
+
+/* Reset Material button-like styling on summary */
+details.image-source > summary {
+  display: inline-block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+
+  /* typography */
+  font-size: 0.8rem !important;
+  color: var(--md-default-fg-color--light) !important;
+
+  /* keep it compact */
+  max-width: 100% !important;
+  cursor: pointer;
+}
+
+/* Disable Material pseudo-icons / chevrons that cause overlaps */
+details.image-source > summary::before,
+details.image-source > summary::after,
+details.image-source > summary .twemoji {
+  content: none !important;
+  display: none !important;
+}
+
+/* Content spacing when expanded */
+details.image-source > *:not(summary) {
+  font-size: 0.8rem !important;
+  margin-top: 0.4rem !important;
+}
+
+/* Row layout for side-by-side figures */
+.figure-row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;   /* Wrap on small screens */
+}
+
+/* Each figure keeps its own width */
+.figure-row .course-figure {
+  width: 280px;      
+  max-width: 100%;
+}
+
+/* Force equal-height images inside course figures */
+.course-figure img {
+  width: 100% !important;
+  height: 320px !important;      
+  object-fit: cover !important;  
+  display: block !important;
+}
+
+/* ---------- Size tiers for figure rows ---------- */
+
+/* Small*/
+.figure-row.size-sm .course-figure {
+  width: 200px;
+}
+.figure-row.size-sm .course-figure img {
+  height: 220px !important;
+}
+
+/* Medium*/
+.figure-row.size-md .course-figure {
+  width: 280px;
+}
+.figure-row.size-md .course-figure img {
+  height: 320px !important;
+}
+
+/* Large*/
+.figure-row.size-lg .course-figure {
+  width: 320px;
+}
+.figure-row.size-lg .course-figure img {
+  height: 380px !important;
+}

@@ -4,6 +4,47 @@ AI has developed through several major phases, each shaped by different assumpti
 
 AI has evolved through several major paradigms, each reflecting different assumptions about how intelligence can be modeled or simulated.
 
+达特茅斯会议
+
+<div class="figure-row size-sm">
+
+  <figure class="course-figure">
+    <img class="course-figure-img"
+         src="/ai-literacy/assets/images/John_McCarthy_Stanford.jpg"
+         alt="John McCarthy at Stanford">
+    <figcaption><em>John McCarthy</em></figcaption>
+
+    <details class="image-source">
+      <summary>Image source</summary>
+      <div class="image-source-body">
+        Image: Wikimedia Commons (CC BY-SA 2.0)  
+        https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg
+      </div>
+    </details>
+  </figure>
+
+  <figure class="course-figure">
+    <img class="course-figure-img"
+         src="/ai-literacy/assets/images/Marvin_Minsky.jpg"
+         alt="Marvin Minsky at OLPCb">
+    <figcaption><em>Marvin Minsky</em></figcaption>
+
+    <details class="image-source">
+      <summary>Image source</summary>
+      <div class="image-source-body">
+        Image: Wikimedia Commons (CC BY-SA 4.0)  
+        https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg
+      </div>
+    </details>
+  </figure>
+
+</div>
+
+
+
+
+
+
 日本的20世纪初的ai革命，logic programming
 
 深蓝
