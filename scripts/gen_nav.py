@@ -4,6 +4,16 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
+ACRONYMS = {
+    "ai": "AI",
+    "llm": "LLM",
+    "llms": "LLMs",
+    "nlp": "NLP",
+    "ir": "IR",
+    "tdm": "TDM",
+    "rag": "RAG",
+}
+
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 MKDOCS_YML = ROOT / "mkdocs.yml"
@@ -53,6 +63,21 @@ def collect_weeks() -> list[tuple[int, str, str]]:
     items.sort(key=lambda x: x[0])
     return items
 
+def normalize_nav_label(label: str) -> str:
+    """
+    Convert label to Title Case, but force specific acronyms to uppercase.
+    """
+    words = re.split(r"(\W+)", label)  # keep punctuation
+    normalized = []
+
+    for w in words:
+        key = w.lower()
+        if key in ACRONYMS:
+            normalized.append(ACRONYMS[key])
+        else:
+            normalized.append(w.capitalize() if w.isalpha() else w)
+
+    return "".join(normalized)
 
 def collect_concepts() -> list[tuple[str, str]]:
     """Returns list of (nav_label, rel_path)."""
@@ -67,7 +92,8 @@ def collect_concepts() -> list[tuple[str, str]]:
             continue
 
         h1 = guess_title_from_h1(p)
-        label = h1 if h1 else p.stem.replace("-", " ").replace("_", " ")
+        raw_label = h1 if h1 else p.stem.replace("-", " ").replace("_", " ")
+        label = normalize_nav_label(raw_label)
 
         rel = p.relative_to(DOCS).as_posix()
         items.append((label, rel))
