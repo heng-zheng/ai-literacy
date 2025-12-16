@@ -59,10 +59,15 @@ If you have any feedback on the course content or this site, please contact **He
 ---
 
 ## Copyright and Reuse
+
 © Heng Zheng.
 
-This work is licensed under a
+Unless otherwise noted, original instructional content on this site is licensed under a
 [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-You are free to copy, adapt, and redistribute the material in any medium or format,
+You are free to copy, adapt, and redistribute this original material in any medium or format,
 provided appropriate credit is given to the original author.
+
+Third-party materials, including quoted text, excerpts, images, and other media, are included
+for educational purposes. Copyright for these materials remains with their respective rights
+holders and is subject to the terms of their original licenses or fair use.

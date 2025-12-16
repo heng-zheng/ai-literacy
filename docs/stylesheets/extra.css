@@ -151,3 +151,11 @@ details.image-source > *:not(summary) {
 .figure-row.size-lg .course-figure img {
   height: 380px !important;
 }
+
+/* Logo / banner images: do not crop */
+.course-figure img.logo-img {
+  height: auto !important;          /* allow natural aspect ratio */
+  max-height: 140px !important;     /* optional: keep row tidy */
+  object-fit: contain !important;   /* show full logo */
+  background: transparent !important;
+}
