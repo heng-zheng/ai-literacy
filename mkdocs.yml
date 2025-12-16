@@ -1,4 +1,5 @@
 site_name: LIS/ICT 690 - AI Literacy for Information Organizations
+site_url: https://heng-zheng.github.io/ai-literacy-course/
 nav:
   - Home: index.md
   - Weeks:
@@ -13,3 +14,12 @@ nav:
   - Policies:
       - AI Ethics: policies/ai-ethics.md
       - Copyright & TDM: policies/copyright-tdm.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.suggest
