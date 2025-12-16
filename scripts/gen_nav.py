@@ -89,23 +89,20 @@ def render_nav_block() -> str:
     weeks = collect_weeks()
     concepts = collect_concepts()
 
-    lines: list[str] = []
+    lines = []
+
     if weeks:
-        lines.append("  - Weeks:")
+        lines.append("Weeks:")
         for _, label, rel in weeks:
-            lines.append(f"      - {label}: {rel}")
+            lines.append(f"  {label}: {rel}")
 
     if concepts:
-        lines.append("  - Concepts:")
-        # optionally include concepts/index.md if it exists
-        idx = DOCS / "concepts" / "index.md"
-        if idx.exists():
-            lines.append("      - Overview: concepts/index.md")
+        lines.append("Concepts:")
         for label, rel in concepts:
-            lines.append(f"      - {label}: {rel}")
+            lines.append(f"  {label}: {rel}")
 
-    # Always end with newline for YAML cleanliness
     return "\n".join(lines) + "\n"
+
 
 def replace_block(mkdocs_text: str, new_block: str) -> str:
     # Support both LF and CRLF newlines
