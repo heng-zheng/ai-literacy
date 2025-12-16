@@ -1,0 +1,15 @@
+site_name: LIS/ICT 690 - AI Literacy for Information Organizations
+nav:
+  - Home: index.md
+  - Weeks:
+      - Week 1: weeks/week-01.md
+      - Week 2: weeks/week-02.md
+  - Concepts:
+      - AI Paradigms: concepts/ai-paradigms.md
+      - AI Timeline: concepts/ai-timeline.md
+  - Tools:
+      - ChatGPT: tools/chatgpt.md
+      - NotebookLM: tools/notebooklm.md
+  - Policies:
+      - AI Ethics: policies/ai-ethics.md
+      - Copyright & TDM: policies/copyright-tdm.md
