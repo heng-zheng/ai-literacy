@@ -1,11 +1,22 @@
 # Everyday AI
 
-人类对AI的使用并非现在才有，其实很早就开始了
+AI has been integrated into society for decades.
+In earlier stages, these systems were rarely labeled as “AI,” but were introduced through their practical functions.
 
-AI is embedded in many routine information activities, often without being labeled as such. Examples include:
-- Search engines and ranking algorithms
-- Recommendation systems for media, shopping, and news
-- Autocomplete, predictive text, and spelling correction
-- Translation tools and conversational assistants
+Examples of early AI applications include:
 
-These systems shape what information is visible, how quickly it can be accessed, and how choices are presented to users.
+- Rule-based expert systems (e.g., medical decision support)
+- Search and information retrieval systems
+- Email spam filtering and text classification
+- Recommendation systems (books, movies, products)
+- Speech and handwriting recognition
+
+In the era of generative AI, AI technologies are everywhere:
+
+- [AI in Google search](https://search.google/ai-in-search/), [ChatGPT search](https://openai.com/index/introducing-chatgpt-search/):
+    - AI Overviews provide quick summaries of key information. Summaries include links to external web sources for further exploration
+    - Support multimodal interaction with users, enabling them to search with text, voice, images, and visual context.
+- Video platforms such as YouTube use personalized recommendation systems and [generative AI features](https://support.google.com/youtube/answer/14110396?hl=en) that allow users to ask questions about videos.
+- Writing assistant tools, such as Grammarly, can help non-native speakers identify and correct grammatical issues.
+- [AI-powered chatbots](https://www.ibm.com/think/topics/ai-customer-service-chatbots) for customer support and FAQs. 
+- Generative AI models can create videos from text prompts, such as [OpenAI's Sora](https://openai.com/index/video-generation-models-as-world-simulators/). 
