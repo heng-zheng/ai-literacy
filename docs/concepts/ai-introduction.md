@@ -12,6 +12,37 @@ Another widely cited definition comes from *Artificial Intelligence: A Modern Ap
 
 In public discourse, AI is often conflated with machine learning (ML). From the perspective of many AI researchers, however, ML is not equivalent to AI; rather, it is a subfield within AI. By the same logic, neural networks, deep learning, and even large language models are all sub-concepts within the broader domain of AI.
 
+## AI Literacy
+
+AI literacy can be interpreted through the framework developed by Dr. Kara Kennedy.
+
+<div class="figure-row">
+
+  <figure class="course-figure">
+  <img class="course-figure-img full-img"
+       src="/ai-literacy/assets/images/AI-Literacy-Framework-2023-Kennedy.jpg"
+       alt="AI Literacy Framework mapped to the UNESCO Digital Literacy Global Framework">
+
+  <figcaption>
+    <em>AI Literacy Framework (Kennedy, 2023)</em>
+  </figcaption>
+
+  <details class="image-source">
+    <summary>Image source</summary>
+    <div class="image-source-body">
+      Image: Kara Kennedy (2023), <em>AI Literacy Framework</em><br>
+      License: CC BY 4.0<br>
+      <a href="https://kennedyhq.com/wp/2023/12/21/ai-literacy-framework/"
+         target="_blank" rel="noopener">
+        kennedyhq.com
+      </a>
+    </div>
+  </details>
+</figure>
+
+</div>
+
+
 ## Key References and Organizations in Artificial Intelligence
 
 **Artificial Intelligence: A Modern Approach**

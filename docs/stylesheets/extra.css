@@ -160,3 +160,13 @@ details.image-source > *:not(summary) {
   background: transparent !important;
 }
 
+/* Full-height screenshots: show entire image, no cropping */
+.course-figure img.full-img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+

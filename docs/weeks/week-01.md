@@ -11,10 +11,7 @@ The emphasis is on conceptual understanding rather than technical detail: what A
 
 ## Key Takeaways for This Week
 
-- AI is not a single technology, but a collection of approaches and practices
-- Different AI paradigms reflect different ways of modeling intelligence
-- Many AI systems already influence everyday information access and decision-making
-- Information professionals play a critical role in evaluating, shaping, and governing AI use
+- AI 
 
 ## Reading materials:
 - Stanford AI page
