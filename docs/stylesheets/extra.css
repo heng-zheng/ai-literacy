@@ -152,21 +152,14 @@ details.image-source > *:not(summary) {
   height: 380px !important;
 }
 
-/* Logo / banner images: do not crop */
-.course-figure img.logo-img {
-  height: auto !important;          /* allow natural aspect ratio */
-  max-height: 140px !important;     /* optional: keep row tidy */
-  object-fit: contain !important;   /* show full logo */
-  background: transparent !important;
-}
-
-/* Full-height screenshots: show entire image, no cropping */
+/* Full images: show entire image, no cropping */
 .course-figure img.full-img {
   width: 100% !important;
-  height: auto !important;
+  height: auto !important;          /* override fixed height */
   max-height: none !important;
   object-fit: contain !important;
   display: block !important;
 }
+
 
 
