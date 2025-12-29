@@ -15,7 +15,6 @@ Materials on this site may be revised or expanded as the course progresses.
 
 - [Week 1: Introduction to AI and Information Professions](weeks/week-01.md)
 - [Week 2: AI for Search, Discovery, and Recommendation](weeks/week-02.md)
-    - Information retrieval, search algorithms, discovery systems, bias and fairness
 - [Week 3: AI for Knowledge Management and Information Systems](weeks/week-03.md)
     - Digital archives, metadata automation, chatbots
 - [Week 4: AI, Communication, and Society](weeks/week-04.md)

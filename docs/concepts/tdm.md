@@ -1,0 +1,1 @@
+[Topic Modeling and Digital Humanities](https://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/)
