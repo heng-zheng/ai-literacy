@@ -1,15 +1,16 @@
 # AI for Search, Discovery, and Recommendation
 
-## Why Information Retrieval Matters?
-- What problems IR tries to solve
-- Where IR appears in everyday systems
-
-## How Information Retrieval Works
-- Indexing
-- Querying
-- Ranking
-
 ## How AI Enhances Information Retrieval
+
+### Why Information Retrieval Matters?
+Information Retrieval (IR) focuses on helping people find useful information within large collections. As the amount of digital content grows, it becomes impractical to manually browse documents one by one. IR systems address this problem by organizing, searching, and prioritizing information so that users can quickly identify materials that are likely to meet their needs.
+
+IR is embedded in many systems that people use daily. Examples include web search engines, library catalogs and discovery systems, academic databases, streaming platforms, and internal search tools in organizations. 
+
+### How Information Retrieval Works
+- **Indexing** is the process of preparing documents so they can be searched efficiently. Instead of scanning every document at query time, the system creates structured representations such as lists of terms, metadata fields, or other features that summarize what each document contains.
+
+- **Querying** refers to how users express their information needs to the system, typically through keywords, phrases, or questions. The system interprets the query and matches it against the index to identify potentially relevant items.
 
 ### AI for Understanding Content
 
@@ -105,8 +106,14 @@
 
 
 
-## Vocabulary bridging across domains**:  
-  AI-enhanced systems can connect different terminologies used across disciplines, helping users retrieve relevant information even when they do not know the preferred or domain-specific terms.
+## Vocabulary bridging across domains
+
+Vocabulary bridging across domains refers to how AI-enhanced information systems help connect different terms that are used to describe the same or closely related concepts in different fields or communities. Users often search using everyday language or terminology from their own background, while relevant information may be indexed using specialized, technical, or discipline-specific terms.
+
+Instead of requiring users to know the “correct” or preferred vocabulary in advance, these systems attempt to bridge that gap. They may map common expressions to professional terminology, connect synonyms across disciplines, or align user queries with established subject terms used in indexing and classification. As a result, users can retrieve relevant materials even when their original wording does not match the language used by experts or catalogers.
+
+This capability is especially important in interdisciplinary research and professional information work, where the same concept may be described differently across medicine, law, social science, and everyday discourse. Vocabulary bridging lowers barriers to access, supports discovery across domains, and reduces reliance on prior knowledge of controlled vocabularies while still benefiting from them behind the scenes.
+
 
 !!! example "Hands-on: Vocabulary Bridging in PubMed"
     **Goal:** Observe how an information system bridges everyday language and professional terminology.
@@ -123,9 +130,16 @@
     **Key takeaway:**
     You searched using everyday language, but the system retrieved results indexed with a professional medical term.
 
+ This [documentation](https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/040Search_Configurations/Configuring_Search_Expansion_with_Controlled_Vocabulary_for_Primo_VE) explains how Primo uses controlled vocabularies to expand user queries and map everyday language to standardized subject terms. 
 
-## Pattern-based recommendation**:  
-  Recommendation systems suggest related items based on patterns observed across many users or documents, supporting discovery beyond direct search.
+
+## Pattern-based recommendation
+
+Pattern-based recommendation refers to systems that suggest related items based on observed similarities and recurring associations across many documents or users. Instead of matching a new query, the system looks at which items are often connected. For example, which papers are frequently read, cited, or viewed together.
+
+These recommendations do not require users to ask for them explicitly. Rather, the system offers additional materials that may be useful given what the user is currently viewing. This can support discovery by helping users move beyond their original search terms and notice related work they might not have found on their own.
+
+Pattern-based recommendation does not mean that the system understands content in a human sense. It reflects patterns learned from existing data and past use, which shape what is suggested and what remains unseen.
 
 !!! example "Hands-on: Pattern-based Recommendation in Google Scholar"
     **Goal:** Observe how recommendation systems support discovery beyond direct search.
@@ -135,6 +149,18 @@
     2. Search for a topic of interest (e.g., **AI in academic libraries**).  
     3. Open one article from the results list.  
     4. Click **“Related articles.”**
+
+    <div class="figure-row">
+    <figure class="course-figure">
+        <img class="course-figure-img full-img"
+            src="/ai-literacy/assets/images/google-scholar-related-articles.png"
+            alt="Related articles feature in Google Scholar">
+        <figcaption>
+        <em>Related articles feature in Google Scholar</em>
+        </figcaption>
+    </figure>
+    </div>
+
 
     **Notice:**
     - The recommended articles are not generated answers.
