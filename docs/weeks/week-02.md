@@ -13,3 +13,4 @@ This week…
 ## Key Takeaways for This Week
 
 ## Reading materials:
+- Book Sec 8.4

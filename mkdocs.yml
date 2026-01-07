@@ -50,3 +50,8 @@ plugins:
       type: date
       fallback_to_build_date: true
       enable_creation_date: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

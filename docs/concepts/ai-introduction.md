@@ -12,6 +12,17 @@ Another widely cited definition comes from *Artificial Intelligence: A Modern Ap
 
 In public discourse, AI is often conflated with machine learning (ML). From the perspective of many AI researchers, however, ML is not equivalent to AI; rather, it is a subfield within AI. By the same logic, neural networks, deep learning, and even large language models are all sub-concepts within the broader domain of AI.
 
+Also see the following talk from Mustafa Suleyman, current Microsoft AI CEO, for his opinions on what AI is:
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/KKNCiRWd_j0"
+    title="What Is an AI Anyway?"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
 ## AI Literacy
 
 AI literacy can be interpreted through the framework developed by Dr. Kara Kennedy.
@@ -63,10 +74,3 @@ The world’s largest educational and scientific computing society. ACM provides
 
 - [Institute of Electrical and Electronics Engineers (IEEE)](https://www.ieee.org/)
 The world’s largest technical professional organization, advancing technology for the benefit of humanity through publications, conferences, and standards.
-
-## Reading Materials  
-
-- [Required] Stanford Encyclopedia of Philosophy, *Artificial Intelligence*:  
-  [https://plato.stanford.edu/entries/artificial-intelligence/](https://plato.stanford.edu/entries/artificial-intelligence/)
-- [Optional] Wikipedia, *Artificial Intelligence* (for background and terminology):  
-  [https://en.wikipedia.org/wiki/Artificial_intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
