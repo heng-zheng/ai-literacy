@@ -4,9 +4,9 @@
 
 [AI for Search, Discovery, and Recommendation](../applications/search-discovery-recoomendation.md)
 
-- [How AI Enhances Information Retrieval](../applications/search-discovery-recoomendation.md#how-ai-enhances-information-retrieval)
-- [Vocabulary bridging across domains](../applications/search-discovery-recoomendation.md#vocabulary-bridging-across-domains)
-- [Pattern-based recommendation](../applications/search-discovery-recoomendation.md#pattern-based-recommendation)
+- How AI Enhances Information Retrieval
+- Vocabulary bridging across domains
+- Pattern-based recommendation
 
 ## Key Takeaways for This Week
 
