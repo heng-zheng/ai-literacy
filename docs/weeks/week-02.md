@@ -10,6 +10,12 @@
 
 ## Key Takeaways for This Week
 
+- AI supports content understanding by converting unstructured materials (scanned pages, images, PDFs) into machine-readable text and basic document structure, enabling downstream tasks such as indexing, metadata enrichment, and search.
+- AI-based indexing and metadata enrichment support discovery in large and evolving collections where manual description is limited or inconsistent.
+- AI-enhanced search allows users to ask questions in natural language and supports exploratory searching through interaction and follow-up.
+- Vocabulary bridging helps users find relevant information even when their wording does not match professional or disciplinary terms.
+- Recommendation systems support discovery by surfacing related materials based on learned patterns rather than explicit user queries.
+
 ## Reading materials:
 - - Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 11
 
