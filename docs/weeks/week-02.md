@@ -1,16 +1,51 @@
 # Week 2: AI for Search, Discovery, and Recommendation
 
-This week…
-
 ## Topics
 
-[AI for Search, Discovery, and Recommendation](../concepts/information-retrieval.md)
+[AI for Search, Discovery, and Recommendation](../applications/search-discovery-recoomendation.md)
 
-- [Intro to Information Retrieval](../concepts/information-retrieval.md#why-information-retrieval-matters)
-- How AI enhances information retrieval
-- What algorithms show and hide
+- [How AI Enhances Information Retrieval](../applications/search-discovery-recoomendation.md#how-ai-enhances-information-retrieval)
+- [Vocabulary bridging across domains](../applications/search-discovery-recoomendation.md#vocabulary-bridging-across-domains)
+- [Pattern-based recommendation](../applications/search-discovery-recoomendation.md#pattern-based-recommendation)
 
 ## Key Takeaways for This Week
 
 ## Reading materials:
-- Book Sec 8.4
+- - Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 11
+
+## Weekly Assignment
+
+Please submit all **graded work** via Canvas.  
+Participation requirements and grading details are provided in Canvas.
+
+### Before You Post
+
+Before writing your discussion post, please do the following:
+
+1. Choose **one information system** you regularly use  
+   (e.g., Google, Google Scholar, a library catalog or discovery system, Netflix, Spotify).
+
+2. Choose **one topic or interest**, and interact with the system multiple times.
+
+3. As you interact, simply **notice and describe**:
+   - What appears first
+   - Whether the system shows summaries, recommendations, or suggested follow-up options
+   - Whether different searches or actions seem to change what you see
+
+You are **not expected to explain how the system works internally**.  
+The goal of this activity is to help you reflect on your experience as a user.
+
+This preparation is intended to support your participation in the discussion below.
+
+### Discussion: AI for Discovery — How Systems Shape What We Find
+
+Consider how you usually search for information: on Google, your library catalog, or a streaming platform like Netflix or Spotify.
+
+In your **original post (approx. 100–300 words)**, address the following:
+
+- What do you think determines what you see first in search or recommendation systems?
+- Have you noticed differences in how fair or transparent these systems *feel*?
+- Share an example where a search or recommendation system surprised you, for better or worse.
+
+**Draw on your own system observation from this week where appropriate.**  
+You are **not expected to explain technical algorithms**. Focus on your experience, observations, and reflections as a user.

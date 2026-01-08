@@ -9,7 +9,7 @@ Materials on this site may be revised or expanded as the course progresses.
 
 ---
 
-## Schedule
+## Topics
 
 **Module 1: AI and Information Professions (Weeks 1-4)**
 

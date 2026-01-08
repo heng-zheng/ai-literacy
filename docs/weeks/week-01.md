@@ -21,8 +21,7 @@ The emphasis is on conceptual understanding rather than technical detail: what A
 ## Reading materials:
 - Stanford Encyclopedia of Philosophy, [*Artificial Intelligence*](https://plato.stanford.edu/entries/artificial-intelligence/)
 - Mustafa Suleyman, [*What Is an AI Anyway?* (TED Talk)](https://www.youtube.com/watch?v=KKNCiRWd_j0)
-- Poole & Mackworth, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf),  
-Chapter 1, Sections 1.1–1.4
+- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 1, Sections 1.1–1.4
 - WebJunction series on AI for public library staff:
     - [*Evolving technology: Using AI on the job*](https://www.webjunction.org/news/webjunction/using-ai-on-the-job.html)
     - [*How public libraries are teaching AI and digital literacy skills*](https://www.webjunction.org/news/webjunction/ai-programming-for-patrons.html)
