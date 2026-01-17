@@ -17,7 +17,7 @@
 - Recommendation systems support discovery by surfacing related materials based on learned patterns rather than explicit user queries.
 
 ## Reading materials:
-- - Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 11
+- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 11
 
 ## Weekly Assignment
 
