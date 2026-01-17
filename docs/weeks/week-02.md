@@ -43,7 +43,7 @@ The goal of this activity is to help you reflect on your experience as a user.
 
 This preparation is intended to support your participation in the discussion below.
 
-### Discussion: AI for Discovery — How Systems Shape What We Find
+### Discussion: AI for Discovery: How Systems Shape What We Find
 
 Consider how you usually search for information: on Google, your library catalog, or a streaming platform like Netflix or Spotify.
 
