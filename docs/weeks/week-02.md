@@ -2,7 +2,7 @@
 
 ## Topics
 
-[AI for Search, Discovery, and Recommendation](../applications/search-discovery-recoomendation.md)
+[AI for Search, Discovery, and Recommendation](../applications/ai-for-users.md)
 
 - How AI Enhances Information Retrieval
 - Vocabulary bridging across domains

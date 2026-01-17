@@ -19,11 +19,11 @@ The emphasis is on conceptual understanding rather than technical detail: what A
 - Beyond libraries, AI increasingly operates as foundational infrastructure within organizational information systems, reshaping how information is accessed, managed, and secured.
 
 ## Reading materials:
-- Stanford Encyclopedia of Philosophy, [*Artificial Intelligence*](https://plato.stanford.edu/entries/artificial-intelligence/)
 - Mustafa Suleyman, [*What Is an AI Anyway?* (TED Talk)](https://www.youtube.com/watch?v=KKNCiRWd_j0)
 - Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 1, Sections 1.1–1.4
 - WebJunction series on AI for public library staff:
     - [*Evolving technology: Using AI on the job*](https://www.webjunction.org/news/webjunction/using-ai-on-the-job.html)
     - [*How public libraries are teaching AI and digital literacy skills*](https://www.webjunction.org/news/webjunction/ai-programming-for-patrons.html)
     - [*What's on the horizon for AI and public libraries?*](https://www.webjunction.org/news/webjunction/public-libraries-ai-future.html)
+- Stanford Encyclopedia of Philosophy, [*Artificial Intelligence*](https://plato.stanford.edu/entries/artificial-intelligence/). (Advanced background reading includes dense, philosophical terminology. Read for general context only. Understand what you can, and do not worry about mastering all details.)
 - [Optional] Wikipedia, [*Artificial Intelligence*](https://en.wikipedia.org/wiki/Artificial_intelligence) (for background and terminology)
