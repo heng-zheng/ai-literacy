@@ -4,10 +4,10 @@
 
 ## AI in Digital Archives and Preservation 
 
-In large digitization programs, a major challenge is **scale**. When archives convert millions of pages and images into digital form, staff rarely have the capacity to create detailed item-level records from scratch. In practice, AI is used to make collections **searchable earlier** and to help professionals prioritize where their limited time and expertise are most needed.
+In large digitization programs, a major challenge is **scale**. When archives convert millions of pages and images into digital form, staff rarely have the capacity or the mandate to create detailed item-level records for every object from scratch. In practice, AI is used to improve search capabilities and to help professionals prioritize where their limited time and expertise are most needed.
 
 
-Building on OCR and basic text understanding introduced in the previous week, AI is used in digital archives primarily to address **scale**, not to produce complete or authoritative descriptions. Once text becomes machine-readable, AI systems can suggest draft descriptive elements and group large volumes of material into broad categories that support early access.
+Building on OCR (Optical Character Recognition) and basic text understanding introduced in the previous week, AI is used in digital archives primarily to address **scale**, not to produce complete or authoritative descriptions. Once text becomes machine-readable, AI systems can suggest draft descriptive elements and group large volumes of material into broad categories that support early access.
 
 At this stage, AI outputs should be understood as **provisional structure**. Suggested titles, dates, names, or topical labels reflect patterns learned from existing data rather than interpretive understanding. Their value lies in making large collections searchable and navigable sooner, not in replacing professional description.
 
