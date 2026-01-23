@@ -16,10 +16,7 @@
 - Vocabulary bridging helps users find relevant information even when their wording does not match professional or disciplinary terms.
 - Recommendation systems support discovery by surfacing related materials based on learned patterns rather than explicit user queries.
 
-## Reading materials:
-- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 11
-
-## Weekly Assignment
+## Weekly Discussion
 
 Please submit all **graded work** via Canvas.  
 Participation requirements and grading details are provided in Canvas.
@@ -43,7 +40,7 @@ The goal of this activity is to help you reflect on your experience as a user.
 
 This preparation is intended to support your participation in the discussion below.
 
-### Discussion: AI for Discovery: How Systems Shape What We Find
+### Discussion - AI for Discovery: How Systems Shape What We Find
 
 Consider how you usually search for information: on Google, your library catalog, or a streaming platform like Netflix or Spotify.
 
@@ -55,3 +52,6 @@ In your **original post (approx. 100–300 words)**, address the following:
 
 **Draw on your own system observation from this week where appropriate.**  
 You are **not expected to explain technical algorithms**. Focus on your experience, observations, and reflections as a user.
+
+## Reading materials:
+- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 11

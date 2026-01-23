@@ -8,7 +8,7 @@ AI contributes to core library and information tasks, including:
     - linked data work by OCLC ([OCLC Linked Data](https://www.oclc.org/en/linked-data.html))
 - Search and discovery systems:  
     - Ex Libris Primo with the [Research Assistant feature](https://knowledge.exlibrisgroup.com/Primo/Product_Documentation/020Primo_VE/Primo_VE_(English)/015_Getting_Started_with_Primo_Research_Assistant).  
-    - Campus-wide example: University of Kentucky [InfoKat Discovery]((https://saalck-uky.primo.exlibrisgroup.com/discovery/search?vid=01SAA_UKY:UKY)) with Research Assistant enabled. 
+    - Campus-wide example: University of Kentucky [InfoKat Discovery](https://saalck-uky.primo.exlibrisgroup.com/discovery/search?vid=01SAA_UKY:UKY) with Research Assistant enabled. 
 
 <div class="figure-row">
   <figure class="course-figure">
