@@ -12,6 +12,9 @@
 
 ## Weekly Discussion: AI Behind the Scenes
 
+Please submit all **graded work** via Canvas.  
+Participation requirements and grading details are provided in Canvas.
+
 Many libraries and information organizations already use AI in their everyday systems, often behind the scenes. These may include cataloging automation, chatbots or virtual assistants, recommendation systems, internal search tools, or knowledge bases.
 
 This discussion asks you to move beyond general opinions and analyze how AI reshapes **workflows, roles, and responsibility boundaries** in a specific context.

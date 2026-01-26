@@ -9,3 +9,5 @@ Early symbolic AI assumed that intelligence could be modeled through explicit ru
 - Ontologies and taxonomies
 
 These approaches proved effective in well-defined, structured domains, but struggled with ambiguity, uncertainty, and large-scale real-world data.
+
+Downside of symbolic AI

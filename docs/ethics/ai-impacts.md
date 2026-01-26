@@ -11,18 +11,10 @@ AI deskilling:
 
 Stanford HAI report: https://hai.stanford.edu/ai-index/2025-ai-index-report
 
-Socia media companies require flagging AI-generated content. 
+
 
 AI and Labour: [AI is Coming for Your Job. Now What? | Vlad Tenev | TED](https://www.youtube.com/watch?v=cJfKqKEyw1o)
 
-AI and confusion in news: [AI Images, Online Rumors Spread Confusion About Minnesota Shooting](https://www.npr.org/2026/01/08/nx-s1-5671740/ice-minneapolis-grok-ai-renee-nicole-good)
-
 [Nearly all Seoul students use generative AI](https://www.koreaherald.com/article/10652914)
 
-AI's good or bad for mental health. 
-- [1 in 5 high schoolers has had a romantic AI relationship or knows someone who has](https://www.npr.org/2025/10/08/nx-s1-5561981/ai-students-schools-teachers)
-- [Why AI companions and young people can make for a dangerous mix](https://news.stanford.edu/stories/2025/08/ai-companions-chatbots-teens-young-people-risks-dangers-study)
-
-
-**AI-mediated cyberchondria**, where large language models reduce the cost of information and reassurance seeking, unintentionally reinforcing anxiety-driven repetitive querying rather than resolving uncertainty.
-https://www.sciencedirect.com/science/article/pii/S2543925125000191
+AI scholarly publications: [NeurIPS Accepted Papers Containing 100+ AI-Hallucinated Citations](https://fortune.com/2026/01/21/neurips-ai-conferences-research-papers-hallucinations/)
