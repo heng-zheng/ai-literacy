@@ -103,7 +103,7 @@ In this embedded form, AI supports specific functions rather than replacing enti
 
 Understanding AI at the system level shifts attention away from individual tools and toward how AI reshapes workflows. The key questions are where AI assistance is appropriate, where human review is required, and how institutional context determines responsible use.
 
-!!! example "In-class activity: Mapping AI in an Information System"
+!!! example "Hands-on: Mapping AI in an Information System"
 
       **Purpose**  
       Recognize how AI fits into organizational workflows rather than operating as a standalone tool.
@@ -150,7 +150,7 @@ The key issue is scope boundaries. AI assistants can be useful for questions wit
 
 A practical way to evaluate an AI reference is to focus on three aspects. Whether the response matches the user’s intent. Whether it stays within available evidence and does not invent details. Whether it signals limits and routes the user to human help when needed.
 
-!!! example "In-class activity: Defining the Role of a Virtual Assistant"
+!!! example "Hands-on: Defining the Role of a Virtual Assistant"
 
     **Purpose**  
     Clarify what AI reference services are suited for and where human support is necessary.
