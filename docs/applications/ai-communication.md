@@ -1,83 +1,164 @@
 # AI, Communication, and Information Exposure
 
-# AI and Communication
-
 ## How AI Shapes Information Exposure
 
-Online communication is mediated by systems that rank, recommend, and remove content at scale. AI often determines what becomes visible and what remains unseen. This affects how people form opinions, what they treat as common knowledge, and what they trust.
+Online communication is mediated by systems that rank, recommend, and remove content at scale. AI shapes what becomes visible and what remains unseen by determining which items appear first, which are shown repeatedly, and which are shown less often or not at all.
 
-A practical way to analyze this is to follow the pathway from content to attention. Ask what signals the system uses, what it rewards, and what it pushes out of view.
+These decisions are based on signals such as past interactions, popularity, and relevance as defined by the platform. Over time, this influences what feels familiar, important, or worth attention, even when users do not actively choose to avoid other information.
 
-!!! example "Hands on: Tracing visibility in your own feed"
-    **Goal:** Notice how ranking shapes what you see first.
+As a result, AI mediated visibility can affect how people form their opinions, what they treat as common knowledge, and what they trust.
+
+A practical way to analyze this is to follow the pathway from content to attention. Ask what signals the system uses, what it rewards, and what it pushes out of view. In practice, this means starting from what appears first on a feed or results page and asking why it is there, what user actions seem to be encouraged, and what kinds of content rarely appear.
+
+!!! example "Hands on: When past views shape what you see next"
+    **Goal:** Observe how recent activity can influence what is shown by default.
 
     **Steps:**
 
-    1. Open one platform you use often.
-    2. Scroll for two minutes and take notes on the first ten items you see.
-    3. For each item, write one short reason why you think it appeared.
-       Examples include friends, prior clicks, location, trending topics, or recency.
-    4. Refresh the feed or reopen the app and see what changes.
+    1. Open Amazon in a regular browser.
+       You may stay logged in or use a private window.
+
+    2. Search for one common product.
+       Examples include headphones, backpack, or water bottle.
+
+    3. Click into two or three product pages and spend a short time viewing them.
+
+    4. Close the page or return to the Amazon homepage.
+
+    5. Look at the homepage recommendations.
+       Note whether any products related to what you viewed appear.
 
     **Think about**
 
-    1. What patterns show up across the ten items.
-    2. What kinds of content you rarely see.
-    3. What the platform seems to value as engagement.
+    1. What kinds of items are now easier to notice.
+    2. Whether the homepage reflects your recent activity.
+    3. How this might shape what feels relevant before you actively search again.
+
+
+**Further information:**
+
+- [Algorithmic people-pleasers: Are AI chatbots telling you what you want to hear?](https://www.article19.org/resources/algorithmic-people-pleasers-are-ai-chatbots-telling-you-what-you-want-to-hear/)
 
 ## Social Media Recommendation and Personalization
 
-Recommendation systems personalize feeds by learning from behavior such as clicks, watch time, and interactions. Personalization can support discovery, but it can also narrow exposure over time. This is one reason people talk about filter bubbles and echo chambers.
+Recommendation systems personalize feeds by learning from behavior such as clicks, watch time, and interactions. Personalization can support discovery by helping users find relevant content, but it also shapes what is prioritized and repeated. This is why concepts such as filter bubbles and echo chambers are often used to describe their effects.
+
+Over time, repeated patterns of visibility can narrow what users encounter. When systems consistently prioritize content aligned with prior behavior, certain topics, sources, or perspectives become easier to see, while others gradually fade from view. This process is often described as a **filter bubble**.
+
+A filter bubble does not mean users are intentionally avoiding other viewpoints. It reflects how personalization and ranking shape information exposure by reinforcing existing patterns of interest and interaction.
 
 These effects do not require a platform to target ideology directly. They can emerge from optimization goals that reward content likely to hold attention.
 
-!!! example "Hands on: Comparing two recommendation paths"
-    **Goal:** See how small choices shape what a system recommends next.
+Many users notice this in everyday use. After clicking on or interacting with a particular topic, similar posts often appear more frequently in their feed. A single action can influence what the system learns to prioritize, making related content easier to encounter and less related content harder to find.
+
+!!! example "Hands on: Tracing visibility in your own feed"
+    **Goal:** Notice how small actions can change what appears first.
 
     **Steps:**
 
-    1. Choose a video based platform.
-    2. Search one neutral topic and open the first result.
-       Examples include climate, student loans, or a public health topic.
-    3. Follow the next three recommended items without searching again.
-    4. Start over with the same first search and choose a different second item.
-    5. Compare the third and fourth items across the two paths.
+    1. Choose one or more social media platforms you use.
+       Examples include YouTube, TikTok, Instagram, or X.
+    2. On the first platform, scroll for about one minute and note the first five items you see.
+    3. Search for a topic you do not usually interact with.
+       Open two or three results.
+       While viewing them, try one or two interactions such as liking, saving, or watching for a longer time.
+    4. Return to the main feed and refresh or reopen the app.
+    5. Scroll again and note the first five items you now see.
+    6. If possible, repeat the same steps on a second platform and compare the results.
 
     **Think about**
 
-    1. How quickly the recommendations diverge.
-    2. Whether the tone becomes more emotional or more certain.
-    3. What kinds of sources become more visible.
+    1. What changed between the two sets of items.
+    2. Whether different types of interaction led to different changes.
+    3. How quickly the feed responded on each platform.
+    4. What signals the system may have used to adjust visibility.
+
+**Further information:**
+
+- [Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking](https://doi.org/10.1145/3613904.3642459). You can also check the authors' presentation:
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/s2A0YVr4vP8"
+    title="Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## Automated Content Moderation
 
 Platforms use automated moderation to handle scale. Systems can flag hate speech, harassment, graphic content, and misinformation patterns. They can also reduce distribution or route content to human review.
 
-Moderation is difficult because many cases depend on context. Humor, sarcasm, reclaimed language, and political framing are hard to judge from text alone. Even when a system performs well on average, failures can concentrate in high impact cases.
+Moderation is difficult because many cases depend on context. Humor, sarcasm, reclaimed language, and health related discussion are hard to judge from text alone. Automated systems may perform well on average, but their errors often become most visible in high impact situations. During the COVID-19 pandemic, [Meta](https://thehill.com/policy/technology/5020242-meta-admits-content-moderation-errors/) acknowledged that expanded automated moderation sometimes limited legitimate discussion.
 
-!!! example "Hands on: Context matters in moderation"
-    **Goal:** See why the same words can mean different things in different contexts.
+!!! example "Hands on: How platforms explain moderation"
+    **Goal:** Understand how content moderation is defined and experienced on real platforms.
 
     **Steps:**
 
-    1. Write three short statements that include the same keyword.
-       Choose a keyword that can be used both neutrally and harmfully.
-    2. For each statement, add one sentence of context that changes the meaning.
-       Examples include quoting someone, criticizing a harmful view, or reporting a threat.
-    3. Ask a generative AI tool whether each statement should be moderated and why.
+    1. Choose one or more platforms you are familiar with.
+       Examples include Facebook, TikTok, or X.
+
+    2. Visit the platform’s public moderation or safety page.
+       You may use the links below or find a similar page on another platform.
+
+         - [How Facebook uses artificial intelligence to moderate content](https://www.facebook.com/help/1584908458516247)  
+         - [TikTok content moderation](https://www.tiktok.com/euonlinesafety/en/content-moderation/)  
+         - [X safety and sensitive content policies](https://help.x.com/en/safety-and-security#sensitive-content)  
+
+    3. Skim the page and note two or three types of content the platform says it moderates.
+       Examples include hate speech, misinformation, graphic content, or harassment.
+
+    4. Note how the platform describes its process.
+       Look for references to automated systems, human review, or user reporting.
+
+    5. Reflect on your own experience using the platform.
+       Think about whether you have seen content labeled, removed, downranked, or hidden.
 
     **Think about**
 
-    1. When the tool relies on keywords instead of meaning.
-    2. What kinds of context the tool fails to use.
-    3. What a human reviewer would need to decide fairly.
+    1. How clearly the platform explains what will be moderated.
+    2. Whether the rules seem easy or difficult to apply in real situations.
+    3. How moderation decisions might look different to users than to the system enforcing them.
+
+**Further information**
+
+- [Using AI to detect COVID-19 misinformation and exploitative content](https://ai.meta.com/blog/using-ai-to-detect-covid-19-misinformation-and-exploitative-content/), also see [IEEE's report](https://spectrum.ieee.org/how-facebook-is-using-ai-to-fight-covid19-misinformation)
 
 ## Misinformation and Disinformation Detection
 
-Misinformation is false information shared without intent to deceive. Disinformation is strategic deception. Detection tools use pattern recognition to identify likely claims, reuse, and distribution signals, but these tools often operate after content has already spread.
+Misinformation and disinformation are often discussed together, but they describe different dynamics. Drawing on [Claire Wardle’s definitions](https://issues.org/misunderstanding-misinformation-wardle/), misinformation refers to false or misleading information shared without the intent to cause harm, while disinformation involves the deliberate creation or distribution of such content for strategic purposes. Much misleading content is not entirely fabricated, but consists of genuine material shared out of context.
 
-In practice, the intervention matters as much as detection. Labeling, downranking, removal, and account actions each carry tradeoffs for transparency and public trust.
+Detection tools typically focus on identifying patterns associated with problematic content, such as repeated claims, reuse across platforms, or unusual distribution behavior. These tools can help flag likely cases, but they often operate after content has already begun to circulate and gain attention.
 
+In practice, intervention matters as much as detection. Labeling, downranking, removal, and account actions shape how information is encountered and interpreted, each carrying tradeoffs for transparency, trust, and public understanding. For example, YouTube may display information panels alongside videos on topics prone to misinformation, linking to independent third-party sources to provide additional context while leaving the video itself visible. Focusing only on whether a claim is true or false risks overlooking how information is framed and used in everyday contexts.
+
+!!! example "Hands on: Seeing detection and intervention in practice"
+    **Goal:** Observe how misinformation is identified and handled after it circulates.
+
+    **Steps:**
+
+    1. Choose one trending or widely shared claim you have seen online.
+       This may relate to health, science, or everyday life.
+
+    2. Look up the claim using a fact-checking tool, such as [Google Fact Check Tools](https://toolbox.google.com/factcheck/explorer)  
+
+    3. Note how the claim is described.
+       Pay attention to wording, sources, and the level of certainty.
+
+    4. If possible, check how the claim appears on the original platform.
+       Look for labels, notes, or reduced visibility.
+
+    **Think about**
+
+    1. Whether detection happened before or after the claim spread.
+    2. What kind of intervention was used.
+    3. How the approach balances correction, transparency, and trust.
+
+**Further information**
+
+- Social media and the age of AI misinformation | Aishwarya Reganti | TEDxJacksonville
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
   <iframe
     src="https://www.youtube-nocookie.com/embed/lVkJsTY_n8Q"
@@ -87,136 +168,132 @@ In practice, the intervention matters as much as detection. Labeling, downrankin
     allowfullscreen>
   </iframe>
 </div>
-
-!!! example "Hands on: Turning a viral claim into a checkable question"
-    **Goal:** Practice moving from shareable language to verification.
-
-    **Steps:**
-
-    1. Find one trending claim on a platform you use.
-    2. Rewrite it as a single checkable statement.
-       Example: replace "They are hiding the truth" with a factual claim about who did what and when.
-    3. Identify what would count as evidence.
-       Examples include an official document, a named report, or a direct video source.
-    4. Verify using one source outside the platform.
-
-    **Think about**
-
-    1. What part of the claim was hardest to make checkable.
-    2. Whether the platform version encouraged certainty.
-    3. How you would explain your verification steps to a patron or colleague.
 
 ## Deepfakes and Synthetic Media
 
-Deepfakes and synthetic media can convincingly imitate real people. They can be used for entertainment and accessibility, but they also enable deception, harassment, and rapid rumor formation. Detection is challenging because generation improves quickly and low quality evidence can still travel widely.
+Deepfakes and synthetic media can convincingly imitate real people. They are used in entertainment, accessibility, and creative production, but they also enable deception, harassment, and the rapid spread of misleading content. Detection remains challenging because generation tools improve quickly and even low quality synthetic media can circulate widely before being questioned.
 
-Recent reporting on the Minneapolis shooting illustrates how AI generated images can amplify confusion and misidentification during breaking news. See NPR affiliate coverage and related fact checking. :contentReference[oaicite:0]{index=0}
+Recent reporting has shown how AI generated images and videos can create confusion during fast moving news events, particularly when visual material spreads faster than verification. In these situations, synthetic media does not need to be highly realistic to be effective, as ambiguity alone can mislead audiences.
 
-Platforms and regulators are increasingly emphasizing labeling and disclosure for AI generated or manipulated media. Meta has described its approach to labeling AI generated content. The EU has also developed transparency obligations and related guidance for labeling deepfakes and AI generated outputs. :contentReference[oaicite:1]{index=1}
+In response, platforms and regulators increasingly emphasize labeling and disclosure rather than relying solely on detection. These approaches aim to provide context to viewers while allowing content to remain visible, reflecting broader efforts to balance transparency, trust, and accountability.
 
-!!! example "Hands on: A deepfake checklist for everyday use"
-    **Goal:** Build a practical habit for handling suspicious media.
-
-    **Steps:**
-
-    1. Pick one synthetic image or suspected manipulated image that is circulating online.
-    2. Do three checks.
-       First, look for a primary source or the earliest upload you can find.
-       Second, search for the same image with a reverse image search.
-       Third, compare coverage from at least one reputable newsroom.
-    3. Write two sentences.
-       One sentence describes what you can confirm.
-       One sentence describes what remains uncertain.
-
-    **Think about**
-
-    1. Which check gave you the most reliable information.
-    2. Whether uncertainty is acceptable to communicate in a public setting.
-    3. What you would tell someone before they share the image.
-
-## Generative AI in Scholarly Publishing
-
-Generative AI is used for writing assistance, translation, summarization, and drafting support. These tools can reduce routine effort, but they can also create risks such as confident sounding summaries that omit limitations, or references that are incomplete or inaccurate.
-
-In scholarly communication, the core issue is accountability. AI can support writing, but it does not replace the author’s responsibility for accuracy, attribution, and verification.
-
-!!! example "Hands on: Stress testing an AI summary"
-    **Goal:** Practice verifying a summary before you trust it.
+!!! example "Hands on: Seeing synthetic media in everyday platforms"
+    **Goal:** Recognize how synthetic media appears in common platforms and how labeling shapes interpretation.
 
     **Steps:**
 
-    1. Choose a short scholarly text.
-       A news analysis, an abstract, or a two page reading works well.
-    2. Ask a generative AI tool to summarize it in five sentences.
-    3. Check the summary against the original text.
-       Highlight two sentences that are fully supported.
-       Highlight one sentence that feels overstated or missing context.
-    4. Revise the summary yourself to correct the problem.
+    1. Open YouTube and search for a comparison video using a query such as “real vs AI generated” or “AI generated faces vs real”. Choose one video that compares real and AI generated images or videos.
+       ([example video 1](https://youtu.be/oWLHAuUoYqQ?si=U1R0Ge06phboLEHx), [example video 2](https://www.youtube.com/watch?v=IkwWEEZXjPw))
+
+    2. Watch a short segment and take notes.
+       Focus on moments where it is difficult to tell whether the content is real or synthetic.
+
+    3. Write down two observations.
+       One feature that made the content seem realistic.
+       One feature that raised doubt or uncertainty.
+
+    4. Next, visit one platform’s policy page on AI generated content labeling.
+       For example:  
+       https://www.tiktok.com/tns-inapp/pages/ai-generated-content
+
+    5. Think back to your own use of social media.
+       Consider whether you have noticed labels such as “AI generated” or similar disclosures while browsing.
 
     **Think about**
 
-    1. What types of errors appear most often.
-    2. Whether the summary changes the author’s level of certainty.
-    3. What you would document if you used the summary in coursework or professional work.
+    1. Whether current AI generated media is convincing enough to be mistaken for real content.
+    2. How labels affect your trust or interpretation of the content.
+    3. Whether you actively notice these labels during everyday browsing.
 
-## Negative Impacts and Risks
+**Further information**
 
-Communication systems can affect well being, trust, and decision making. Some risks are direct, such as emotional dependence on AI companions. Others are indirect, such as repetitive reassurance seeking that increases anxiety instead of resolving uncertainty.
-
-AI and mental health is not a simple good or bad story. Recent reporting and research highlight concerns about teens using AI companions for emotional needs and relationships. 
-
-- [1 in 5 high schoolers has had a romantic AI relationship or knows someone who has](https://www.npr.org/2025/10/08/nx-s1-5561981/ai-students-schools-teachers)
-- [Why AI companions and young people can make for a dangerous mix](https://news.stanford.edu/stories/2025/08/ai-companions-chatbots-teens-young-people-risks-dangers-study)
-
-AI mediated cyberchondria is another emerging concern. When an LLM reduces the cost of reassurance seeking, it can unintentionally reinforce anxiety driven repetitive querying rather than resolving uncertainty. :contentReference[oaicite:3]{index=3}
-
-AI can also intensify confusion during breaking news, especially when synthetic images circulate alongside rumors. The Minneapolis case offers a concrete example of how AI generated fabrications can mislead the public and complicate verification. :contentReference[oaicite:4]{index=4}
-
-Finally, platform design and engagement systems are facing legal and policy scrutiny. Recent reporting notes that Snap settled a social media addiction lawsuit ahead of trial, reflecting broader debates about responsibility for platform driven harms. :contentReference[oaicite:5]{index=5}
-
-!!! example "Hands on: A personal risk audit for AI and communication"
-    **Goal:** Identify one risk you can reduce this week with a concrete behavior change.
-
-    **Steps:**
-
-    1. Choose one category.
-       AI companions and emotional reliance.
-       Health anxiety and reassurance seeking.
-       News consumption and rumor exposure.
-       Compulsive scrolling and engagement loops.
-    2. Describe one situation where you use an AI or a platform in that category.
-    3. Write one rule you will follow for one week.
-       Examples include a time boundary, a verification step, or a do not ask list.
-    4. Write one alternative action.
-       Examples include asking a person, using a library source, or stopping after one query.
-
-    **Think about**
-
-    1. Which part of the system is shaping your behavior.
-    2. Whether the AI tool increases certainty too quickly.
-    3. What support you would offer a patron or student facing the same pattern.
-
-
-
-
-## To be added
-
-
-**AI-mediated cyberchondria**, where large language models reduce the cost of information and reassurance seeking, unintentionally reinforcing anxiety-driven repetitive querying rather than resolving uncertainty.
-https://www.sciencedirect.com/science/article/pii/S2543925125000191
-
-AI and confusion in news: [AI Images, Online Rumors Spread Confusion About Minnesota Shooting](https://www.npr.org/2026/01/08/nx-s1-5671740/ice-minneapolis-grok-ai-renee-nicole-good)
-
-Socia media companies require flagging AI-generated content. 
-
-AI, social media addiction: [Snap settles social media addiction lawsuit ahead of trial](https://www.bbc.com/news/articles/c62ndl2ydzxo)
-
+- AI news videos blur line between real and fake reports
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/lVkJsTY_n8Q"
-    title="Social media and the age of AI misinformation | Aishwarya Reganti | TEDxJacksonville"
+    src="https://www.youtube-nocookie.com/embed/SRA4brHXBBQ"
+    title="AI news videos blur line between real and fake reports"
     style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
 </div>
+
+- Is Sienna Rose AI-generated? New music artist divides listeners
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/qLIosCiA4jA"
+    title="Is Sienna Rose AI-generated? New music artist divides listeners"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+- [Seeing is no longer believing: Artificial Intelligence’s impact on photojournalism](https://jsk.stanford.edu/news/seeing-no-longer-believing-artificial-intelligences-impact-photojournalism)
+
+- [People are more susceptible to misinformation with realistic AI-synthesized images that provide strong evidence to headlines](https://doi.org/10.37016/mr-2020-189)
+
+- [Deepfakes Aren't the Disinformation Threat They're Made Out to Be](https://www.rand.org/pubs/commentary/2023/12/deepfakes-arent-the-disinformation-threat-theyre-made.html)
+
+## Generative AI in Scholarly Publishing
+
+Generative AI is increasingly used in scholarly work for writing assistance, translation, summarization, and drafting support. These tools can reduce routine effort, but they also introduce risks, such as summaries that sound confident while omitting limitations, or citations that are incomplete or inaccurate.
+
+In scholarly communication, accountability is important. AI can support writing and review-related tasks, but it does not replace the author’s responsibility for accuracy, attribution, and verification. Authors remain responsible for how AI tools are used and for the integrity of the final work.
+
+AI is also being explored as a support tool in peer review. Some systems assist editors or reviewers by flagging issues such as possible text reuse. These tools are designed to supplement human judgment, not to function as independent peer reviewers.
+
+!!! example "Hands on: Finding AI use policies in scholarly publishing"
+    **Goal:** Understand how publishers and professional organizations define acceptable uses of AI in publishing.
+
+    **Steps:**
+
+    1. Choose one field you are familiar with.
+       This may relate to libraries, information science, education, health, technology, or another area.
+
+    2. Identify one publisher, journal, or professional organization in that field.
+       Examples include an academic publisher, a major journal, or a professional association.
+
+    3. Search for that organization’s policy on the use of AI in publishing.
+       Look for guidance on writing assistance, authorship, disclosure, peer review, or editorial use.
+
+    4. Read the policy and note three points.
+       One activity that is clearly allowed.
+       One activity that is restricted or discouraged.
+       One area where the policy is vague or open to interpretation.
+
+    **Think about**
+
+    1. What assumptions the policy makes about how AI is used.
+    2. Whether the policy focuses more on transparency, authorship, or research integrity.
+    3. How this policy would affect your own use of AI in academic or professional writing.
+
+**Further information**
+
+- [GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers](https://gptzero.me/news/neurips/)
+- [As Springer Nature journal clears AI papers, one university’s retractions rise drastically](https://retractionwatch.com/2025/02/10/as-springer-nature-journal-clears-ai-papers-one-universitys-retractions-rise-drastically/)
+- [Researchers who are using generative AI to write scientific papers are publishing a significantly higher number of studies](https://cen.acs.org/policy/publishing/Researchers-use-generative-AI-write/103/web/2025/12)
+- [More than half of researchers now use AI for peer review — often against guidance](https://doi.org/10.1038/d41586-025-04066-5)
+- [AAAI Launches AI-Powered Peer Review Assessment System](https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/)
+
+## Negative Impacts and Risks
+
+Communication systems shape how people feel, what they trust, and how they make decisions. Some risks are direct, such as emotional reliance on AI companions. Others are indirect, including repeated reassurance seeking that increases anxiety rather than reducing it.
+
+AI and mental health is not a simple good or bad story. Recent reporting and research have raised concerns about young people using AI companions to meet emotional needs or simulate relationships, highlighting questions about dependency, boundaries, and long-term effects.
+
+Another emerging concern is AI-mediated cyberchondria. When language models lower the cost of seeking information and reassurance, they can unintentionally reinforce anxiety-driven repeated querying instead of resolving uncertainty.
+
+In online shopping, users have reported experiences where returning customers or frequent browsers are shown higher prices or fewer discounts than new users. This practice is often described as differential or personalized pricing. 
+
+From a user perspective, the concern is not personalization itself but opacity. When people cannot tell whether prices, recommendations, or responses are shaped by their past behavior, trust in the system can erode, even when the underlying goal is revenue optimization rather than intentional deception.
+
+As AI chatbots and conversational systems begin to incorporate advertising or sponsored content, these concerns extend to how commercial incentives may shape responses, visibility, and user trust.
+
+**Further information**
+
+- [1 in 5 high schoolers has had a romantic AI relationship or knows someone who has](https://www.npr.org/2025/10/08/nx-s1-5561981/ai-students-schools-teachers)
+- [Why AI companions and young people can make for a dangerous mix](https://news.stanford.edu/stories/2025/08/ai-companions-chatbots-teens-young-people-risks-dangers-study)
+- [Snap settles social media addiction lawsuit ahead of trial](https://www.bbc.com/news/articles/c62ndl2ydzxo)
+- [Ads Are Coming to ChatGPT. Here’s How They’ll Work](https://www.wired.com/story/openai-testing-ads-us/)
+- [How online retailers are using AI to adjust prices by mining your personal data](https://www.pbs.org/newshour/show/how-online-retailers-are-using-ai-to-adjust-prices-by-mining-your-personal-data)
