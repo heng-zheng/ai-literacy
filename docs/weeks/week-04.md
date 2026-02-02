@@ -144,6 +144,7 @@ Your post should present a short, coherent analysis of **one AI-generated piece 
 - [As Springer Nature journal clears AI papers, one university’s retractions rise drastically](https://retractionwatch.com/2025/02/10/as-springer-nature-journal-clears-ai-papers-one-universitys-retractions-rise-drastically/)
 - [Researchers who are using generative AI to write scientific papers are publishing a significantly higher number of studies](https://cen.acs.org/policy/publishing/Researchers-use-generative-AI-write/103/web/2025/12)
 - [More than half of researchers now use AI for peer review — often against guidance](https://doi.org/10.1038/d41586-025-04066-5)
+- [How AI is transforming research: More papers, less quality, and a strained review system](https://newsroom.haas.berkeley.edu/how-ai-is-transforming-research-more-papers-less-quality-and-a-strained-review-system/)
 - [AAAI Launches AI-Powered Peer Review Assessment System](https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/)
 - [1 in 5 high schoolers has had a romantic AI relationship or knows someone who has](https://www.npr.org/2025/10/08/nx-s1-5561981/ai-students-schools-teachers)
 - [Why AI companions and young people can make for a dangerous mix](https://news.stanford.edu/stories/2025/08/ai-companions-chatbots-teens-young-people-risks-dangers-study)

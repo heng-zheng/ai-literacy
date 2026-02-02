@@ -275,6 +275,7 @@ AI is also being explored as a support tool in peer review. Some systems assist 
 - [Researchers who are using generative AI to write scientific papers are publishing a significantly higher number of studies](https://cen.acs.org/policy/publishing/Researchers-use-generative-AI-write/103/web/2025/12)
 - [More than half of researchers now use AI for peer review — often against guidance](https://doi.org/10.1038/d41586-025-04066-5)
 - [AAAI Launches AI-Powered Peer Review Assessment System](https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/)
+- [How AI is transforming research: More papers, less quality, and a strained review system](https://newsroom.haas.berkeley.edu/how-ai-is-transforming-research-more-papers-less-quality-and-a-strained-review-system/)
 
 ## Negative Impacts and Risks
 
