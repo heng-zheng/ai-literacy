@@ -1,4 +1,4 @@
-# Concepts for Understanding AI (Under Construction)
+# Concepts for Understanding AI
 
 ## Topics
 
