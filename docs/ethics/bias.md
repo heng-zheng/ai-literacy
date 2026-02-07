@@ -1,1 +1,3 @@
 [Artificial intelligence algorithm bias in information retrieval systems and its implication for library and information science professionals: A scoping review](https://doi.org/10.1080/07317131.2025.2512282)
+
+[How We Analyzed the COMPAS Recidivism Algorithm](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm), also see: https://www.kaggle.com/datasets/danofer/compass

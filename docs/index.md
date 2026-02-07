@@ -22,7 +22,6 @@ Materials on this site may be revised or expanded as the course progresses.
 **Module 2: AI Foundations (Weeks 5-8)**
 
 - [Week 5: Concepts for Understanding AI](weeks/week-05.md)
-    - Data vs. information, algorithms, data representation, probability and statistics in AI
 - [Week 6: Symbolic AI](weeks/week-06.md)
     - Logic & rule-based reasoning, knowledge representation, ontologies, linked data
 - [Week 7: Subsymbolic AI (Machine Learning Basics)](weeks/week-07.md)
