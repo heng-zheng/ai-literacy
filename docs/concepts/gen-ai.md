@@ -16,3 +16,7 @@ LM Arena
 Shortage of high-quality data
 
 AI-generated popular song. 
+
+One hands on can be asking the students to let LLM summarize a paper that they are familiar with. See whether LLM's summarization is appropriately. 
+
+See this walk or drive example when I use ChatGPT 5.2: https://chatgpt.com/share/698ba40e-4ed0-8012-9625-bc27a60e6106

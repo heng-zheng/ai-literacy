@@ -43,6 +43,16 @@ Materials on this site may be revised or expanded as the course progresses.
 
 ---
 
+## AI Watchlist (Optional)
+
+{% for x in watchlist_latest(4) %}
+- {{ x.added }} — **[{{ x.title }}]({{ x.url }})** ({{ x.type|capitalize }})
+{% endfor %}
+
+See the full list → [AI Watchlist](resources.md)
+
+---
+
 ## AI use disclosure
 
 Parts of the course planning and documentation development process made use of generative AI tools (including ChatGPT) to support drafting, organization, and refinement of instructional materials. All content has been reviewed, curated, and finalized by the instructor.

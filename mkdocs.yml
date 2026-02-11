@@ -27,7 +27,7 @@ nav:
       - AI Timeline: concepts/ai-timeline.md
       - Copyright TDM: concepts/copyright-tdm.md
       - Symbolic AI: concepts/symbolic-ai.md
-
+  - AI Watchlist: resources.md
 
 
 theme:
@@ -50,6 +50,7 @@ plugins:
       type: date
       fallback_to_build_date: true
       enable_creation_date: false
+  - macros
 
 markdown_extensions:
   - admonition

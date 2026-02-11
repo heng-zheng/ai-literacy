@@ -11,3 +11,5 @@ Early symbolic AI assumed that intelligence could be modeled through explicit ru
 These approaches proved effective in well-defined, structured domains, but struggled with ambiguity, uncertainty, and large-scale real-world data.
 
 Downside of symbolic AI
+
+是否可以讲讲wikipedia或者wikidata对于AI的帮助
