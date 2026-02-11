@@ -45,11 +45,13 @@ Materials on this site may be revised or expanded as the course progresses.
 
 ## AI Watchlist (Optional)
 
-{% for x in watchlist_latest(4) %}
-- {{ x.added }} — **[{{ x.title }}]({{ x.url }})** ({{ x.type|capitalize }})
+Recently added:
+
+{% for x in watchlist_latest(5) %}
+- **[{{ x.title or "Untitled" }}]({{ x.url }})** · {{ (x.type or "item")|capitalize }} · {{ x.added or "????-??-??" }}
 {% endfor %}
 
-See the full list → [AI Watchlist](resources.md)
+See the full stream → [AI Watchlist](resources.md)
 
 ---
 
