@@ -69,3 +69,11 @@ def define_env(env):
         items = _load_watchlist(env)
         t = (t or "").strip().lower()
         return [x for x in items if str(x.get("type", "")).strip().lower() == t]
+
+    @env.macro
+    def watchlist_types() -> List[str]:
+        items = _load_watchlist(env)
+        types = sorted(
+            {str(x.get("type", "")).strip().lower() for x in items if x.get("type")}
+        )
+        return types

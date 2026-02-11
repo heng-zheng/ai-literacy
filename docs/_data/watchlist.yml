@@ -4,7 +4,6 @@ items:
     published: 2026
     title: "State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI"
     source: "Lex Fridman Podcast #490"
-    why: "Wide-ranging discussion on AI in 2026"
     url: "https://youtu.be/EV7WhVT270Q?si=UFystpUVZKE316-k"
 
   - type: project
@@ -18,4 +17,5 @@ items:
     published: 2026
     title: "CS146S: The Modern Software Developer"
     source: "Stanford University"
+    why: "Illustrates how “vibe coding” with LLM agents is reshaping software development norms."
     url: "https://themodernsoftware.dev/"
