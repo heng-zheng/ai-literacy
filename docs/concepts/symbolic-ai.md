@@ -2,7 +2,7 @@
 
 Symbolic AI is about representing knowledge explicitly and using rules or logic so machines can reason about it. Symbolic AI matters for LIS because many information systems already rely on explicit knowledge organization, including metadata schemas, controlled vocabularies, authority control, and linked data.
 
-Early AI research emphasized logic, symbols, and general problem solving. Symbolic systems later became prominent in expert systems, where knowledge engineers encoded domain expertise as rules. These systems can work well in narrow domains where rules are stable and well defined.
+Symbolic systems later became prominent in expert systems, where knowledge engineers encoded domain expertise as rules. These systems can work well in narrow domains where rules are stable and well defined.
 
 
 ## What is symbolic AI
@@ -18,7 +18,7 @@ Symbolic AI is often contrasted with machine learning (subsymbolic AI).
 2. Machine learning focuses on learned patterns from data.
    The system estimates parameters from examples and often does not store human readable rules.
 
-### What symbolic AI is good at
+**What symbolic AI is good at**
 
 Symbolic approaches often work best when:
 
@@ -29,7 +29,7 @@ Symbolic approaches often work best when:
 
 These conditions appear in many institutional contexts, including compliance workflows, cataloging rules, and eligibility screening.
 
-### Common limitations
+**Common limitations**
 
 Symbolic systems have well known limitations:
 
@@ -37,7 +37,7 @@ Symbolic systems have well known limitations:
 
     *Example:*
     A rule states: If age < 18, then classify as minor.
-    If the age field is missing, incorrectly formatted, or recorded as text rather than a number, the rule may not trigger correctly. The system fails not because the logic is wrong, but because the input does not match the expected structure.anticipate the variation.
+    If the age field is missing, incorrectly formatted, or recorded as text rather than a number, the rule may not trigger correctly. The system fails not because the logic is wrong, but because the input does not match the expected structure.
 
 2. **Knowledge acquisition bottleneck**: It can be slow and expensive to encode and maintain expert knowledge.
 
@@ -77,7 +77,7 @@ By combining both approaches, designers can use statistical models to interpret 
 
     **Part B: Sample rules**
 
-    Imagine three simple if then rules that could operate in this domain.
+    Imagine three simple "if-then" rules that could operate in this domain.
 
     Example domain: Tax filing eligibility
 
@@ -225,16 +225,16 @@ An expert system stores knowledge in two forms:
 
 1. Facts: Facts describe the current situation. They are pieces of information the system assumes to be true for a given case. Here are some examples:
 
-- Patron A has status "Faculty".
-- The item type is Reserve.
-- The loan request date is May 1.
+    - Patron A has status "Faculty".
+    - The item type is Reserve.
+    - The loan request date is May 1.
 
-2. Rules: Rules specify what action or conclusion should follow when certain facts are present. A rule usually has the structure: If certain conditions are true, then perform an action or derive a conclusion.
+2. Rules: Rules specify what action or conclusion should follow when certain facts are present. A rule usually has the structure: **If** certain conditions are true, **then** perform an action or derive a conclusion.
 Here are some examples: 
 
-- If status is Faculty, then loan period is 28 days.
-- If item type is Reserve, then loan period is 2 hours.
-- If overdue days exceed 30, then suspend borrowing privileges.
+    - **If** status is Faculty, **then** loan period is 28 days.
+    - **If** item type is Reserve, **then** loan period is 2 hours.
+    - **If** overdue days exceed 30, **then** suspend borrowing privileges.
 
 In an expert system, these elements are stored in a knowledge base. The system then uses an inference engine to apply rules to facts and derive conclusions.
 
@@ -248,7 +248,7 @@ A simplified structure includes:
 
 Rather than estimating probabilities, an expert system evaluates whether conditions are satisfied and then derives outcomes according to defined rules.
 
-### Why Expert Systems mattered
+**Why Expert Systems mattered**
 
 Expert systems became influential because they provided a way to formalize specialized knowledge and make it operational within information systems.
 
@@ -420,16 +420,11 @@ However, when semantic precision and interoperability matter, ontologies provide
 
 The idea of the Semantic Web is to make web data understandable not only to humans, but also to machines.
 
-Traditional web pages are designed primarily for people to read.  
-Relationships between people, organizations, and events are usually embedded in narrative text.
+Traditional web pages are designed primarily for people to read. Relationships between people, organizations, and events are usually embedded in narrative text.
 
-To make these relationships processable by systems, the Semantic Web uses structured representations.
+To make these relationships processable by systems, the Semantic Web uses structured representations. For example, instead of only writing a sentence such as “Tony Stark works at the University of Kentucky,” the same information can be expressed in a structured form.
 
-For example, instead of only writing a sentence such as  
-“Tony Stark works at the University of Kentucky,”  
-the same information can be expressed in a structured form.
-
-In the Semantic Web, this structure is commonly represented using RDF, which organizes information as subject–predicate–object triples.
+In the Semantic Web, this structure is commonly represented using [Resource Description Framework (RDF)](https://en.wikipedia.org/wiki/Resource_Description_Framework), which organizes information as subject–predicate–object triples.
 
 | Subject                     | Predicate  | Object                         |
 |----------------------------|------------|--------------------------------|
@@ -474,10 +469,7 @@ The Semantic Web emphasizes:
 
 ### Knowledge graphs
 
-A knowledge graph is a large-scale, structured representation of entities and their relationships.
-
-Like a semantic network, it represents information as interconnected nodes and labeled relations.  
-What distinguishes a knowledge graph in practice is scale, integration, and the use of stable identifiers that allow data to be linked across systems.
+A knowledge graph is a large-scale, structured representation of entities and their relationships. Like a semantic network, it represents information as interconnected nodes and labeled relations.
 
 A simple example might include:
 
@@ -485,11 +477,10 @@ A simple example might include:
 - An author has an institutional affiliation.
 - An institution is located in a place.
 
-Instead of storing these as isolated records, a knowledge graph connects them into a network where each entity can be referenced consistently.
+Instead of storing these as isolated records, a knowledge graph connects them into a network where each entity can be referenced consistently. Knowledge graphs extend this principle by linking entities through explicit relationships, not only by storing descriptive metadata. 
 
-Knowledge graphs extend this principle by linking entities through explicit relationships, not only by storing descriptive metadata.
+In large knowledge graphs, each entity is typically assigned a stable identifier. This allows different datasets to refer to the same person, organization, or concept consistently, even when names vary. For example, the same entity can be labeled differently across languages, but the identifier remains constant and links all language-specific names to the same underlying concept.
 
-In large knowledge graphs, each entity is typically assigned a stable identifier. This allows different datasets to refer to the same person, organization, or concept consistently, even when names vary.
 
 !!! example "Hands on: From structured statements to a visual knowledge graph"
 
@@ -497,13 +488,9 @@ In large knowledge graphs, each entity is typically assigned a stable identifier
 
     Step 1: Explore an entity page.
 
-    Visit:
+    Visit: [https://www.wikidata.org/](https://www.wikidata.org/)
 
-    https://www.wikidata.org/
-
-    Search for a well-known individual.
-
-    Observe how information is presented as labeled statements rather than as narrative text.
+    Search for a well-known individual. Observe how information is presented as labeled statements rather than as narrative text.
 
     Step 2: Run a structured query.
 
@@ -532,11 +519,9 @@ In large knowledge graphs, each entity is typically assigned a stable identifier
     - work in the field of artificial intelligence,
     - and have a recorded employer.
 
-    You do not need to understand the SPARQL syntax.  
-    Focus on what the query is asking and what results it produces.
+    You do not need to understand the SPARQL syntax. Focus on what the query is asking and what results it produces.
 
     After the results appear, switch the display mode to “Graph.”
-
 
     If you need guidance, you may watch this short demonstration:
 
@@ -580,20 +565,6 @@ This allows systems to analyze consistency, detect conflicts, and evaluate which
 
 One influential framework for analyzing arguments is the Toulmin model, proposed by philosopher [Stephen Toulmin](https://en.wikipedia.org/wiki/Stephen_Toulmin).
 
-The model breaks an argument into several components:
-
-- Fact: The specific information or situation being considered.
-
-- Conclusion: The statement that follows from the fact.
-
-- Warrant: The reasoning that connects the fact to the conclusion.
-
-- Backing: Additional support for the warrant.
-
-- Qualifier: An indication of the strength of the conclusion, such as “probably” or “likely.”
-
-- Rebuttal: Conditions or counterexamples that might weaken or defeat the conclusion.
-
 <div class="figure-row">
 
   <figure class="course-figure">
@@ -613,6 +584,20 @@ The model breaks an argument into several components:
 
 </div>
 
+The model breaks an argument into several components:
+
+- Fact: The specific information or situation being considered.
+
+- Conclusion: The statement that follows from the fact.
+
+- Warrant: The reasoning that connects the fact to the conclusion.
+
+- Backing: Additional support for the warrant.
+
+- Qualifier: An indication of the strength of the conclusion, such as “probably” or “likely.”
+
+- Rebuttal: Conditions or counterexamples that might weaken or defeat the conclusion.
+
 !!! example "Hands on: Exploring structured argumentation with Kialo"
 
     **Goal:** Experience how arguments can be organized as structured relations rather than free text discussion.
@@ -628,8 +613,7 @@ The model breaks an argument into several components:
     - How arguments branch into more specific subclaims.
     - How the structure resembles a tree or graph rather than a linear conversation.
 
-    You do not need to register or participate.
-    Focus on observing how the platform organizes arguments.
+    You do not need to register or participate. Focus on observing how the platform organizes arguments.
 
     Think about:
 
@@ -637,7 +621,7 @@ The model breaks an argument into several components:
     - What kinds of reasoning become easier to follow?
     - What kinds of nuance might be lost in a strictly structured format?
 
-    Consider how representing arguments as structured objects connects to symbolic AI and knowledge representation.
+    Think about how representing arguments as structured objects connects to symbolic AI and knowledge representation.
 
 !!! example "Hands on: Is Symbolic AI obsolete in the age of large language models?"
 
@@ -656,8 +640,7 @@ The model breaks an argument into several components:
 
     You may briefly search for recent examples of rule-based systems in finance, healthcare, tax regulation, content moderation, or access control.
 
-    This is a preliminary reflection.  
-    In a later week, we will examine how symbolic and statistical approaches are combined in modern AI systems.
+    This is a preliminary reflection. In a later week, we will examine how symbolic and statistical approaches are combined in modern AI systems.
 
 
 **Further information**

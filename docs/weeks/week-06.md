@@ -10,10 +10,9 @@
 
 ## Weekly Discussion: Knowledge Representation in Practice
 
-**Please submit all graded work via Canvas.**  
-**Participation requirements and grading details are provided in Canvas.**
+**Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**
 
-This discussion asks you to choose **one familiar service, platform, or system** and analyze how knowledge is represented within it.
+Choose **one familiar service, platform, or system** and analyze how knowledge is represented within it.
 
 Your goal is to examine how structured categories, labels, rules, and relationships shape what users can see, search, or decide.
 
@@ -70,8 +69,7 @@ Consider the limits of this knowledge representation.
 * Where might rigid categories create edge cases?
 * Does the system rely more on predefined structure, or on flexible interpretation?
 
-You do not need technical vocabulary.  
-Focus on structural features you can observe.
+You do not need technical vocabulary. Focus on structural features you can observe.
 
 **Expected outcome**
 
