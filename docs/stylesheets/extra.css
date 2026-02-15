@@ -152,6 +152,12 @@ details.image-source > *:not(summary) {
   height: 380px !important;
 }
 
+/* When an image is full-img2, make the figure expand */
+.course-figure:has(img.full-img) {
+  width: 100% !important;
+  max-width: 500px !important;
+}
+
 /* Full images: show entire image, no cropping */
 .course-figure img.full-img {
   width: 100% !important;
@@ -160,6 +166,7 @@ details.image-source > *:not(summary) {
   object-fit: contain !important;
   display: block !important;
 }
+
 
 
 

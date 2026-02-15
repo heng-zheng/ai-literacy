@@ -23,7 +23,6 @@ Materials on this site may be revised or expanded as the course progresses.
 
 - [Week 5: Concepts for Understanding AI](weeks/week-05.md)
 - [Week 6: Symbolic AI](weeks/week-06.md)
-    - Logic & rule-based reasoning, knowledge representation, ontologies, linked data
 - [Week 7: Subsymbolic AI (Machine Learning Basics)](weeks/week-07.md)
     - Machine learning concepts, neural networks, text and data mining
 - [Week 8: Neurosymbolic AI](weeks/week-08.md)

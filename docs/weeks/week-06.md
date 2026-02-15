@@ -1,0 +1,96 @@
+# Week 6: Symbolic AI
+
+## Topics
+[Symbolic AI](../concepts/symbolic-ai.md)
+
+- What is symbolic AI
+- Logic programming
+- Rule-based reasoning and Expert Systems
+- Knowledge representation
+
+## Weekly Discussion: Knowledge Representation in Practice
+
+**Please submit all graded work via Canvas.**  
+**Participation requirements and grading details are provided in Canvas.**
+
+This discussion asks you to choose **one familiar service, platform, or system** and analyze how knowledge is represented within it.
+
+Your goal is to examine how structured categories, labels, rules, and relationships shape what users can see, search, or decide.
+
+**Step 1: Choose a familiar context**
+
+Select **one real-world system or environment** you are familiar with. Examples include:
+
+* A library catalog or discovery system  
+* A digital archive or institutional repository  
+* A learning management system  
+* A streaming platform (e.g., Netflix, Spotify)  
+* An e-commerce site  
+* A government benefits or eligibility tool  
+* A healthcare portal  
+* A knowledge base or internal documentation system  
+
+Briefly describe:
+
+* What the system is
+* What kinds of “things” it organizes (books, people, cases, products, documents, etc.)
+* How users interact with it (search, browse, filter, apply, compare, etc.)
+
+**Step 2: Identify forms of knowledge representation**
+
+Look closely at how the system structures information.
+
+You may consider:
+
+* Are there defined categories, types, or classifications?
+* Are items described using structured fields or attributes?
+* Are relationships between items made explicit (e.g., author of, related to, part of, prerequisite for)?
+* Are there rules that determine access, eligibility, grouping, or decision outcomes?
+
+Explain whether you think the system is using knowledge representation, and what evidence supports your view.
+
+**Step 3: How KR shapes decisions or behavior**
+
+Reflect on how this structured representation affects what users can do.
+
+You may address:
+
+* What kinds of questions can the system answer easily?
+* What kinds of queries or situations are harder to handle?
+* How do categories or rules influence what becomes visible or invisible?
+* Does the structure guide, constrain, or simplify decision-making?
+
+Focus on how representation shapes interaction.
+
+**Step 4: Limits and boundaries**
+
+Consider the limits of this knowledge representation.
+
+* What kinds of nuance or ambiguity are difficult to capture?
+* Where might rigid categories create edge cases?
+* Does the system rely more on predefined structure, or on flexible interpretation?
+
+You do not need technical vocabulary.  
+Focus on structural features you can observe.
+
+**Expected outcome**
+
+Your post should present a clear analysis of one familiar system, showing:
+
+* whether it uses knowledge representation,
+* how it structures entities, categories, or rules,
+* and how that structure shapes user interaction or decisions.
+
+## Reading
+
+- [Knowledge Acquisition](https://www.sciencedirect.com/topics/computer-science/knowledge-acquisition)
+- [Tutorial - HHAI: An Introduction to Computational Argumentation](https://ohaai.github.io/hhai.html)
+- [Toulmin Argument](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html)
+- [What Is a Knowledge Graph?](https://neo4j.com/blog/knowledge-graph/what-is-knowledge-graph/)
+- [Knowledge Graphs in the Libraries and Digital Humanities Domain](https://doi.org/10.48550/arXiv.1803.03198)
+- [From Knowledge Representation to Knowledge Organization and Back](https://doi.org/10.48550/arXiv.2312.07302)
+- [Wikidata: The Making Of](https://doi.org/10.1145/3543873.3585579)
+- [Symbolic artificial intelligence - Wikipedia](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)
+- [Expert system - Wikipedia](https://en.wikipedia.org/wiki/Expert_system)
+- [Logic programming - Wikipedia](https://en.wikipedia.org/wiki/Logic_programming)
+- [Logic-Based Artificial Intelligence - Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/logic-ai/) (optional)
