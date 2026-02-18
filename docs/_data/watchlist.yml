@@ -1,4 +1,11 @@
 items:
+  - type: project
+    added: 2026-02-18
+    published: 2026
+    title: "Project Autonomous Policy Evaluation (APE): Can AI automate policy evaluation?"
+    source: "Social Catalyst Lab, University of Zurich"
+    url: "https://ape.socialcatalystlab.org/"
+  
   - type: video
     added: 2026-02-10
     published: 2026
