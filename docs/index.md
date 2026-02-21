@@ -24,9 +24,7 @@ Materials on this site may be revised or expanded as the course progresses.
 - [Week 5: Concepts for Understanding AI](weeks/week-05.md)
 - [Week 6: Symbolic AI](weeks/week-06.md)
 - [Week 7: Subsymbolic AI (Machine Learning Basics)](weeks/week-07.md)
-    - Machine learning concepts, neural networks, text and data mining
-- [Week 8: Neurosymbolic AI](weeks/week-08.md)
-    - Combining learning and reasoning, explainability, hybrid AI systems
+- [Week 8: Machine Learning Applications](weeks/week-08.md)
 
 **Module 3: Generative AI and Large Language Models (Weeks 9-15)**
 
