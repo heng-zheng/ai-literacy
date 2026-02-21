@@ -23,15 +23,10 @@ Select one real-world example you have encountered from your work or daily life.
 Examples include:
 
 * Email spam filtering
-* Recommendation systems (Netflix, Spotify, Amazon)
 * Fraud detection in banking
 * Predictive text or autocomplete
-* Library circulation forecasting
-* Plagiarism detection systems
-* Chatbots or virtual assistants
-* Hiring or applicant screening systems
-* Healthcare triage tools
 * Social media feed ranking
+* ……
 
 Briefly describe:
 
