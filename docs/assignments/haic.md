@@ -39,16 +39,22 @@ Your proposal must include:
 
 ### Stage 2: Workflow Design Plan (Week 11–12)
 
-**Submit one Word document (.docx) and one plain text file (.txt) on Canvas**
+**Submit one ZIP file on Canvas**
 
 Your goal is to design a structured and shareable collaboration workflow before implementation. You are encouraged to use AI tools to design and refine this workflow; the design process itself is part of Human–AI collaboration.
 
 **What You Must Submit**
 
-Upload:
+Upload **one ZIP file** containing:
 
-1. **One Word document (.docx)** containing your Final Workflow Design and Design Evolution explanation
-2. **One plain text file (.txt)** containing your complete AI Design Log
+1. **Lastname_Firstname_Assignment3_Stage2.docx**
+
+   – Final Workflow Design
+   – Design Evolution explanation (1–2 paragraphs)
+
+2. **Lastname_Firstname_Assignment3_Stage2_Log.txt**
+
+   – Complete AI Design Log
 
 **Part 1 – Final Workflow Design (Word document)**
 
@@ -70,7 +76,7 @@ Because this is a Human–AI collaboration project, you are required to document
 
 Before submitting your log file, refer to [Preparing Your AI Interaction Log](../assignments/log-demo.md) for instructions on how to properly copy and structure your conversation history.
 
-Submit your AI Design Log as a **separate plain text file (.txt)**. It must contain the complete conversation history related to designing your workflow, including all user prompts and corresponding AI responses.
+Submit your AI Design Log as a **separate plain text file (.txt)** inside the ZIP file. It must contain the complete conversation history related to designing your workflow, including all user prompts and corresponding AI responses.
 
 The log must:
 
@@ -147,20 +153,6 @@ AI:
 
 END OF DESIGN LOG
 ```
-
-
-**Formatting Requirements**
-
-Submit:
-
-1. **Lastname_Firstname_Assignment3_Stage2.docx**, containing:
-
-   * Final workflow outline or diagram
-   * Brief explanation of design evolution (1–2 paragraphs)
-
-2. **Lastname_Firstname_Assignment3_Stage2_Log.txt**, containing:
-
-   * Complete AI design conversation log
 
 ### Stage 3: Implementation & Final Submission (Weeks 13–15)
 
