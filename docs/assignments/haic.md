@@ -35,7 +35,7 @@ The ZIP file must contain **exactly two files**:
    – Design Evolution explanation (1–2 paragraphs)
 
 2. `Lastname_Firstname_Assignment3_Stage2_Log.txt`
-   – Complete AI Design Log (design conversations only)
+   – Complete AI Design Log
 
 **Scope requirements:**
 
