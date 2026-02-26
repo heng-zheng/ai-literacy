@@ -47,13 +47,11 @@ Your goal is to design a structured and shareable collaboration workflow before 
 
 Upload **one ZIP file** containing:
 
-1. **Lastname_Firstname_Assignment3_Stage2.docx**
-
-   – Final Workflow Design
+1. **Lastname_Firstname_Assignment3_Stage2.docx**  
+   – Final Workflow Design  
    – Design Evolution explanation (1–2 paragraphs)
 
-2. **Lastname_Firstname_Assignment3_Stage2_Log.txt**
-
+2. **Lastname_Firstname_Assignment3_Stage2_Log.txt**  
    – Complete AI Design Log
 
 **Part 1 – Final Workflow Design (Word document)**
@@ -377,11 +375,11 @@ This project is not about producing the “best” AI output. It is about demons
 
 This project allows you to experiment with that design in a structured and reflective way.
 
-**Grading** (30 pts total)
+**Grading** (30 pts total)  
 
-– Stage 1 (5 pts)
-– Stage 2 (10 pts)
-– Stage 3 (15 pts)
+* Stage 1 (5 pts)
+* Stage 2 (10 pts)
+* Stage 3 (15 pts)
 
 ### Stage 1 – Rubric (5 pts)
 
