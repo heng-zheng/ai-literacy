@@ -25,6 +25,7 @@ Materials on this site may be revised or expanded as the course progresses.
 - [Week 6: Symbolic AI](weeks/week-06.md)
 - [Week 7: Subsymbolic AI (Machine Learning Basics)](weeks/week-07.md)
 - [Week 8: Machine Learning Applications](weeks/week-08.md)
+- [*Module 2 Assignment: Learning AI with AI*](assignments/learn-with-ai.md)
 
 **Module 3: Generative AI and Large Language Models (Weeks 9-15)**
 
@@ -37,6 +38,7 @@ Materials on this site may be revised or expanded as the course progresses.
 - [Week 12: Concerns of AI](weeks/week-12.md)
     - Privacy, copyright, hallucinations, bias, environmental impact
 - [Week 13: AI Policy, Governance, and the Future of AI](weeks/week-13.md)
+- [*Module 3 Assignment: Human-AI Collaboration*](assignments/haic.md)
 
 ---
 

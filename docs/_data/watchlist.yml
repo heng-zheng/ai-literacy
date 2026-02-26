@@ -1,4 +1,11 @@
 items:
+  - type: commentary
+    added: 2026-02-24
+    published: 2026
+    title: "Something Big Is Happening"
+    source: "Matt Shumer"
+    url: "https://shumer.dev/something-big-is-happening"
+
   - type: project
     added: 2026-02-18
     published: 2026
