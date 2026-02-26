@@ -11,6 +11,63 @@ You will:
 
 Your focus is on **process, decision–making, and oversight**, not just final output.
 
+## Project at a Glance
+
+### Stage 1 – Workflow Proposal (Week 9–10)
+
+**Submit:** 1 Word document (.docx) on Canvas
+**Length:** Approximately 300 words
+
+Your proposal must:
+
+* Describe the workflow
+* Explain the division of labor (human vs. AI)
+* Identify potential risks
+
+### Stage 2 – Workflow Design Plan (Week 11–12)
+
+**Submit:** 1 ZIP file on Canvas
+
+The ZIP file must contain **exactly two files**:
+
+1. `Lastname_Firstname_Assignment3_Stage2.docx`
+   – Final Workflow Design
+   – Design Evolution explanation (1–2 paragraphs)
+
+2. `Lastname_Firstname_Assignment3_Stage2_Log.txt`
+   – Complete AI Design Log (design conversations only)
+
+**Scope requirements:**
+
+* 4–6 clearly defined workflow steps
+* At least 3 steps should be designed to involve AI assistance
+* Workflow must be realistic and implementable within two weeks
+
+### Stage 3 – Implementation & Final Submission (Weeks 13–15)
+
+**Submit:** 1 ZIP file on Canvas
+
+The ZIP file must contain **exactly two files**:
+
+1. `Stage3_Report.docx`
+2. `Lastname_Firstname_AI_Log.txt`
+
+**Implementation requirements:**
+
+* At least 3 workflow steps must meaningfully involve AI assistance
+* Each AI-assisted step must include **at least 2 rounds of interaction**
+  (One prompt–response exchange does not count)
+* Workflow Documentation + Critical Reflection: **500–800 words total**
+* All AI-assisted steps must be included in **one complete .txt log file**
+* Log must preserve full conversation history (all prompts + all AI responses)
+
+### Important
+
+* Do not submit separate files instead of a ZIP file
+* Do not submit multiple log files for Stage 3
+* Do not selectively include only successful prompts
+* File names must follow the required format
+
 ## Structure
 
 ### Stage 1: Workflow Identification & Proposal (Week 9–10)
@@ -55,6 +112,12 @@ Upload **one ZIP file** containing:
    – Complete AI Design Log
 
 **Part 1 – Final Workflow Design (Word document)**
+
+**Scope Requirement**
+
+* Your workflow must include 4–6 clearly defined steps.
+* At least three of these steps should be designed to involve AI assistance.
+* The workflow should be realistic and implementable within two weeks.
 
 Provide a clear outline or diagram of your Human–AI collaboration workflow.
 
@@ -154,6 +217,13 @@ END OF DESIGN LOG
 
 ### Stage 3: Implementation & Final Submission (Weeks 13–15)
 
+**Implementation Scope Requirements**
+
+* At least three workflow steps must meaningfully involve AI assistance.
+* Each AI-assisted step must include at least two rounds of interaction. A single prompt–response exchange does not count as structured collaboration.
+* Your Workflow Documentation and Critical Reflection together should be 500–800 words in total. This refers to the two narrative sections titled “Workflow Documentation” and “Critical Reflection” in the Stage3_Report template.
+* All AI-assisted steps must be documented in one complete .txt log file. The log must include the full conversation history for each step, including all iterations.
+
 In this stage, you will implement the Human–AI collaboration workflow designed in Stage 2. AI must play a meaningful role. Execute the workflow in practice and document the process using the template below. If you revise your workflow during implementation, clearly reflect those changes.
 
 Preserve the complete conversation history for each AI-assisted step in a single plain text file (.txt). Your Stage 3 report must reference the corresponding workflow step in this file. Include only implementation-related interactions (not the Stage 2 design conversations).
@@ -172,7 +242,7 @@ Your ZIP file must contain:
 1. Stage3_Report.docx
 2. Lastname_Firstname_AI_Log.txt
 
-All AI–assisted workflow steps must be included in this single log file. Do not submit multiple Appendix files.
+All AI–assisted workflow steps must be included in the single log file (`Lastname_Firstname_AI_Log.txt`). 
 
 Stage3_Report.docx must follow the template below.
 
