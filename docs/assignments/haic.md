@@ -41,16 +41,17 @@ The ZIP file must contain **exactly two files**:
 
 * 4–6 clearly defined workflow steps
 * At least 3 steps should be designed to involve AI assistance
-* Workflow must be realistic and implementable within two weeks
+* Workflow must be realistic and implementable
 
 ### Stage 3 – Implementation & Final Submission (Weeks 13–15)
 
 **Submit:** 1 ZIP file on Canvas
 
-The ZIP file must contain **exactly two files**:
+The ZIP file must contain:
 
 1. `Stage3_Report.docx`
 2. `Lastname_Firstname_AI_Log.txt`
+3. Final deliverable file(s), if applicable (format depends on the workflow task)
 
 **Implementation requirements:**
 
@@ -64,7 +65,7 @@ The ZIP file must contain **exactly two files**:
 ### Important
 
 * Do not submit separate files instead of a ZIP file
-* Do not submit multiple log files for Stage 3
+* Do not submit multiple log files for Stage 3. You may include multiple final deliverable files in the ZIP if your workflow requires them. This does not violate the “one log file” rule.
 * Do not selectively include only successful prompts
 * File names must follow the required format
 
@@ -98,7 +99,7 @@ Your proposal must include:
 
 **Submit one ZIP file on Canvas**
 
-Your goal is to design a structured and shareable collaboration workflow before implementation. You are encouraged to use AI tools to design and refine this workflow; the design process itself is part of Human–AI collaboration.
+Your goal is to design a structured and shareable collaboration workflow before implementation. You are encouraged to use AI tools to design and refine this workflow. The design process itself is part of Human–AI collaboration.
 
 **What You Must Submit**
 
@@ -116,8 +117,8 @@ Upload **one ZIP file** containing:
 **Scope Requirement**
 
 * Your workflow must include 4–6 clearly defined steps.
-* At least three of these steps should be designed to involve AI assistance.
-* The workflow should be realistic and implementable within two weeks.
+* At least 3 of these steps should be designed to involve AI assistance.
+* The workflow should be realistic and implementable.
 
 Provide a clear outline or diagram of your Human–AI collaboration workflow.
 
@@ -217,19 +218,6 @@ END OF DESIGN LOG
 
 ### Stage 3: Implementation & Final Submission (Weeks 13–15)
 
-**Implementation Scope Requirements**
-
-* At least three workflow steps must meaningfully involve AI assistance.
-* Each AI-assisted step must include at least two rounds of interaction. A single prompt–response exchange does not count as structured collaboration.
-* Your Workflow Documentation and Critical Reflection together should be 500–800 words in total. This refers to the two narrative sections titled “Workflow Documentation” and “Critical Reflection” in the Stage3_Report template.
-* All AI-assisted steps must be documented in one complete .txt log file. The log must include the full conversation history for each step, including all iterations.
-
-In this stage, you will implement the Human–AI collaboration workflow designed in Stage 2. AI must play a meaningful role. Execute the workflow in practice and document the process using the template below. If you revise your workflow during implementation, clearly reflect those changes.
-
-Preserve the complete conversation history for each AI-assisted step in a single plain text file (.txt). Your Stage 3 report must reference the corresponding workflow step in this file. Include only implementation-related interactions (not the Stage 2 design conversations).
-
-You may use one or more AI tools (e.g., GPT, Gemini, Claude). 
-
 **Final Submission (Week 15)**
 
 Submit **one ZIP file** on Canvas.
@@ -241,8 +229,28 @@ Your ZIP file must contain:
 
 1. Stage3_Report.docx
 2. Lastname_Firstname_AI_Log.txt
+3. Final deliverable file(s), if applicable (format depends on the workflow task)
 
-All AI–assisted workflow steps must be included in the single log file (`Lastname_Firstname_AI_Log.txt`). 
+**Implementation Scope Requirements**
+
+* At least 3 workflow steps must meaningfully involve AI assistance.
+* Each AI-assisted step must include at least 2 rounds of interaction. A single prompt–response exchange does not count as structured collaboration.
+* Your Workflow Documentation and Critical Reflection together should be 500–800 words in total. This refers to the two narrative sections titled “Workflow Documentation” and “Critical Reflection” in the Stage3_Report template.
+* All AI-assisted steps must be documented in one complete .txt log file. The log must include the full conversation history for each step, including all iterations.
+
+In this stage, you will implement the Human–AI collaboration workflow designed in Stage 2. AI must play a meaningful role. Execute the workflow in practice and document the process using the template below. If you revise your workflow during implementation, clearly reflect those changes.
+
+Preserve the complete conversation history for each AI-assisted step in a single plain text file (.txt). In your Stage3_Report.docx, each workflow step must clearly reference the corresponding section in your AI log file (e.g., “See WORKFLOW STEP 2 in Lastname_Firstname_AI_Log.txt”). You may use one or more AI tools (e.g., GPT, Gemini, Claude). 
+
+**Final deliverable file(s) (if applicable)**
+
+If your final deliverable is fully included inside Stage3_Report.docx, you do not need to submit a separate deliverable file.
+
+If your deliverable exists as a separate file (e.g., dataset, code, diagram, slides), include it inside the ZIP file. The file format depends on your workflow task.
+
+Name deliverable files clearly (e.g., `Lastname_Firstname_Dataset.csv`, `Lastname_Firstname_Code.py`).
+
+**Main report (Stage3_Report.docx)**
 
 Stage3_Report.docx must follow the template below.
 
@@ -303,13 +311,11 @@ Evidence: See WORKFLOW STEP X in Lastname_Firstname_AI_Log.txt
 
 4. Final Deliverable  
 
-Insert your final deliverable here.  
+Insert your final deliverable here OR describe the deliverable file(s) included in your ZIP (file names + brief description).  
 If the deliverable is not text–based (e.g., dataset, code file, structured artifact), clearly describe its structure and purpose.  
 [Delete this instructional text before submission.]
 
 5. Workflow Documentation  
-
-Write a focused analytical discussion (several paragraphs).
 
 In paragraph form, explain:
 
@@ -345,11 +351,7 @@ You must submit **one plain text file (.txt)** containing the complete AI intera
 
 Refer to [Preparing Your AI Interaction Log](../assignments/log-demo.md) for step-by-step guidance on preparing your .txt file correctly.
 
-File name format:
-
-```
-Lastname_Firstname_AI_Log.txt
-```
+File name format: `Lastname_Firstname_AI_Log.txt`
 
 The log must contain the full conversation history for each major AI–assisted workflow step, including all user prompts and all corresponding AI responses. Each workflow step must be clearly separated using labeled section headings (e.g., `WORKFLOW STEP 1`, `WORKFLOW STEP 2`, etc.) and visible separators such as lines of `=====`. Every turn must be clearly labeled as either `User:` or `AI:`. All content must be preserved verbatim; do not rewrite, summarize, polish, or selectively edit the interaction.
 
@@ -427,7 +429,7 @@ AI:
 END OF LOG
 ```
 
-**Important**
+Important:
 
 * Do not selectively include only successful prompts.
 * If you revised prompts multiple times, include all iterations.
@@ -505,7 +507,7 @@ This project allows you to experiment with that design in a structured and refle
 * Clear step–by–step implementation
 * Strong evidence of structured Human–AI collaboration
 * Human oversight and verification clearly documented
-* Final deliverable demonstrates meaningful human judgment
+* Final deliverable (regardless of format) demonstrates meaningful human judgment and clear human oversight
 * Workflow documentation and reflection are substantive
 * AI log file included and complete
 * Log file contains full conversation history for all workflow steps
