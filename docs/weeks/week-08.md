@@ -1,5 +1,7 @@
 # Machine Learning Applications
 
+## Topics
+
 [Machine Learning Applications](../applications/ml-applications.md)
 
 - Computer vision
