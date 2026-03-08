@@ -34,6 +34,8 @@ The following resources provide examples of how AI is being explored and applied
     - [Teaching AI and digital literacy in public libraries](https://www.webjunction.org/news/webjunction/ai-programming-for-patrons.html)
     - [The future of AI and public libraries](https://www.webjunction.org/news/webjunction/public-libraries-ai-future.html)
 
+- [A Survey of AI tools in Library Tech: Accelerating into and Unlocking Streamlined Enhanced Convenient Empowering Game-Changers](https://doi.org/10.1080/1941126X.2025.2497738)
+
 
 ## AI as Information System Infrastructure
 

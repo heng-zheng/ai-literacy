@@ -1,22 +1,683 @@
+# Introduction to Generative AI
+
+Generative AI includes many types of systems, such as models that generate images, audio, video, or text. In this course, we begin with large language models (LLMs). LLMs are one of the most widely used forms of generative AI today and power tools such as ChatGPT, Claude, and Gemini. These systems interact with users through language and are increasingly used in research, writing, and information services.
+
+## Attention Is All You Need
+
+In 2017, researchers at Google published a paper titled "[Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)." The paper introduced a new model design called the Transformer architecture.
+
+Generative AI did not begin with this paper, but this work helped trigger the rapid development of many systems that generate text, images, and other content.
+
+Because of this, the paper is widely seen as a turning point that enabled the modern wave of generative AI, including tools such as ChatGPT, Claude, and Gemini.
+
+Earlier in this course we discussed several paradigms of AI, including symbolic AI and machine learning. Generative AI is usually discussed within machine learning. Most recent generative AI systems are built using neural networks, which are a type of machine learning model. These systems learn patterns from large collections of data and use them to produce new outputs.
+
+## What Is a LLM?
+
+A large language model is a system designed to work with human language. It analyzes patterns in large collections of text and uses those patterns to generate new text.
+
+A language model estimates what words are likely to appear next in a sequence of text. For example, in the phrase "The capital of France is", many readers expect the next word to be "Paris". Language models learn similar patterns from large text collections.
+
+The term large refers to the scale of these systems. Modern language models are trained on very large collections of text and use large neural network models. This scale allows them to capture many patterns of language.
+
+Because of this training, LLMs can perform tasks such as answering questions, summarizing documents, translating text, and assisting with writing. These systems generate responses by drawing on patterns in their training data rather than by consulting a database of verified facts.
+
+### Common Terms in LLMs
+
+**Parameters**
+
+A parameter is a numerical value inside a neural network that is adjusted during training. These values act like weights that determine how the model links pieces of text to each other. For example, the model may learn that certain words often appear together or that some words depend on earlier parts of a sentence. When a model has more parameters, it has more capacity to store many such connections in language.
+
+Model names often indicate the number of parameters. For example, a model labeled 7B has about seven billion parameters. The letter B stands for billion. For instance, [LLaMA‑3‑8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) has about 8 billion parameters, while a model such as [LLaMA‑3‑70B](https://huggingface.co/meta-llama/Meta-Llama-3-70B) has about 70 billion. Larger models usually have more capacity to capture patterns in language.
+
+**Training Data**
+
+Large language models learn from large collections of text. These may include books, websites, articles, and technical documents.
+
+Example: When an LLM explains a concept from library science or ICT, it draws on patterns learned from many similar texts during training, such as textbooks, research articles, technical documentation, and online tutorials.
+
+**Tokens**
+
+LLMs process text as small units called tokens. A token may be a word, part of a word, or punctuation.
+
+Example: When a student asks an LLM to summarize a journal article, the model processes the text as a sequence of tokens.
+
+Before exploring tokenization hands-on, watch the following short video explaining what tokens are and how language models represent text.
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/Gauk0F6UBFo"
+        title="AI Foundations: Tokens & Pricing"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
+
+!!! example "Hands-on: Exploring Tokenization"
+
+    **Goal:** Observe how large language models break text into tokens.
+
+    Visit one of the following tokenization tools:
+
+    - [https://huggingface.co/spaces/Xenova/the-tokenizer-playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground)
+    - [https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
+
+    Step 1: Enter a short sentence.
+
+    For example:
+
+    - Libraries help people find information.
+    - Metadata improves search and discovery.
+
+    Step 2: Observe how the system splits the text into tokens.
+
+    Notice that tokens are not always full words. A token may be:
+
+    - a complete word
+    - part of a word
+    - punctuation
+
+    Step 3: Try several variations.
+
+    - Enter a longer sentence.
+    - Enter an uncommon or technical word.
+    - Enter a paragraph.
+
+    As you experiment, consider the following questions:
+
+    1. Do tokens always correspond to full words?
+    2. When do words get split into smaller pieces?
+    3. How are punctuation marks handled?
+    4. Do longer or unusual words produce more tokens?
+
+    Think about why tokenization is useful for language models. Instead of storing every possible word, the model can represent language using smaller reusable pieces.
+
+**Embeddings**
+
+Before a neural network can process text, tokens must be converted into numbers. Embeddings are numerical representations of tokens.
+
+Embeddings allow the model to compare and relate pieces of text. Tokens that appear in similar contexts often receive similar embeddings.
+
+For example, words such as “library”, “archive”, and “collection” may appear close to each other in the embedding space.
+
+You may revisit the [vector example](https://heng-zheng.github.io/ai-literacy/concepts/ai-foundations/#vectors) using the [TensorFlow Embedding Projector](https://projector.tensorflow.org/). In that activity, each word is represented as a vector, which is a list of numbers. Embeddings use the same idea. In modern AI systems, an embedding is a vector used to represent a token or word so the model can compare pieces of text mathematically.
+
+**Next-Token Prediction**
+
+Large language models generate text by predicting one token at a time. Given a sequence of tokens, the model estimates which token is most likely to appear next.
+
+After a token is predicted, it is added to the sequence. The model then predicts the next token again. Repeating this process allows the model to produce longer passages of text. This is why, when you interact with an AI system, you often see the response appear gradually rather than all at once.
+
+**Context Window**
+
+The context window is the amount of text a model can consider at one time. If a document is longer than the context window, the model cannot use all of it at once.
+
+Example: When summarizing a long report or a digital archive document, the context window determines how much of the text the model can analyze in one request.
+
+
+### Further information
+
+- [GeeksforGeeks: What are LLM Parameters?](https://www.geeksforgeeks.org/artificial-intelligence/what-are-llm-parameters/)
+- [OpenAI: What are tokens and how to count them?](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them)
+- [IBM: What is a context window?](https://www.ibm.com/think/topics/context-window)
+- [Datasets for large language models: a comprehensive survey](https://doi.org/10.1007/s10462-025-11403-7)
+
+## How LLMs Work?
+
+To understand how large language models operate, read the following article:
+
 [Large language models, explained with a minimum of math and jargon](https://www.understandingai.org/p/large-language-models-explained-with)
 
+As you read, focus on the following key ideas.
 
-## Prompt Engineering
-[[Wharton Generative AI Labs Prompt Library](https://www.notion.so/1b3dc3333315802a9e99cafedb321048?pvs=21)]
+### Words as vectors
 
-## Other
-How do we evaluate LLMs?
-- Benchmarking. Downside
-- LM Arena. Downside
+Language models do not represent words as strings of letters.
+Instead, each word (or token) is represented as a vector, which is a list of numbers.
 
-AGI definition paper
+This numerical representation allows the model to compare words and capture patterns such as:
 
-LM Arena
+* similarity between related terms
+* relationships between words
+* patterns in how words appear together in text
 
-Shortage of high-quality data
+Think about:
 
-AI-generated popular song. 
+* Why are numbers easier for a computer to manipulate than letters?
+* How representing words as vectors enables operations such as measuring distance or similarity.
 
-One hands on can be asking the students to let LLM summarize a paper that they are familiar with. See whether LLM's summarization is appropriately. 
+### Meaning depends on context
 
-See this walk or drive example when I use ChatGPT 5.2: https://chatgpt.com/share/698ba40e-4ed0-8012-9625-bc27a60e6106
+A single word can have multiple meanings depending on context. For example, a bank can refer to a financial institution or the side of a river.
+
+Modern language models address this by generating context-dependent representations. The representation of a word changes depending on the surrounding words in the sentence.
+
+Consider:
+
+* How humans use context to interpret meaning.
+* Why static word representations would struggle with ambiguity.
+
+### Transformers process text through layers
+
+Large language models are built from many stacked transformer layers. Each layer receives representations of the input tokens and updates them. Across layers, the model gradually incorporates more contextual information.
+
+Early layers often focus on:
+
+* sentence structure
+* syntax
+* resolving ambiguity
+
+Later layers may help build a higher-level understanding of the passage. 
+
+### The attention mechanism
+
+Within each transformer layer, the model uses attention.
+
+Attention allows tokens to exchange information with other tokens in the sequence.
+
+For example, attention mechanisms help the model:
+
+* connect pronouns to the correct nouns
+* resolve ambiguous words
+* identify relationships between words in a sentence
+
+Attention allows the model to determine which parts of the text are relevant to each token.
+
+### Feed-forward layers and pattern matching
+
+After attention, the model goes through another step called a feed-forward network. This part of the model helps recognize useful patterns in the text and prepares for the next-token prediction.
+
+### Training through next-token prediction
+
+Language models are trained using a simple objective: predict the next token in a sequence of text. During training:
+
+1.	The model receives a sequence of tokens.
+2.	It predicts the next token.
+3.	The prediction is compared to the actual token.
+4.	The model adjusts its internal parameters to reduce the error.
+
+This process is repeated across massive text datasets, allowing the model to learn patterns of language usage.
+
+### Why scale matters
+
+Performance improves when three factors increase together:
+
+* model size (number of parameters)
+* training data
+* computational resources
+
+Large models trained on large datasets tend to capture more linguistic patterns and produce more accurate predictions.
+
+!!! example "Hands-on: Testing next-token prediction and context"
+
+    **Goal:** Observe how a language model continues text based on context.
+
+    Large language models generate text one token at a time. At each step, the model predicts which token is most likely to appear next given the previous tokens.
+
+    In this activity, you will observe how changing the context changes the generated text.
+
+    **Step 1: Open a large language model**
+
+    Open any large language model you have access to, such as ChatGPT, Claude, Gemini, or Copilot.
+
+    **Step 2: Try simple text completion**
+
+    Enter the following incomplete sentences and observe how the model continues them.
+
+    - The capital of France is
+    - Libraries help people
+    - Metadata improves
+    - A reliable information source should
+
+    Read the generated text carefully.
+
+    **Step 3: Change the context**
+
+    Now modify the beginning of the sentence and compare the results.
+
+    Try examples such as:
+
+    - In a fictional story, the capital of France is
+    - In a children's book, libraries help people
+    - In digital archives, metadata improves
+    - In academic research, a reliable information source should
+
+    Observe how the model's continuation changes.
+
+    **Step 4: Compare the outputs**
+
+    Consider the following questions:
+
+    - Did the model produce different continuations when the context changed?
+    - Did the output seem predictable or surprising?
+    - Did the model generate a full sentence or continue writing beyond what you expected?
+
+### Further information
+- You may explore [this visualization of an LLM workflow](https://bbycroft.net/llm). It includes many technical details, so reviewing it is optional. You may simply explore the visualization to get a general sense of how LLM components connect.
+- Optional: [Jay Alammar: The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) explains the transformer architecture in detail. Some parts may be technically challenging.
+- [Andreas Stöffelbauer: How Large Language Models work? From zero to ChatGPT](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f)
+- [MIT Sloan Management Review: How LLMs Work: Top 10 Executive-Level Questions](https://sloanreview.mit.edu/article/how-llms-work/)
+- [Drexel University: Dragons' Guide to GAI](https://drexel.edu/teaching-and-learning/resources/teaching-tech/dragons-guide-to-gai)
+- [AI Demystified: Introduction to large language models](https://uit.stanford.edu/service/techtraining/ai-demystified/llm)
+
+## Evaluating LLMs
+
+How do researchers compare different large language models? Two commonly used approaches are benchmarking and human evaluation.
+
+### Benchmarking
+
+Benchmarking evaluates models using standardized tasks and datasets. Each model completes the same tasks, and the results are summarized using numerical scores. Because the tasks are fixed, benchmarking allows researchers to compare different models under the same conditions.
+
+Benchmarks may test abilities such as question answering, reasoning, code generation, or knowledge across academic subjects.
+
+Advantages of benchmarking include standardized comparisons and measurable results. Because every model is tested on the same tasks, researchers can directly compare performance across systems. Benchmark scores can also be reproduced by other researchers, which supports transparency in evaluation.
+
+However, benchmark scores do not always reflect real‑world use. Many benchmark tasks are short and highly structured, while real information tasks are often longer and more complex. In addition, models may be optimized specifically to perform well on widely known benchmarks.
+
+Another concern is that some benchmark questions may appear in the training data used to train the model. If a model has already seen the same or very similar examples during training, it may appear to perform well simply because it remembers those answers. This issue is often referred to as data leakage or benchmark contamination.
+
+Common benchmarks used to evaluate large language models include [MMLU](https://doi.org/10.48550/arXiv.2009.03300) (which tests knowledge across academic subjects), [GSM8K](https://doi.org/10.48550/arXiv.2110.14168) (which evaluates mathematical reasoning), and [HellaSwag](https://doi.org/10.48550/arXiv.1905.07830) (which measures commonsense reasoning).
+
+### Human evaluation: LM Arena
+
+Another approach is human evaluation. One widely known example is LM Arena. In LM Arena, users are shown responses from two anonymous models and are asked to choose the better answer.
+
+Over time, many user votes produce rankings that reflect how people perceive model performance. This approach captures human judgments about qualities such as clarity, usefulness, and writing style.
+
+Human evaluation can reflect more realistic tasks than standardized benchmarks. At the same time, the results may be influenced by user preferences, popularity effects, or differences in how questions are asked.
+
+!!! example "Hands-on: Exploring LM Arena"
+
+    **Goal:** Observe how human evaluation is used to compare large language models.
+
+    **Step 1: Explore the leaderboard**
+
+    Visit: [https://arena.ai/leaderboard](https://arena.ai/leaderboard)
+
+    Look at the model rankings and consider the following questions:
+
+    - Which models appear near the top of the leaderboard?
+    - Are the models familiar to you (for example ChatGPT, Claude, Gemini)?
+    - Do the rankings match your expectations about model quality?
+
+    **Step 2: Try voting in LM Arena**
+
+    Visit: [https://arena.ai/](https://arena.ai/)
+
+    Enter a prompt and compare responses from two anonymous models.  
+    After reading the responses, vote for the answer you think is better.
+
+    As you experiment, consider:
+
+    - What criteria did you use to decide which answer was better?
+    - Did both models appear competent, or was one clearly stronger?
+    - Could different users reasonably vote for different answers?
+
+    This activity illustrates how large-scale human voting can be used to evaluate and rank language models.
+
+### Further information
+
+- Blog posts about Measuring LLM Performance
+    - [Data leakage is a major issue when measuring LLM performance](https://t-redactyl.io/posts/2025-12-29-data-leakage-llm-measurement/)
+    - [What LLM benchmarks get wrong about measuring model performance](https://t-redactyl.io/posts/2026-01-19-llm-benchmarks-have-issues-with-validity/)
+    - [Why the LMArena is a flawed approach to LLM evaluation](https://t-redactyl.io/posts/2026-02-09-why-the-lm-arena-is-vibes-based/)
+- [Wikipedia: Language model benchmark](https://en.wikipedia.org/wiki/Language_model_benchmark)
+- [Simon Willison: Understanding the recent criticism of the Chatbot Arena](https://simonwillison.net/2025/Apr/30/criticism-of-the-chatbot-arena/)
+- [The Leaderboard Illusion](https://doi.org/10.48550/arXiv.2504.20879)
+- [Meta’s benchmarks for its new AI models are a bit misleading](https://techcrunch.com/2025/04/06/metas-benchmarks-for-its-new-ai-models-are-a-bit-misleading/)
+- [Evidently AI: 30 LLM evaluation benchmarks and how they work](https://www.evidentlyai.com/llm-guide/llm-benchmarks)
+
+## Emerging directions
+
+### Multi-modal models
+
+Early large language models worked primarily with text. Many newer systems can work with multiple types of data, including images, audio, video, and documents. These systems are often described as multi-modal models.
+
+In a multi-modal system, language models can analyze information from different sources together. For example, a user may upload an image and ask the system to describe what it shows, or provide a chart and ask for an explanation of the data.
+
+In library and information settings, multi-modal systems may support tasks such as describing images in digital collections, analyzing scanned documents, or generating alternative text to improve accessibility.
+
+!!! example "Hands-on: Trying a multi-modal model"
+
+    **Goal:** Observe how a multi-modal system can use both an image and a written question.
+
+    In this activity, you will upload a photo to a chatbot that supports image input and ask it a practical question.
+
+    **Step 1: Choose a tool**
+
+    Open a system that supports image input, such as ChatGPT, Claude, Gemini, or Copilot.
+
+    **Step 2: Take or upload a photo**
+
+    Choose one image from your everyday environment. For example, you may upload:
+
+    - a plant or flower
+    - a household object or device
+    - a chart, sign, or printed document
+    - a damaged item that may need repair
+
+    **Step 3: Ask a question about the image**
+
+    Upload the image and ask a specific question. For example:
+
+    - What kind of plant is this?
+    - What does this chart show?
+    - What does this sign mean?
+    - What might be wrong with this object, and what should I check first?
+
+    **Step 4: Evaluate the response**
+
+    As you read the answer, consider the following questions:
+
+    - Did the system correctly identify the main features of the image?
+    - Did it answer the question directly?
+    - Did it seem confident even when it might be uncertain?
+    - What parts of the answer would you verify before acting on it?
+
+!!! example "Hands-on: Trying voice interaction"
+
+    **Goal:** Observe how a language model processes spoken input and produces a response.
+
+    Many modern AI systems support voice interaction. In these systems, speech is converted into text, processed by the language model, and sometimes converted back into speech.
+
+    **Step 1: Open a tool with voice mode**
+
+    Use a system that supports voice interaction, such as:
+
+    - [ChatGPT voice mode](https://chatgpt.com/features/voice/)
+    - [Gemini Live](https://gemini.google/overview/gemini-live/)
+
+    **Step 2: Ask a question using speech**
+
+    Ask the system a question by speaking instead of typing.
+
+    For example:
+
+    - What is metadata in library science?
+    - Explain what digital archives are.
+    - What are some examples of AI used in libraries?
+
+    **Step 3: Observe the interaction**
+
+    As the system responds, consider:
+
+    - Did the system correctly understand your speech?
+    - Did it respond using text, speech, or both?
+    - Did the interaction feel different from typing a prompt?
+
+!!! example "Hands-on: Analyzing a PDF with a language model"
+
+    **Goal:** Observe how a language model analyzes a document that contains both text and visual structure.
+
+    Many language models allow users to upload PDF documents. These systems can analyze both the text and the layout of the document.
+
+    **Step 1: Select a PDF**
+
+    Choose a PDF document you are allowed to upload.
+
+    **Step 2: Ask questions about the document**
+
+    Ask questions such as:
+
+    - What are the main points of this document?
+    - Summarize the key findings.
+    - What information is shown in the tables or figures?
+
+    **Step 3: Evaluate the response**
+
+    As you read the answer, consider:
+
+    - Did the system correctly identify the structure of the document?
+    - Did it summarize the key ideas accurately?
+    - Did it miss any important information?
+
+### Agentic AI and AI agents
+
+Most early language models responded to one prompt at a time. More recent systems can also use external tools such as web search, databases, or software for specific tasks.
+
+When a system can use tools to carry out multiple steps toward a goal, it is often described as *agentic AI*. An *AI agent* is a system designed to pursue a goal by planning steps and using tools. Some agentic systems use a single agent, while others coordinate multiple agents.
+
+For example, an AI agent might search for sources on a topic, organize the results, and draft a short summary. In information work, similar systems may assist with tasks such as literature searching, document analysis, or preparing research notes.
+
+Anthropic's [Claude Cowork](https://claude.com/product/cowork) shows how an AI agent may begin to handle tasks that were previously done by separate software tools, while [OpenClaw](https://openclaw.ai/) is an example of an open and self-hosted agent platform. These examples show that agentic AI can appear in both commercial and open systems.
+
+At the same time, agentic systems can introduce additional risks. If they are connected to files, messages, or external tools, they may expose sensitive information or take unintended actions if they are not carefully configured and monitored.
+
+!!! example "Hands-on: Trying an AI Agent with Microsoft Copilot"
+
+    **Goal:** Experience how an AI agent can complete a multi-step task.
+
+    In this activity you will try a research task using Microsoft Copilot.
+
+    **Step 1: Access Copilot**
+
+    Visit: [Microsoft 365 Copilot](https://m365.cloud.microsoft)
+
+    Sign in using your University of Kentucky account.
+
+    If you do not currently have access to the paid version of Copilot, the university provides licenses for students. You may request access [here](https://uky.service-now.com/techhelp?id=kb_article&sysparm_article=KB0015604).
+
+    **Step 2: Try the Researcher agent**
+
+    In Copilot, choose the **Researcher** option.
+
+    Select **Topic report** and enter a research topic.
+
+    For example:
+
+    - Agentic AI in libraries
+    - AI use in digital archives
+    - AI tools for academic research
+
+    Ask the agent to generate a report.
+
+    **Step 3: Observe the agent's behavior**
+
+    As the system generates the report, consider the following questions:
+
+    - Does the system gather information from multiple sources?
+    - Does it organize the information into sections?
+    - Does it cite sources or reference materials?
+    - Does it show intermediate steps, such as planning, searching, or checking citations?
+    - Do those visible steps help you understand how the report is being produced?
+    - Do any of the steps seem confusing, unnecessary, or misleading?
+
+    **Step 4: Reflect on the results**
+
+    After reading the report, consider:
+
+    - Does the report appear accurate and well organized?
+    - What parts of the report would you verify before using it in research?
+    - How is this different from asking a chatbot a single question?
+
+    This activity illustrates how agent-based systems can perform multi-step tasks such as gathering information, organizing sources, and producing structured reports.
+
+!!! example "Hands-on: Creating your own agent in Microsoft Copilot"
+
+    **Goal:** Build a simple agent and observe how its description and instructions shape its behavior.
+
+    In this activity, you will create a small agent in Microsoft Copilot and test how it responds.
+
+    You may check [Microsoft's guide to Agent Builder](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agent-builder-build-agents) if needed. 
+
+    **Step 1: Open Agent Builder**
+
+    Open Microsoft 365 Copilot and choose **New agent**.
+
+    You can create an agent in two ways:
+
+    - Describe: create the agent using plain language
+    - Configure: enter the name, description, and instructions manually
+
+    **Step 2: Define a simple purpose**
+
+    Create an agent for one specific task. Keep the scope narrow. For example, your agent might be designed to:
+
+    - explain concepts from this course in plain language
+    - help generate study questions for a weekly reading
+    - summarize a document for LIS or ICT students
+    - suggest keywords for a research topic
+
+    **Step 3: Add the basic components**
+
+    Give your agent:
+
+    - a short name
+    - a brief description
+    - a few clear instructions
+
+    Try to make the instructions specific. For example, tell the agent what kind of task it should perform, what audience it should assume, and what kind of answer it should produce.
+
+    **Step 4: Test the agent**
+
+    Use the test pane to try several prompts.
+
+    Consider the following questions:
+
+    - Does the agent stay within its intended role?
+    - Do the instructions affect the style or structure of the response?
+    - What happens if the prompt falls outside the agent's intended purpose?
+
+    **Step 5: Revise and reflect**
+
+    Revise the description or instructions and test the agent again.
+
+### Further information
+
+- [A Multimodal World](https://huggingface.co/learn/computer-vision-course/en/unit4/multimodal-models/a_multimodal_world)
+- [GeeksforGeeks: Multimodal Large Language Models](https://www.geeksforgeeks.org/artificial-intelligence/multimodal-large-language-models/)
+- [Google: What is agentic AI?](https://cloud.google.com/discover/what-is-agentic-ai)
+- Explaining Agentic AI: The Good, the Bad & the Ugly
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/Gvt4TwGpqOs"
+        title="Explaining Agentic AI: The Good, the Bad & the Ugly"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
+
+- [CNBC: AI fears pummel software stocks: Is it ‘illogical’ panic or a SaaS apocalypse?](https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html)
+- [Five Things You Should Not Do With OpenClaw](https://www.forbes.com/sites/johnwerner/2026/03/05/five-things-you-should-not-do-with-openclaw/)
+
+## Limitations and Open Challenges
+
+Despite their rapid development, large language models still face important limitations and open challenges.
+
+### Shortage of high-quality data
+
+Large language models require very large amounts of training data. However, not all data are equally useful. High-quality text that is accurate, well edited, and legally usable is limited.
+
+This creates a challenge for future model development. As more organizations train large models, competition for high-quality data may increase. More data do not always lead to better models if the data are noisy, repetitive, or unreliable.
+
+### Training data controversies
+
+Another challenge concerns how training data are collected and used. Many large language models are trained on data gathered from books, websites, articles, code, and other online materials. This has raised concerns about copyright, consent, privacy, and compensation.
+
+These concerns are especially important in information professions, where questions of authorship, access, licensing, and responsible data use are central.
+
+### Hallucination
+
+Large language models can produce responses that sound confident and well written but are incorrect. This problem is commonly called hallucination. Some authors also use the term [confabulation](https://doi.org/10.48550/arXiv.2406.04175).
+
+Hallucinations may include false claims, invented citations, incorrect summaries, or inaccurate descriptions of sources. For this reason, LLM outputs should be checked carefully, especially in academic, legal, medical, or policy contexts.
+
+### Unexpected or illogical answers
+
+LLMs can also produce answers that are confusing, inconsistent, or illogical even when the question seems simple. 
+
+An example is a prompt asking whether a person who lives very close to a car wash should walk there or drive there in order to wash a car. A human reader would quickly notice the practical problem in the question. A language model, however, may respond in a way that sounds reasonable at first but does not fully address the contradiction.
+
+These cases are useful reminders that fluent language does not always indicate sound reasoning.
+
+!!! example "Hands-on: Testing a simple logic prompt"
+
+    **Goal:** Observe how a language model handles a simple question that contains a practical contradiction.
+
+    **Step 1: Read an example**
+
+    Read the following short article: [I asked ChatGPT if I should drive or walk to the car wash to get my car washed — and it struggled with basic logic](https://creators.yahoo.com/lifestyle/story/i-asked-chatgpt-if-i-should-drive-or-walk-to-the-car-wash-to-get-my-car-washed--and-it-struggled-with-basic-logic-140000959.html)
+
+    Then review this [shared conversation created using ChatGPT 5.2](https://chatgpt.com/share/698ba40e-4ed0-8012-9625-bc27a60e6106). 
+
+    **Step 2: Try the same idea with a current model**
+
+    Open a current large language model and test a similar prompt.
+
+    You may use the same question or a slightly revised version, such as:
+
+    - I live 15 meters away from a car wash. Should I walk or drive there to wash my car?
+    - I live next to a car wash. Should I walk there or drive there to get my car washed?
+
+    **Step 3: Compare the responses**
+
+    As you read the answer, consider the following questions:
+
+    - Does the model recognize the practical contradiction in the question?
+    - Does the newer model perform better than the earlier example?
+
+### From GenAI to AGI
+
+Generative AI and artificial general intelligence are not the same. Generative AI refers to systems that can produce new content such as text, images, audio, or code. AGI usually refers to a system with much broader and more flexible intelligence across many tasks and domains.
+
+Recent advances in large language models have led some people to ask whether generative AI is moving toward AGI. This remains an open question. Current systems can perform many useful tasks, but they still show important limitations in reasoning, factual accuracy, reliability, and transfer across contexts.
+
+For this reason, discussions of AGI should be approached with caution. Strong performance on selected tasks does not necessarily mean that a system has general intelligence in the broader sense.
+
+### Further information
+
+- [I asked ChatGPT if I should drive or walk to the car wash to get my car washed — and it struggled with basic logic](https://creators.yahoo.com/lifestyle/story/i-asked-chatgpt-if-i-should-drive-or-walk-to-the-car-wash-to-get-my-car-washed--and-it-struggled-with-basic-logic-140000959.html)
+
+- [Synthetic data, real harm](https://www.adalovelaceinstitute.org/blog/synthetic-data-real-harm/)
+
+- [In a first-of-its-kind decision, an AI company wins a copyright infringement lawsuit brought by authors](https://www.npr.org/2025/06/25/nx-s1-5445242/federal-rules-in-ai-companys-favor-in-landmark-copyright-infringement-lawsuit-authors-bartz-graeber-wallace-johnson-anthropic)
+
+- [A Definition of AGI](https://doi.org/10.48550/arXiv.2510.18212)
+
+- [Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/)
+- [The AI revolution is running out of data. What can researchers do?](https://doi.org/10.1038/d41586-024-03990-2)
+- [Anthropic: A small number of samples can poison LLMs of any size](https://www.anthropic.com/research/small-samples-poison)
+- Yann LeCun: We Won't Reach AGI By Scaling Up LLMS
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/4__gg83s_Do"
+        title="Yann LeCun: We Won't Reach AGI By Scaling Up LLMS"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
+
+- Richard Sutton – Father of RL thinks LLMs are a dead end
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/21EYKqUsPfg"
+        title="Richard Sutton – Father of RL thinks LLMs are a dead end"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
+
+- How close is AGI? What the experts say.
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/Z6q2iJZmvOM"
+        title="How close is AGI? What the experts say."
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
+
+- Is AI Hiding Its Full Power? With Geoffrey Hinton
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/l6ZcFa8pybE"
+        title="Is AI Hiding Its Full Power? With Geoffrey Hinton"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
