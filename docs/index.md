@@ -30,8 +30,7 @@ Materials on this site may be revised or expanded as the course progresses.
 **Module 3: Generative AI and Large Language Models (Weeks 9-15)**
 
 - [Week 9: Introduction to Generative AI](weeks/week-09.md)
-- [Week 10: Prompt Engineering](weeks/week-10.md)
-    - Prompt design, basic prompt patterns
+- [Week 10: Communicating with AI](weeks/week-10.md)
 - [Week 11: LLM-based Tools](weeks/week-11.md)
     - Research tools, coding assistants, multimodal AI, enterprise use
 - [Week 12: Concerns of AI](weeks/week-12.md)

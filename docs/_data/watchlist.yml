@@ -1,4 +1,11 @@
 items:
+  - type: article
+    added: 2026-03-12
+    published: 2026
+    title: "Labor market impacts of AI"
+    source: "Anthropic"
+    url: "https://www.anthropic.com/research/labor-market-impacts"
+  
   - type: video
     added: 2026-03-09
     published: 2026
