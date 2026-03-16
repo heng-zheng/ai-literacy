@@ -611,3 +611,4 @@ The goal is not to find one perfect prompt immediately. Instead, the goal is to 
 - [Wharton Generative AI Labs Prompt Library](https://www.notion.so/1b3dc3333315802a9e99cafedb321048?pvs=21)
 - [Prompt Engineering Guide](https://www.promptingguide.ai/). See the [introduction](https://www.promptingguide.ai/introduction) part and the [Prompting Techniques](https://www.promptingguide.ai/techniques) part. 
 - [GeeksforGeeks: Prompt Engineering Best Practices for AI Models](https://www.geeksforgeeks.org/blogs/prompt-engineering-best-practices/)
+- You can try [Microsoft Copilot's Prompt Coach](https://marketplace.microsoft.com/en-us/product/office/WA200007578?tab=Overview) to improve your prompts
