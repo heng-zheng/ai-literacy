@@ -16,3 +16,4 @@ AI and Labour: [AI is Coming for Your Job. Now What? | Vlad Tenev | TED](https:/
 
 [Nearly all Seoul students use generative AI](https://www.koreaherald.com/article/10652914)
 
+https://www.ox.ac.uk/news/2026-02-10-new-study-warns-risks-ai-chatbots-giving-medical-advice
