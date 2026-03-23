@@ -31,10 +31,8 @@ Materials on this site may be revised or expanded as the course progresses.
 
 - [Week 9: Introduction to Generative AI](weeks/week-09.md)
 - [Week 10: Communicating with AI](weeks/week-10.md)
-- [Week 11: LLM-based Tools](weeks/week-11.md)
-    - Research tools, coding assistants, multimodal AI, enterprise use
+- [Week 11: Generative AI Tools](weeks/week-11.md)
 - [Week 12: Concerns of AI](weeks/week-12.md)
-    - Privacy, copyright, hallucinations, bias, environmental impact
 - [Week 13: AI Policy, Governance, and the Future of AI](weeks/week-13.md)
 - [*Module 3 Assignment: Human-AI Collaboration*](assignments/haic.md)
 
