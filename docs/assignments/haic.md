@@ -11,6 +11,16 @@ You will:
 
 Your focus is on **process, decision–making, and oversight**, not just final output.
 
+## Data Use Reminder
+
+For this project, please use only data that you are permitted to use for coursework.
+
+Do not use any data that is sensitive, private, confidential, proprietary, or otherwise restricted unless you have already confirmed that you are authorized to use it and that its use complies with applicable rules or policies.
+
+Small-scale, synthetic, self-created, or appropriately sourced public data are all acceptable options.
+
+If you are unsure whether a dataset is appropriate, do not use it. You may consult relevant guidelines or appropriate personnel within your organization if needed, but do not proceed unless you are confident that the data is suitable for course use.
+
 ## Project at a Glance
 
 ### Stage 1 – Workflow Proposal (Week 9–10)
