@@ -362,6 +362,10 @@ For students without programming experience, the main point is simply to recogni
     - How is this different from a general chatbot?
     - What background knowledge would a user need in order to use it well?
 
+**Further information**
+
+- [CodeRabbit report: AI code creates 1.7x more problems](https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report)
+
 ## AI for science
 
 AI tools are increasingly used in scientific research. This does not mean that AI independently does science in a human sense. Rather, AI systems can help researchers identify patterns, predict structures, or generate candidates. Below are some example areas:
