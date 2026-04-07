@@ -194,3 +194,5 @@ Another concern is unequal language support. Many AI systems perform much better
 - [Mind the (Language) Gap: Mapping the Challenges of LLM Development in Low-Resource Language Contexts](https://hai.stanford.edu/policy/mind-the-language-gap-mapping-the-challenges-of-llm-development-in-low-resource-language-contexts)
 
 - [Rise of Concerns About AI: Reflections and Directions](https://cacm.acm.org/opinion/rise-of-concerns-about-ai/)
+- [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)
+- [Teaching AI Ethics by Leon Furze](https://leonfurze.com/ai-ethics/)

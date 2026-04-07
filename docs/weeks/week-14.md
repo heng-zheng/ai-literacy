@@ -1,0 +1,1 @@
+## Weekly discussion - Has this class changed your attituteds about AI? Why? Any examples?

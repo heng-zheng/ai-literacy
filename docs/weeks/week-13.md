@@ -1,10 +1,9 @@
-- AI regulations, professional guidelines, governance challenges
+# AI Governance and the Future of AI
 
-- [AI trends](../concepts/ai-trends.md)
+## Topics
 
-## Weekly discussion - Has this class changed your attituteds about AI? Why? Any examples?
+[AI Governance and the Future of AI](../ethics/ai-governance-future.md)
 
+## Weekly discussion
 
-Stanford HAI report: https://hai.stanford.edu/ai-index/2025-ai-index-report
-
-Anthropic's AI constitution
+Let the students research Data use in their field, what is appropriate. and share
