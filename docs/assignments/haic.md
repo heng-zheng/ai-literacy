@@ -13,13 +13,13 @@ Your focus is on **process, decision–making, and oversight**, not just final o
 
 ## Data Use Reminder
 
-For this project, please use only data that you are permitted to use for coursework.
+For this project, please use only data that you are permitted to use for coursework, meaning data that you are authorized to access and use under applicable rules or policies.
 
 Do not use any data that is sensitive, private, confidential, proprietary, or otherwise restricted unless you have already confirmed that you are authorized to use it and that its use complies with applicable rules or policies.
 
 Small-scale, synthetic, self-created, or appropriately sourced public data are all acceptable options.
 
-If you are unsure whether a dataset is appropriate, do not use it. You may consult relevant guidelines or appropriate personnel within your organization if needed, but do not proceed unless you are confident that the data is suitable for course use.
+If you are unsure whether a dataset is appropriate, do not use it. You may consult relevant guidelines or appropriate personnel within your organization if needed. You are also welcome to ask me for general guidance. Do not proceed unless you are confident that the data is suitable for course use.
 
 ## Project at a Glance
 
