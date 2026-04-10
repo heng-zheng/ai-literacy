@@ -1,0 +1,37 @@
+# Final Project Submission
+
+This week does not introduce new topics. It is time to submit your [final project](../assignments/haic.md). Please submit your final project by the due date listed on Canvas.
+
+You can attend office hours or schedule a meeting with me if you have questions about the course, AI topics, or your final project.
+
+## Weekly Discussion: Reflecting on Our AI Journey
+
+**Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**
+
+As we reach the end of the semester, this discussion invites you to reflect on your overall experience in this course and share your thoughts about what worked well and what could be improved.
+
+Over the past weeks, we have explored AI from multiple perspectives, including foundational concepts, real-world applications, generative AI tools, concerns, and governance. This is an opportunity to step back and evaluate that learning experience as a whole.
+
+**Looking back**
+
+Reflect on your learning experience in this course:
+
+- What topics, activities, or discussions helped you understand AI the most?  
+- Were there any specific weeks, hands-on activities, or assignments that stood out to you as particularly useful or meaningful?  
+- What concepts or tools do you now feel more confident about compared to the beginning of the semester?  
+
+**Looking ahead**
+
+Consider how this course could be improved in the future:
+
+- What new topics, tools, or areas would you like to see added if this course were offered again?  
+- Are there any topics you think could be shortened, simplified, or replaced?  
+- Do you have suggestions for improving the structure of weekly discussions, hands-on activities, or assignments?  
+
+**Open reflection**
+
+You are encouraged to share any additional thoughts about your experience in this course. This can include:
+
+- What you found most valuable overall  
+- What challenges you encountered  
+- Any suggestions that could improve the learning experience for future students  

@@ -2,17 +2,41 @@
 
 AI systems introduce risks that individual users cannot manage alone. Governance addresses these issues through rules, institutional practices, and shared standards.
 
+## Data governance
+
+Data governance is a foundation of AI governance because AI systems depend on data as input. If data is inaccurate, biased, or poorly managed, the system will reflect those problems.
+
+Data governance typically includes:
+
+- data quality, such as accuracy and completeness  
+- data access and sharing rules  
+- data privacy and protection  
+- data documentation and transparency  
+- accountability for how data is collected and used  
+
+
+**Further information**
+
+- [OECD - Data governance](https://www.oecd.org/en/topics/sub-issues/data-governance.html)
+- [Databricks - Data governance](https://www.databricks.com/discover/data-governance)
+- [Google - What is data governance?](https://cloud.google.com/learn/what-is-data-governance)
+
 ## AI governance
 
 AI governance refers to how AI systems are shaped, constrained, and managed in practice.
 
-This includes rules, institutional decisions, and platform-level controls that influence how AI is developed and used.
+This includes institutional rules and platform-level controls that influence how AI is developed and used.
 
 There are different levels of AI governance. 
 
 ### Government and international frameworks
 
-Examples include [the United States's AI Action Plan](https://www.ai.gov/action-plan), [OECD AI principles](https://www.oecd.org/en/topics/ai-principles.html), [UNESCO AI recommendations](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics), and [The EU Artificial Intelligence Act](https://artificialintelligenceact.eu/).
+Examples include:
+
+- [The United States's AI Action Plan](https://www.ai.gov/action-plan)
+- [OECD AI principles](https://www.oecd.org/en/topics/ai-principles.html)
+- [UNESCO AI recommendations](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
+- [The EU Artificial Intelligence Act](https://artificialintelligenceact.eu/)
 
 These frameworks define general expectations such as transparency, fairness, privacy, and accountability.
 
@@ -22,15 +46,10 @@ They guide national policies and organizational decisions, rather than regulatin
 
 Organizations develop their own rules for using AI in practice.
 
-Examples include:
-
 Universities defining acceptable AI use accross campus (see [UK Advance Team's guidlines and recommendations](https://advance.uky.edu/)). 
 
 
-Publishers setting authorship and disclosure policies: 
-
-- [COPE Position Statement on Authorship and AI Tools](https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools)
-- Publishers' policies: [Sage](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy), [Springer](https://link.springer.com/brands/springer/journal-policies#Artificial%20intelligence%20(AI)), [Elsevier](https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals), and [Taylor & Francis](https://taylorandfrancis.com/our-policies/ai-policy/). 
+Publishers setting authorship and disclosure policies. Examples include [Sage](https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy), [Springer](https://link.springer.com/brands/springer/journal-policies#Artificial%20intelligence%20(AI)), [Elsevier](https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals), and [Taylor & Francis](https://taylorandfrancis.com/our-policies/ai-policy/). Also see [COPE Position Statement on Authorship and AI Tools](https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools). 
 
 Professional organizations issuing guidelines that shape how AI is used in practice. For example:
 
@@ -40,39 +59,61 @@ Professional organizations issuing guidelines that shape how AI is used in pract
 
 These policies translate broad principles into specific contexts.
 
-!!! example "In-class activity: Institutional AI policy"
+!!! example "In-class activity: Comparing AI policies across contexts"
 
-    Find the AI policy or guideline used by your own institution or organization.
+    Review 2–3 example AI policies from different types of organizations.
 
-    Look for:
+    For example:
     
-    - what kinds of AI use are allowed or restricted  
-    - whether there are rules about data, authorship, or disclosure  
-    - how responsibility is defined  
+    - a university AI policy  
+    - a corporate AI policy  
+    - a professional or publisher guideline  
 
     As you read, focus on:
-    
-    - what problems this policy is trying to address  
-    - what is clear and what is vague  
-    - whether the policy would be easy to follow in practice  
-    - whether the policy still applies given how quickly AI systems are changing  
+
+    - how the policies differ in what they allow or restrict  
+    - how they treat data use, privacy, or authorship  
+    - how responsibility is assigned  
+
+    Then consider:
+
+    - which policy feels more strict or more flexible  
+    - what assumptions each policy makes about its users  
+    - how the context (e.g., university vs company) shapes the rules  
 
 ### Platform and corporate governance
 
-AI systems are also governed by platform-level rules. One example is [Claude’s Constitution](https://www.anthropic.com/constitution) developed by Anthropic.
+AI systems are also governed by platform-level rules. Examples include [Claude’s Constitution](https://www.anthropic.com/constitution) developed by Anthropic and [OpenAI's usage policies](https://openai.com/policies/usage-policies/). 
 
-These rules directly shape what users can do and what data is processed.
-
-They may change over time and are not always transparent.
+These rules shape not only what users can do, but also how organizations deploy AI and how data is collected and processed. They may change over time.
 
 Also see OpenAI's suggestions:  [Industrial Policy for the Intelligence Age: Ideas to Keep People First](https://openai.com/index/industrial-policy-for-the-intelligence-age/)
 
-### Further information
+### How to evaluate AI
 
-- [AI Governance at the Frontier](https://cset.georgetown.edu/publication/ai-governance-at-the-frontier/)
+AI systems should be evaluated based on how they perform in real tasks, not only on technical benchmarks. Evaluation typically includes:
 
+- Task performance, such as accuracy, relevance, or completeness  
+- Consistency across repeated runs  
+- Robustness, such as how the system handles noisy, misleading, or intentionally difficult inputs
+- Safety, including harmful or inappropriate outputs  
+- Usefulness, such as whether the output actually supports user needs  
 
-## Common principles across frameworks
+Evaluation can take place at different stages:
+
+- during development, using test datasets or benchmark tasks  
+- before deployment, using predefined tasks or situations used to test how an AI system performs
+- after deployment, through user feedback and real-world monitoring  
+
+Evaluation is an ongoing process rather than a one-time check. Systems may change over time, and their performance must be continuously assessed.
+
+**Further information**
+
+- [OpenAI: Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices)
+- [Google: How good is your AI? Gen AI evaluation at every stage, explained](https://cloud.google.com/blog/products/ai-machine-learning/how-to-evaluate-your-gen-ai-at-every-stage)
+- [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+
+### Common principles across frameworks
 
 Across frameworks such as OECD and UNESCO, several ideas appear repeatedly:
 
@@ -84,47 +125,51 @@ Across frameworks such as OECD and UNESCO, several ideas appear repeatedly:
 
 These principles are defined differently across contexts, but they reflect shared concerns about how AI systems should operate.
 
-## Challenges of AI governance
+### Challenges of AI governance
 
 AI governance involves tradeoffs.
 
-Regulation often lags behind technical change. Rules developed in one country may not apply in another. Restricting systems may reduce risk but also limit access or innovation. Open systems increase access but can be harder to control.
+Regulation often lags behind technical change. Rules developed in one country may not apply in another. Restricting systems may reduce risk but also limit access or innovation. Open systems make AI easier for more people to use, but also make it harder to set limits on how they are used, because they can be freely copied, modified, and deployed without centralized control.
 
 There is no single solution that resolves all of these tensions.
+
+### Further information
+
+- [AI Governance at the Frontier](https://cset.georgetown.edu/publication/ai-governance-at-the-frontier/)
+- [Mapping the AI Governance Landscape: Pilot Test and Update](https://airisk.mit.edu/blog/mapping-the-ai-governance-landscape-pilot-test-and-update)
 
 ## Future of AI
 
 ### Reports and large-scale perspectives
 
-Industry and research reports provide structured views of AI development, such as the [The AI Index Report by Stanford](https://hai.stanford.edu/ai-index/2025-ai-index-report). These reports track trends in investment, performance, and adoption.
+Industry and research reports provide overviews of AI development, such as the [The AI Index Report by Stanford](https://hai.stanford.edu/ai-index/2025-ai-index-report). These reports track trends in investment, performance, and adoption.
 
 ### Expert and industry perspectives
 
-Different actors describe the future of AI in different ways.
-
-Examples include industry leaders, researchers, and engineers working on large-scale systems.
-
-These perspectives are not neutral. They reflect different assumptions about risk, control, and progress.
-
-### Current directions
+Different people describe the future of AI in different ways. Examples include industry leaders, researchers, and engineers. These perspectives are not neutral. They reflect different assumptions about risk, control, and progress.
 
 Some commonly discussed directions include:
 
-- multimodal systems  
-- agentic AI  
-- automation in knowledge work  
+- [multimodal systems](https://en.wikipedia.org/wiki/Multimodal_learning)
+- [agentic AI](https://en.wikipedia.org/wiki/AI_agent)
+- [orbital AI infrastructure](https://en.wikipedia.org/wiki/Space-based_data_center)
 
 These developments affect how information is created, accessed, and managed.
 
 !!! example "In-class activity: AI futures in practice"
 
-    Find a recent talk, podcast, or interview where someone discusses the future of AI.
+    Find a recent talk, podcast, or interview where someone discusses AI trends or issues.
 
     You may use suggested examples or choose your own.
 
+    - [Karen Hao - AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth!](https://www.youtube.com/watch?v=Cn8HBj8QAbk)
+    - [Demis Hassabis - The future of intelligence](https://www.youtube.com/watch?v=PqVbypvxDto)
+    - [Yann LeCun - "LLMs Are A Dead End": An Exclusive Interview With The Genius Father of AI](https://www.youtube.com/watch?v=XnnnAx5lrx8&t=1s)
+    - [Eric Schmidt - Ex Google CEO: AI Can Create Deadly Viruses! If We See This, We Must Turn Off AI!](https://www.youtube.com/watch?v=2Zg--ouGl7c)
+
     As you listen, focus on:
     
-    - what kind of future is being described  
+    - what kind of trends is being described  
     - what problems are emphasized or ignored  
     - what assumptions are made about users, institutions, or society  
 

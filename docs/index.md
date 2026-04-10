@@ -34,6 +34,8 @@ Materials on this site may be revised or expanded as the course progresses.
 - [Week 11: Generative AI Tools](weeks/week-11.md)
 - [Week 12: Concerns of AI](weeks/week-12.md)
 - [Week 13: AI Policy, Governance, and the Future of AI](weeks/week-13.md)
+- [Week 14: Final Project Work Session and Q&A](weeks/week-14.md)
+- [Week 15: Final Project Submission](weeks/week-15.md)
 - [*Module 3 Assignment: Human-AI Collaboration*](assignments/haic.md)
 
 ---
