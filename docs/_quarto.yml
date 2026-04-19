@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "LIS/ICT 690 - AI Literacy for Information Organizations"
+  site-url: "https://heng-zheng.github.io/ai-literacy/"
+  page-navigation: true
+  reader-mode: false
+  navbar:
+    background: "#0033A0"
+    foreground: "#ffffff"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Modules"
+        menu:
+          - text: "Module 01"
+            href: modules/module-01.qmd
+          - text: "Module 02"
+            href: modules/module-02.qmd
+          - text: "Module 03"
+            href: modules/module-03.qmd
+          - text: "Module 04"
+            href: modules/module-04.qmd
+          - text: "Module 05"
+            href: modules/module-05.qmd
+          - text: "Module 06"
+            href: modules/module-06.qmd
+          - text: "Module 07"
+            href: modules/module-07.qmd
+          - text: "Module 08"
+            href: modules/module-08.qmd
+          - text: "Module 09"
+            href: modules/module-09.qmd
+          - text: "Module 10"
+            href: modules/module-10.qmd
+          - text: "Module 11"
+            href: modules/module-11.qmd
+          - text: "Module 12"
+            href: modules/module-12.qmd
+          - text: "Module 13"
+            href: modules/module-13.qmd
+          - text: "Module 14"
+            href: modules/module-14.qmd
+          - text: "Module 15"
+            href: modules/module-15.qmd
+      - text: "AI Watchlist"
+        href: resources.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - stylesheets/quarto-theme.scss
+    css: stylesheets/quarto-extra.css
+    toc: true
+    toc-location: right
+    code-copy: true
+    link-external-newwindow: true
+    anchor-sections: true

@@ -1,0 +1,77 @@
+# LIS/ICT 690 — AI Literacy for Information Organizations
+
+Welcome to **LIS/ICT 690: AI Literacy for Information Organizations**. 
+This site provides course content to support your learning. 
+
+The course introduces artificial intelligence from an information-centered perspective, examining major AI paradigms, applications in libraries and information systems, generative AI and large language models, and related ethical, legal, and policy considerations. No prior technical background is required.
+
+Materials on this site may be revised or expanded as the course progresses.
+
+---
+
+## Topics
+
+**Part 1: AI and Information Professions (Weeks 1-4)**
+
+- [Module 1: Introduction to AI and Information Professions](modules/module-01.qmd)
+- [Module 2: AI for Search, Discovery, and Recommendation](modules/module-02.qmd)
+- [Module 3: AI for Knowledge Management and Information Systems](modules/module-03.qmd)
+- [Module 4: AI, Communication, and Society](modules/module-04.qmd)
+- [*Part 1 Assignment: Exploring an AI Tool for Information Work*](assignments/explore-ai-tool.qmd)
+
+**Part 2: AI Foundations (Weeks 5-8)**
+
+- [Module 5: Concepts for Understanding AI](modules/module-05.qmd)
+- [Module 6: Symbolic AI](modules/module-06.qmd)
+- [Module 7: Subsymbolic AI (Machine Learning Basics)](modules/module-07.qmd)
+- [Module 8: Machine Learning Applications](modules/module-08.qmd)
+- [*Part 2 Assignment: Learning AI with AI*](assignments/learn-with-ai.qmd)
+
+**Part 3: Generative AI and Large Language Models (Weeks 9-15)**
+
+- [Module 9: Introduction to Generative AI](modules/module-09.qmd)
+- [Module 10: Communicating with AI](modules/module-10.qmd)
+- [Module 11: Generative AI Tools](modules/module-11.qmd)
+- [Module 12: Concerns of AI](modules/module-12.qmd)
+- [Module 13: AI Policy, Governance, and the Future of AI](modules/module-13.qmd)
+- [Module 14: Final Project Work Session and Q&A](modules/module-14.qmd)
+- [Module 15: Final Project Submission](modules/module-15.qmd)
+- [*Module 3 Assignment: Human-AI Collaboration*](assignments/haic.qmd)
+
+---
+
+## AI Watchlist (Optional)
+
+Recently added:
+
+{{< include _generated/watchlist-index.md >}}
+
+See the full stream → [AI Watchlist](resources.qmd)
+
+---
+
+## AI use disclosure
+
+Parts of the course planning and documentation development process made use of generative AI tools (including ChatGPT) to support drafting, organization, and refinement of instructional materials. All content has been reviewed, curated, and finalized by the instructor.
+
+---
+
+## Feedback
+
+If you have any feedback on the course content or this site, please contact **Heng Zheng** at **hengzheng [at] uky [dot] edu**.
+
+---
+
+## Copyright and Reuse
+
+© Heng Zheng.
+
+Unless otherwise noted, original instructional content on this site is licensed under a
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to copy, adapt, and redistribute this original material in any medium or format,
+provided appropriate credit is given to the original author.
+
+Third-party materials, including quoted text, excerpts, images, and other media, are included
+for educational purposes. Copyright for these materials remains with their respective rights
+holders and is subject to the terms of their original licenses or fair use.

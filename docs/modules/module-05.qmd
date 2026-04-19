@@ -1,0 +1,115 @@
+# Concepts for Understanding AI
+
+## Topics
+
+[Concepts for Understanding AI](../concepts/ai-foundations.qmd)
+
+- Data, Information, and Knowledge
+- Algorithms as Processing, Ranking, and Prediction
+- Data Representation
+- Probability, Statistics, and AI Reasoning
+
+## Weekly Discussion: Is Data Ever Neutral?
+
+**Please submit all graded work via Canvas.**  
+**Participation requirements and grading details are provided in Canvas.**
+
+AI systems depend on data, but data is never collected in a vacuum.  
+What counts as data, how it is recorded, and whose behavior becomes visible are all shaped by social, institutional, and technical choices.
+
+This discussion asks you to move beyond abstract claims about “biased data” and closely examine **one concrete dataset**, focusing on how its construction can shape AI system behavior and users’ decision-making.
+
+Your goal is to analyze how data is treated as evidence and the responsibilities of information professionals when working with such data.
+
+**Step 1: Choose a concrete dataset**
+
+Select **one publicly available dataset** that is used, or could reasonably be used, in an AI system.
+
+Examples include (but are not limited to) datasets from:
+
+* Public data repositories such as [Kaggle](https://www.kaggle.com/datasets?fileType=csv) or the [UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets)
+* Open government data portals (e.g., [data.gov](https://data.gov/))
+* … …
+
+The dataset may involve tabular records, text, images, or logs, as long as it is **openly accessible** and commonly used (or plausibly usable) in AI or data-driven systems.
+
+Briefly describe:
+
+* What the dataset contains
+* Who collected it and for what original purpose
+* How it might be used in an AI system or data-driven decision process
+
+**How to view the dataset (no technical skills required)**
+
+Most public datasets are provided as **CSV files**.
+
+To explore the dataset, you do **not** need to write code.
+
+You can simply:
+
+* Download the CSV file
+* Open it using **Excel, Google Sheets, or another spreadsheet program**
+* Browse it as you would a normal spreadsheet:
+  * Look at column names
+  * Scroll through rows
+  * Notice what kinds of values are recorded, repeated, or missing
+
+You are not expected to perform calculations or modeling.  
+Your goal is to **observe what the data contains and how it is structured**.
+
+**Step 2: Data collection and visibility**
+
+Analyze **how the dataset was constructed**, focusing on what becomes visible and what does not.
+
+You may consider:
+
+* Who or what is included in the dataset, and what is absent
+* Whether data collection was voluntary, automatic, institutional, or incidental
+* What kinds of behaviors, attributes, or outcomes are easier or harder to record
+* How historical, technical, or organizational constraints shaped the dataset
+
+Focus on **how the data came to exist**, rather than evaluating it as good or bad.
+
+**Step 3: Representativeness and interpretation**
+
+Reflect on how this dataset should be interpreted in context.
+
+You may address questions such as:
+
+* Representative of what population, behavior, or situation?
+* Can a dataset be internally consistent but still incomplete or misleading?
+* Are there cases where a dataset is intentionally limited, yet still useful for a specific purpose?
+* How might claims of “neutral,” “objective,” or “raw” data obscure these limitations?
+
+Use your chosen dataset to ground your discussion.
+
+**Step 4: Professional responsibility and response**
+
+From the perspective of **information professionals** (e.g., librarians, archivists, data specialists, ICT professionals):
+
+* What responsibilities do professionals have when using, curating, or supporting AI systems built on this data?
+* In your view, what is one concrete step an information professional could take to help users better understand or interpret this dataset when it is used in an AI system?
+* What is one aspect of the dataset or system that information professionals would likely not be able to change, even if they recognized its limitations?
+
+Focus on accountability and communication, rather than technical solutions.
+
+**Expected outcome**
+
+Your post should present a short, coherent analysis of **one dataset** by tracing how it was collected, interpreted, and positioned as evidence within an AI system. A strong post typically:
+
+* Clearly describes a specific dataset and its context
+* Explains how data construction shapes interpretation and use
+* Reflects on the professional implications of treating data as neutral or authoritative
+
+
+## Reading
+
+- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 1, Sections 1.5 & 1.7; Chapter 7, Sections 7.1 & 7.5
+- DIKW Pyramid: [EBSCO article](https://www.ebsco.com/research-starters/library-and-information-science/dikw-pyramid), [Wikipedia page](https://en.wikipedia.org/wiki/DIKW_pyramid)
+- [Google Search documentation on ranking and results](https://developers.google.com/search/docs/fundamentals/how-search-works)
+- [The history of Amazon's recommendation algorithm](https://www.amazon.science/the-history-of-amazons-recommendation-algorithm)
+- [Algorithms are everywhere](https://www.technologyreview.com/2024/02/27/1088164/algorithms-book-reviews-kyle-chayka-chris-wiggins-matthew-l-jones-josh-simons/)
+- [IBM - Structured vs. unstructured data: What's the difference?](https://www.ibm.com/think/topics/structured-vs-unstructured-data)
+- [IBM - What is feature selection?](https://www.ibm.com/think/topics/feature-selection)
+- [IBM - What is vector embedding?](https://www.ibm.com/think/topics/vector-embedding)
+- [Probabilistic Reasoning in Artificial Intelligence](https://www.geeksforgeeks.org/artificial-intelligence/probabilistic-reasoning-in-artificial-intelligence/)

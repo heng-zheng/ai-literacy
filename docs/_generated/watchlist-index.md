@@ -1,0 +1,5 @@
+- **[Labor market impacts of AI](https://www.anthropic.com/research/labor-market-impacts)** · Article
+- **[Head of Claude Code: What happens after coding is solved | Boris Cherny](https://youtu.be/We7BZVKbCVw?si=L9iq6q7Qp1cJNPaG)** · Video
+- **[Claude's new constitution](https://www.anthropic.com/news/claude-new-constitution)** · Article
+- **[Something Big Is Happening](https://shumer.dev/something-big-is-happening)** · Commentary
+- **[Project Autonomous Policy Evaluation (APE): Can AI automate policy evaluation?](https://ape.socialcatalystlab.org/)** · Project

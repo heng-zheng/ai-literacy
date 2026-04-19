@@ -1,0 +1,14 @@
+# AI Watchlist
+
+Not required reading. A lightweight stream of items I’m currently following.  
+Sorted by **date added** (newest first).
+
+---
+
+## Latest
+
+{{< include _generated/watchlist-latest.md >}}
+
+## By Category
+
+{{< include _generated/watchlist-by-category.md >}}

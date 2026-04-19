@@ -1,4 +1,4 @@
-name: Deploy MkDocs
+name: Deploy Quarto
 on:
   push:
     branches: [ main ]
@@ -19,22 +19,27 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - uses: quarto-dev/quarto-actions/setup@v2
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - run: mkdocs build --strict
+      - run: python scripts/render_watchlist.py
+      - run: quarto render docs
 
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: docs/_site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - id: deployment
+        uses: actions/deploy-pages@v4
