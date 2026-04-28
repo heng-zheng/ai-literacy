@@ -1,5 +1,12 @@
 items:
   - type: article
+    added: 2026-04-28
+    published: 2026
+    title: "Meta to track workers' clicks and keystrokes to train AI"
+    source: "BBC"
+    url: "https://www.bbc.com/news/articles/cvglyklz49jo"
+  
+  - type: article
     added: 2026-03-12
     published: 2026
     title: "Labor market impacts of AI"
