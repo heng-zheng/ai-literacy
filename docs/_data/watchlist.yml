@@ -1,5 +1,20 @@
 items:
   - type: article
+    added: 2026-05-04
+    published: 2026
+    title: "An update on recent Claude Code quality reports"
+    source: "Anthropic"
+    why: "A post-mortem on Claude Code quality issues"
+    url: "https://www.anthropic.com/engineering/april-23-postmortem"  
+
+  - type: article
+    added: 2026-05-04
+    published: 2026
+    title: "Introducing OpenAI Privacy Filter"
+    source: "OpenAI"
+    url: "https://openai.com/index/introducing-openai-privacy-filter/"
+
+  - type: article
     added: 2026-04-28
     published: 2026
     title: "Meta to track workers' clicks and keystrokes to train AI"
