@@ -1,4 +1,11 @@
 items:
+  - type: video
+    added: 2026-05-07
+    published: 2026
+    title: "This is AGI: Sequoia AI Ascent 2026 Keynote"
+    source: "Sequoia Capital"
+    url: "https://youtu.be/LRo33rnv6rQ?si=Ucs3aTtuR2PX0Imq"
+
   - type: article
     added: 2026-05-04
     published: 2026
