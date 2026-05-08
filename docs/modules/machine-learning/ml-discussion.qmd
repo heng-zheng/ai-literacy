@@ -1,0 +1,73 @@
+# Discussion: Identifying Machine Learning in Everyday Contexts
+
+**Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**
+
+**Step 1: Choose a familiar context**
+
+Select one real-world example you have encountered from your work or daily life. It may already use machine learning, or it may be a system you believe could benefit from it.
+
+Examples include:
+
+* Email spam filtering
+* Fraud detection in banking
+* Predictive text or autocomplete
+* Social media feed ranking
+* ……
+
+Briefly describe:
+
+* What the system or situation is
+* What problem it is trying to solve
+* What kinds of decisions or predictions are involved
+
+**Step 2: Why machine learning fits this problem**
+
+Explain why this scenario is suitable for a machine learning approach.
+
+You may consider:
+
+* Are there patterns that could be learned from past data?
+* Is the task about prediction, classification, ranking, or grouping?
+* Would writing explicit rules be difficult or impractical?
+* Does the system need to adapt over time?
+
+Clarify whether the task would likely involve:
+
+* Supervised learning
+* Unsupervised learning
+* Reinforcement learning
+
+No technical detail is needed, but your reasoning should be clear.
+
+**Step 3: How the system would be adapted for machine learning**
+
+Think concretely about how this problem would be operationalized.
+
+You may address:
+
+* What would count as the **training data**?
+* What are the **inputs** (features)?
+* What is the **output** or prediction?
+* How would performance be evaluated?
+* What risks of overfitting or bias might arise?
+
+Focus on the logic of learning from data, not on programming details.
+
+**Step 4: Limits and considerations**
+
+Reflect on potential limitations or risks.
+
+* Could the system make confident but incorrect predictions?
+* What kinds of bias might appear in training data?
+* Would transparency or interpretability matter?
+* Would a rule-based approach be preferable in some cases?
+
+Consider both benefits and trade-offs.
+
+**Expected outcome**
+
+Your post should present a clear analysis of one scenario, showing:
+
+* why machine learning is appropriate (or not),
+* how it would learn from data,
+* and what practical or ethical considerations might arise.

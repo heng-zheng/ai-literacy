@@ -1,0 +1,13 @@
+# Module 13 Readings
+
+- [OECD - Data governance](https://www.oecd.org/en/topics/sub-issues/data-governance.html)
+- [Databricks - Data governance](https://www.databricks.com/discover/data-governance)
+- [Google - What is data governance?](https://cloud.google.com/learn/what-is-data-governance)
+- [OpenAI: Evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices)
+- [Google: How good is your AI? Gen AI evaluation at every stage, explained](https://cloud.google.com/blog/products/ai-machine-learning/how-to-evaluate-your-gen-ai-at-every-stage)
+- [Anthropic: Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+- [AI Governance at the Frontier](https://cset.georgetown.edu/publication/ai-governance-at-the-frontier/)
+- [Mapping the AI Governance Landscape: Pilot Test and Update](https://airisk.mit.edu/blog/mapping-the-ai-governance-landscape-pilot-test-and-update)
+- [The AI Index Report by Stanford](https://hai.stanford.edu/ai-index/2025-ai-index-report)
+- [Industrial Policy for the Intelligence Age: Ideas to Keep People First](https://openai.com/index/industrial-policy-for-the-intelligence-age/)
+- [Claude’s Constitution](https://www.anthropic.com/constitution)

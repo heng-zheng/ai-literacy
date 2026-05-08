@@ -1,0 +1,62 @@
+# Discussion: Reflecting on Your Attitudes Toward AI
+
+**Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**
+
+Over the semester, we have explored a wide range of topics related to AI, including:
+
+- foundational concepts (e.g., symbolic vs. machine learning vs. generative AI)
+- applications of AI
+- prompt engineering and LLM-based tools
+- concerns such as bias, privacy, and environmental impact
+- AI use policies and governance
+
+This discussion asks you to reflect on how your understanding of AI has evolved, and whether your attitudes toward AI have changed.
+
+**Step 1: Your starting point**
+
+Think back to the beginning of the semester.
+
+Briefly describe:
+
+- What was your initial attitude toward AI?
+- How much experience did you have with AI tools (if any)?
+- Did you view AI as mostly useful, risky, overhyped, or something else?
+
+**Step 2: Your current perspective**
+
+Now reflect on your current view.
+
+Discuss:
+
+- Has your overall attitude toward AI changed? Why or why not?
+- Do you now see AI as more useful, more concerning, or both?
+- How confident do you feel using AI tools compared to before?
+
+**Step 3: Changes in your behavior or intentions**
+
+Explain how this course may have influenced what you actually do (or plan to do) with AI.
+
+You may consider:
+
+- Are you more likely to use AI tools in your work, study, or daily life?
+- Are there situations where you are now more cautious about using AI?
+- Have your expectations of AI (e.g., accuracy, reliability, limitations) changed?
+
+**Step 4: Provide specific examples**
+
+Give one or two concrete examples to support your reflection.
+
+For example:
+
+- a task you now feel comfortable using AI for  
+- a situation where you would avoid using AI due to privacy, policy, or reliability concerns  
+- a moment in the course (lecture, reading, hands-on activity, or discussion) that changed how you think  
+
+**Expected outcome**
+
+Your post should demonstrate:
+
+- Reflection on how your understanding of AI has developed over time  
+- Awareness of both the benefits and limitations of AI  
+- Ability to connect course topics to your own experience and future practice  
+- Use of specific examples to support your reasoning  

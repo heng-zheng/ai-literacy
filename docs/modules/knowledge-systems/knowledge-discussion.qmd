@@ -1,0 +1,73 @@
+# Discussion: AI Behind the Scenes
+
+Please submit all **graded work** via Canvas.  
+Participation requirements and grading details are provided in Canvas.
+
+Many libraries and information organizations already use AI in their everyday systems, often behind the scenes. These may include cataloging automation, chatbots or virtual assistants, recommendation systems, internal search tools, or knowledge bases.
+
+This discussion asks you to move beyond general opinions and analyze how AI reshapes **workflows, roles, and responsibility boundaries** in a specific context.
+
+Focus on **one concrete system or service** and highlight the most important workflow changes or responsibility boundaries you identify.
+
+**Step 1: Choose a concrete system or service**
+
+Select **one specific example**, such as:
+
+- A library catalog or discovery system that uses automated metadata or recommendations  
+- A chatbot or virtual assistant used for reference, customer support, or IT help  
+- An internal knowledge base or enterprise search system used in a workplace, university, or organization  
+
+You may base your discussion on:
+
+- A system you have used  
+- A system described in this week’s readings  
+- A publicly documented example from a library, archive, or organization  
+
+Briefly describe:
+
+- What the system is designed to do  
+- Where AI appears to be involved, even if indirectly
+
+**Step 2: Analyze workflow changes**
+
+Discuss how AI changes the workflow **behind the scenes**.
+
+You may consider:
+
+- Which tasks are automated, partially automated, or accelerated  
+- What work still requires human judgment, review, or approval  
+- Whether AI changes *when* humans intervene, not just *whether* they intervene  
+
+Focus on **process**, not just outcomes.
+
+**Step 3: Skill sets and professional roles**
+
+Reflect on how this system changes staff's expectations.
+
+You may address questions such as:
+
+- What new skills or literacies are required (for example, evaluation, auditing, or policy awareness)?  
+- Which traditional professional skills become more important rather than less?  
+- What risks arise if certain kinds of expertise are undervalued or obscured?
+
+**Step 4: Trust, limits, and responsibility**
+
+Rather than asking whether AI should be trusted in general, focus on **conditional trust**.
+
+Think about:
+
+- In what situations you would rely on the system’s output without review  
+- Where human oversight would be essential  
+- Who should be accountable if the system produces misleading, biased, or harmful results  
+
+If relevant, distinguish between individual responsibility and organizational responsibility.
+
+**Expected outcome**
+
+Your post should present a short, coherent analysis of one AI-enabled system by tracing how AI is integrated into a specific workflow. A strong post typically:
+
+- Identifies where AI enters the workflow and what it produces
+- Explains where and why human judgment or review remains necessary
+- Reflects on how responsibility is shared between the system, professionals, and the organization
+
+

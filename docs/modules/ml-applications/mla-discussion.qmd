@@ -1,0 +1,65 @@
+# Discussion: Reflecting on AI Techniques in Information Contexts
+
+**Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**
+
+Over the past few weeks, we examined different approaches to AI, including symbolic and subsymbolic paradigms, as well as specific machine learning applications such as computer vision, natural language processing, text and data mining, and recommendation systems.
+
+This discussion asks you to reflect on these techniques from your own perspective.
+
+**Step 1: Choose one AI approach or task**
+
+Select one technique discussed in this module.
+
+You may choose:
+
+* Symbolic AI (rule-based systems, knowledge graphs, ontologies)
+* Subsymbolic AI (machine learning models)
+* Computer vision
+* Natural language processing
+* Text and data mining
+* Recommendation systems
+* Supervised, unsupervised, or reinforcement learning
+
+Briefly describe:
+
+* What this technique does
+* What kind of problem it is designed to address
+* In what kinds of information contexts it might be used
+
+**Step 2: Your evaluation**
+
+You may consider:
+
+* Which aspects were easiest for you to understand? Why?
+* Which aspects felt abstract or difficult?
+* Does the technique seem promising for libraries or information organizations?
+* Does it raise concerns for you?
+
+**Step 3: Practical and ethical considerations**
+
+Consider the real-world implications of applying this technique.
+
+You may address:
+
+* What kinds of data would it require?
+* What kinds of bias might appear?
+* Would human oversight be necessary?
+* Would interpretability matter in this case?
+* Are there situations where a symbolic or rule-based approach might be preferable?
+
+**Step 4: Looking forward**
+
+Finally, briefly respond to one of the following:
+
+* Which AI approach do you think will have the most impact in information organizations over the next five years?
+* Which approach do you think is most misunderstood?
+* Which technique do you think poses the greatest governance challenge?
+
+**Expected outcome**
+
+Your post should demonstrate:
+
+* Understanding of at least one AI paradigm or task
+* Ability to connect technical mechanisms to practical contexts
+* Awareness of limitations, trade-offs, and governance considerations
+

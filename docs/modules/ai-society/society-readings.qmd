@@ -1,0 +1,63 @@
+# Readings
+
+- [Algorithmic people-pleasers: Are AI chatbots telling you what you want to hear?](https://www.article19.org/resources/algorithmic-people-pleasers-are-ai-chatbots-telling-you-what-you-want-to-hear/)
+- [Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking](https://doi.org/10.1145/3613904.3642459). You can also check the authors' presentation:
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/s2A0YVr4vP8"
+    title="Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+- [Using AI to detect COVID-19 misinformation and exploitative content](https://ai.meta.com/blog/using-ai-to-detect-covid-19-misinformation-and-exploitative-content/), also see [IEEE's report](https://spectrum.ieee.org/how-facebook-is-using-ai-to-fight-covid19-misinformation)
+- Social media and the age of AI misinformation | Aishwarya Reganti | TEDxJacksonville
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/lVkJsTY_n8Q"
+    title="Social media and the age of AI misinformation | Aishwarya Reganti | TEDxJacksonville"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+- AI news videos blur line between real and fake reports
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/SRA4brHXBBQ"
+    title="AI news videos blur line between real and fake reports"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+- Is Sienna Rose AI-generated? New music artist divides listeners
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/qLIosCiA4jA"
+    title="Is Sienna Rose AI-generated? New music artist divides listeners"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+- [Seeing is no longer believing: Artificial Intelligence’s impact on photojournalism](https://jsk.stanford.edu/news/seeing-no-longer-believing-artificial-intelligences-impact-photojournalism)
+
+- [People are more susceptible to misinformation with realistic AI-synthesized images that provide strong evidence to headlines](https://doi.org/10.37016/mr-2020-189)
+
+- [Deepfakes Aren't the Disinformation Threat They're Made Out to Be](https://www.rand.org/pubs/commentary/2023/12/deepfakes-arent-the-disinformation-threat-theyre-made.html)
+- [GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers](https://gptzero.me/news/neurips/)
+- [As Springer Nature journal clears AI papers, one university’s retractions rise drastically](https://retractionwatch.com/2025/02/10/as-springer-nature-journal-clears-ai-papers-one-universitys-retractions-rise-drastically/)
+- [Researchers who are using generative AI to write scientific papers are publishing a significantly higher number of studies](https://cen.acs.org/policy/publishing/Researchers-use-generative-AI-write/103/web/2025/12)
+- [More than half of researchers now use AI for peer review — often against guidance](https://doi.org/10.1038/d41586-025-04066-5)
+- [How AI is transforming research: More papers, less quality, and a strained review system](https://newsroom.haas.berkeley.edu/how-ai-is-transforming-research-more-papers-less-quality-and-a-strained-review-system/)
+- [AAAI Launches AI-Powered Peer Review Assessment System](https://aaai.org/aaai-launches-ai-powered-peer-review-assessment-system/)
+- [1 in 5 high schoolers has had a romantic AI relationship or knows someone who has](https://www.npr.org/2025/10/08/nx-s1-5561981/ai-students-schools-teachers)
+- [Why AI companions and young people can make for a dangerous mix](https://news.stanford.edu/stories/2025/08/ai-companions-chatbots-teens-young-people-risks-dangers-study)
+- [Snap settles social media addiction lawsuit ahead of trial](https://www.bbc.com/news/articles/c62ndl2ydzxo)
+- [Ads Are Coming to ChatGPT. Here’s How They’ll Work](https://www.wired.com/story/openai-testing-ads-us/)

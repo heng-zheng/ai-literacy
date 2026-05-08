@@ -1,0 +1,10 @@
+# Readings
+- [AI’s Role in Preserving Digital Archives](https://www.historica.org/blog/ais-role-in-preserving-digital-archives)
+- [Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities](https://doi.org/10.1145/3631125)
+- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 14 & Chapter 15
+- [Combining AI tools with human validation to enrich cultural heritage metadata](https://pro.europeana.eu/post/combining-ai-tools-with-human-validation-to-enrich-cultural-heritage-metadata)
+- [Inventory of NARA Artificial Intelligence (AI) Use Cases](https://www.archives.gov/ai)
+- [OCLC cataloging with AI](https://www.oclc.org/en/connexion.html#catalog-with-ai). Watch the [presentation in the final session](https://www.oclc.org/go/en/events/cataloging-community-meeting/june-2025.html#final-session) (starting from 3:48 to 10:10) and review the [slides](https://www.oclc.org/content/dam/oclc/cataloging-subscription/cataloging-events/OCCM-2025-06-final-session.pdf#page=7.00)
+- [AI Competencies for Academic Library Workers](https://www.ala.org/acrl/standards/ai)
+- [Integrating AI into Library Systems: A Perspective on Applications and Challenges](https://doi.org/10.1145/3677389.3702568)
+- [The State of AI in the Enterprise: Deloitte's 2026 AI report tracking adoption and impact](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)

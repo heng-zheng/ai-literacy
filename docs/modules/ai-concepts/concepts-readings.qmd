@@ -1,0 +1,11 @@
+# Reading
+
+- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 1, Sections 1.5 & 1.7; Chapter 7, Sections 7.1 & 7.5
+- DIKW Pyramid: [EBSCO article](https://www.ebsco.com/research-starters/library-and-information-science/dikw-pyramid), [Wikipedia page](https://en.wikipedia.org/wiki/DIKW_pyramid)
+- [Google Search documentation on ranking and results](https://developers.google.com/search/docs/fundamentals/how-search-works)
+- [The history of Amazon's recommendation algorithm](https://www.amazon.science/the-history-of-amazons-recommendation-algorithm)
+- [Algorithms are everywhere](https://www.technologyreview.com/2024/02/27/1088164/algorithms-book-reviews-kyle-chayka-chris-wiggins-matthew-l-jones-josh-simons/)
+- [IBM - Structured vs. unstructured data: What's the difference?](https://www.ibm.com/think/topics/structured-vs-unstructured-data)
+- [IBM - What is feature selection?](https://www.ibm.com/think/topics/feature-selection)
+- [IBM - What is vector embedding?](https://www.ibm.com/think/topics/vector-embedding)
+- [Probabilistic Reasoning in Artificial Intelligence](https://www.geeksforgeeks.org/artificial-intelligence/probabilistic-reasoning-in-artificial-intelligence/)

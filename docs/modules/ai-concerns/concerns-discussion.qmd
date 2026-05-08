@@ -1,0 +1,65 @@
+# Module 12 Discussion: Evaluating AI Trade-offs
+
+**Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**
+
+This week focuses on concerns of AI, including privacy, environmental cost, hallucinations, copyright, bias, fairness, and transparency.
+
+At the same time, AI can also create real benefits. It may improve efficiency, support research, expand access to information, or enable new forms of service and communication.
+
+This discussion asks you to reflect on a concrete case in which AI creates both benefits and concerns. The goal is not to argue for one correct answer, but to examine how different values, interests, and trade-offs can come into tension.
+
+**Step 1: Identify one concrete case**
+
+Choose one real case in which AI creates both benefits and concerns.
+
+Your example may come from news, professional practice, education, libraries, workplaces, research, or everyday life.
+
+Examples might include:
+
+- a data center built to support AI services, while creating environmental or community impacts
+- the use of AI tools to improve productivity, while raising privacy or surveillance concerns
+- AI-assisted scientific research that also raises questions about copyright, transparency, or bias
+- generative AI in writing, image creation, or customer service that increases efficiency but may reduce trust or accuracy
+
+Briefly describe:
+
+- what the case is
+- what benefits AI seems to provide in this situation
+- what concerns or costs also arise
+
+**Step 2: Explain the tension or trade-off**
+
+Analyze the case by explaining what values, interests, or goals are in tension.
+
+You may consider questions such as:
+
+- What is gained, and what is at risk?
+- Who benefits most from this use of AI?
+- Who may bear the costs or harms?
+- Are the benefits and burdens distributed fairly?
+- Are some trade-offs more acceptable than others?
+
+Here is not just to list pros and cons, but to explain why this case is difficult to evaluate.
+
+**Step 3: Reflect on how such cases should be judged**
+
+Discuss how cases like this should be evaluated in practice.
+
+You may consider:
+
+- What principles should guide judgment in cases where AI creates both benefits and concerns?
+- What kinds of trade-offs seem acceptable or unacceptable to you, and why?
+- What kinds of safeguards, limits, or oversight might be needed?
+- What role, if any, should AI literacy, institutional policy, public input, or regulation play?
+
+You do not need to reach a final solution. The goal is to present a thoughtful position and explain your reasoning clearly.
+
+**Expected outcome**
+
+Your post should demonstrate:
+
+- Ability to analyze a concrete AI-related case rather than discuss concerns only in the abstract
+- Understanding that AI often involves competing values, interests, and trade-offs
+- Careful reasoning about how such tensions should be evaluated
+- Respectful and thoughtful engagement with complexity, rather than treating the issue as having a single obvious answer
+

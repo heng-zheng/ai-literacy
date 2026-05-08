@@ -1,0 +1,13 @@
+# Reading
+
+- [Knowledge Acquisition](https://www.sciencedirect.com/topics/computer-science/knowledge-acquisition)
+- [Tutorial - HHAI: An Introduction to Computational Argumentation](https://ohaai.github.io/hhai.html)
+- [Toulmin Argument](https://owl.purdue.edu/owl/general_writing/academic_writing/historical_perspectives_on_argumentation/toulmin_argument.html)
+- [What Is a Knowledge Graph?](https://neo4j.com/blog/knowledge-graph/what-is-knowledge-graph/)
+- [Knowledge Graphs in the Libraries and Digital Humanities Domain](https://doi.org/10.48550/arXiv.1803.03198)
+- [From Knowledge Representation to Knowledge Organization and Back](https://doi.org/10.48550/arXiv.2312.07302)
+- [Wikidata: The Making Of](https://doi.org/10.1145/3543873.3585579)
+- [Symbolic artificial intelligence - Wikipedia](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)
+- [Expert system - Wikipedia](https://en.wikipedia.org/wiki/Expert_system)
+- [Logic programming - Wikipedia](https://en.wikipedia.org/wiki/Logic_programming)
+- [Logic-Based Artificial Intelligence - Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/logic-ai/) (optional)

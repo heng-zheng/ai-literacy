@@ -9,34 +9,122 @@ Materials on this site may be revised or expanded as the course progresses.
 
 ---
 
-## Topics
+## Course Modules
 
-**Part 1: AI and Information Professions (Weeks 1-4)**
+### Part 1: AI and Information Professions
 
-- [Module 1: Introduction to AI and Information Professions](modules/module-01.qmd)
-- [Module 2: AI for Search, Discovery, and Recommendation](modules/module-02.qmd)
-- [Module 3: AI for Knowledge Management and Information Systems](modules/module-03.qmd)
-- [Module 4: AI, Communication, and Society](modules/module-04.qmd)
-- [*Part 1 Assignment: Exploring an AI Tool for Information Work*](assignments/explore-ai-tool.qmd)
+**Module 1: Introduction to AI and Information Professions**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/intro-ai/intro-content.qmd) ·
+[Discussion](modules/intro-ai/intro-discussion.qmd) ·
+[Readings](modules/intro-ai/intro-readings.qmd)
+</div>
 
-**Part 2: AI Foundations (Weeks 5-8)**
+**Module 2: AI for Search, Discovery, and Recommendation**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/search-discovery/search-content.qmd) ·
+[Discussion](modules/search-discovery/search-discussion.qmd) ·
+[Readings](modules/search-discovery/search-readings.qmd)
+</div>
 
-- [Module 5: Concepts for Understanding AI](modules/module-05.qmd)
-- [Module 6: Symbolic AI](modules/module-06.qmd)
-- [Module 7: Subsymbolic AI (Machine Learning Basics)](modules/module-07.qmd)
-- [Module 8: Machine Learning Applications](modules/module-08.qmd)
-- [*Part 2 Assignment: Learning AI with AI*](assignments/learn-with-ai.qmd)
+**Module 3: AI for Knowledge Management and Information Systems**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/knowledge-systems/knowledge-content.qmd) ·
+[Discussion](modules/knowledge-systems/knowledge-discussion.qmd) ·
+[Readings](modules/knowledge-systems/knowledge-readings.qmd)
+</div>
 
-**Part 3: Generative AI and Large Language Models (Weeks 9-15)**
+**Module 4: AI, Communication, and Society**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/ai-society/society-content.qmd) ·
+[Discussion](modules/ai-society/society-discussion.qmd) ·
+[Readings](modules/ai-society/society-readings.qmd)
+</div>
 
-- [Module 9: Introduction to Generative AI](modules/module-09.qmd)
-- [Module 10: Communicating with AI](modules/module-10.qmd)
-- [Module 11: Generative AI Tools](modules/module-11.qmd)
-- [Module 12: Concerns of AI](modules/module-12.qmd)
-- [Module 13: AI Policy, Governance, and the Future of AI](modules/module-13.qmd)
-- [Module 14: Final Project Work Session and Q&A](modules/module-14.qmd)
-- [Module 15: Final Project Submission](modules/module-15.qmd)
-- [*Module 3 Assignment: Human-AI Collaboration*](assignments/haic.qmd)
+**Part 1 Assignment:** [Exploring an AI Tool for Information Work](assignments/explore-ai-tool.qmd)
+
+### Part 2: AI Foundations
+
+**Module 5: Concepts for Understanding AI**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/ai-concepts/concepts-content.qmd) ·
+[Discussion](modules/ai-concepts/concepts-discussion.qmd) ·
+[Readings](modules/ai-concepts/concepts-readings.qmd)
+</div>
+
+**Module 6: Symbolic AI**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/symbolic-ai/symbolic-content.qmd) ·
+[Discussion](modules/symbolic-ai/symbolic-discussion.qmd) ·
+[Readings](modules/symbolic-ai/symbolic-readings.qmd)
+</div>
+
+**Module 7: Machine Learning Foundations**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/ml-foundations/ml-content.qmd) ·
+[Discussion](modules/ml-foundations/ml-discussion.qmd) ·
+[Readings](modules/ml-foundations/ml-readings.qmd)
+</div>
+
+**Module 8: Machine Learning Applications**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/ml-applications/mla-content.qmd) ·
+[Discussion](modules/ml-applications/mla-discussion.qmd) ·
+[Readings](modules/ml-applications/mla-readings.qmd)
+</div>
+
+**Part 2 Assignment:** [Learning AI with AI](assignments/learn-with-ai.qmd)
+
+### Part 3: Generative AI and Large Language Models
+
+**Module 9: Introduction to LLMs**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/llms/llm-content.qmd) ·
+[Discussion](modules/llms/llm-discussion.qmd) ·
+[Readings](modules/llms/llm-readings.qmd)
+</div>
+
+**Module 10: Prompt Engineering** 
+<div style="margin-left: 1.5rem;"> 
+[Content](modules/prompting/prompt-content.qmd) ·
+[Discussion](modules/prompting/prompt-discussion.qmd) ·
+[Readings](modules/prompting/prompt-readings.qmd)
+</div>
+
+**Module 11: LLM-based Tools**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/llm-tools/llmtool-content.qmd) ·
+[Discussion](modules/llm-tools/llmtool-discussion.qmd) ·
+[Readings](modules/llm-tools/llmtool-readings.qmd)
+</div>
+
+**Module 12: Concerns of AI**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/ai-concerns/concerns-content.qmd) ·
+[Discussion](modules/ai-concerns/concerns-discussion.qmd) ·
+[Readings](modules/ai-concerns/concerns-readings.qmd)
+</div>
+
+**Module 13: AI Policy, Governance, and the Future of AI**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/ai-governance/governance-content.qmd) ·
+[Discussion](modules/ai-governance/governance-discussion.qmd) ·
+[Readings](modules/ai-governance/governance-readings.qmd)
+</div>
+
+**Module 14: Final Project Workshop**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/project-workshop/workshop-content.qmd) ·
+[Discussion](modules/project-workshop/workshop-discussion.qmd)
+</div>
+
+**Module 15: Final Project Submission**  
+<div style="margin-left: 1.5rem;">
+[Content](modules/final-project/fproject-content.qmd) ·
+[Discussion](modules/final-project/fproject-discussion.qmd)
+</div>
+
+**Part 3 Assignment:**  [Human-AI Collaboration Project](assignments/haic.qmd)
 
 ---
 

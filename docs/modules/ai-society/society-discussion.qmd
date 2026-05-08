@@ -1,0 +1,75 @@
+# Discussion: Tracing an AI-Generated Piece of Information
+
+Please submit all graded work via Canvas.
+Participation requirements and grading details are provided in Canvas.
+
+AI-generated content is increasingly present in everyday communication. Images, videos, music, text, and audio produced or assisted by AI systems now circulate widely across social media platforms, search engines, news feeds, and entertainment services.
+
+This discussion asks you to move beyond general opinions about “AI content” and closely examine **one concrete piece of AI-generated information**, focusing on how it is identified, interpreted, and circulated within a specific platform context.
+
+Your goal is to analyze how AI-generated information becomes visible, contested, or trusted in practice.
+
+**Step 1: Choose a concrete example**
+
+Select **one specific piece of AI-generated information**, such as:
+
+* An AI-generated image or video
+* An AI-generated song, voice clip, or audio
+* A text post, article, or message created or strongly assisted by AI
+* A piece of content suspected to be AI-generated but not clearly labeled
+
+You may base on:
+
+* Something you personally encountered online
+* A widely discussed or controversial example
+* A case mentioned in the readings or class materials
+
+Briefly describe:
+
+* What the content is
+* Which platform it appeared on
+* How you encountered it (e.g., recommendation, search, sharing)
+
+**Step 2: Platform identification and labeling**
+
+Analyze how the platform handled this content.
+
+You may consider:
+
+* Whether the platform explicitly labeled it as AI-generated
+* Whether any warnings, disclosures, or context panels were provided
+* If no label was present, what reasons might explain its absence
+
+Focus on **what the platform made visible or invisible**, rather than whether the label was “correct.”
+
+**Step 3: Controversy, misinformation, and fact-checking**
+
+Discuss whether this piece of information raised concerns.
+
+You may address:
+
+* Whether it sparked controversy, confusion, or debate
+* Whether it was challenged as misinformation or subjected to fact-checking
+* Whether it could reasonably mislead audiences, even if no correction occurred
+
+Distinguish between **intentional deception** and **potential for misunderstanding**.
+
+
+**Step 4: Circulation and audience**
+
+Reflect on how the content spread and who it reached.
+
+Consider:
+
+* Whether it was widely shared or remained within a niche audience
+* What kinds of users seemed most engaged with it
+* How AI-driven recommendation or visibility mechanisms may have shaped its reach
+
+**Expected outcome**
+
+Your post should present a short, coherent analysis of **one AI-generated piece of information** by tracing how it was identified, interpreted, and circulated on a platform. A strong post typically:
+
+* Clearly describes a specific example
+* Explains how platform design shaped visibility and interpretation
+* Reflects on the relationship between AI generation, user trust, and information risk
+

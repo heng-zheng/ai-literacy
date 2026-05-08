@@ -1,0 +1,7 @@
+# Readings
+
+- Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapters 4, 5, & 6
+- [Google: Prompt engineering: overview and guide](https://cloud.google.com/discover/what-is-prompt-engineering)
+- [Wharton Generative AI Labs Prompt Library](https://www.notion.so/1b3dc3333315802a9e99cafedb321048?pvs=21)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/). See the [introduction](https://www.promptingguide.ai/introduction) part and the [Prompting Techniques](https://www.promptingguide.ai/techniques) part. 
+- [GeeksforGeeks: Prompt Engineering Best Practices for AI Models](https://www.geeksforgeeks.org/blogs/prompt-engineering-best-practices/)
