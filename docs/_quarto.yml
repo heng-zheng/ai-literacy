@@ -16,35 +16,35 @@ website:
       - text: "Modules"
         menu:
           - text: "Module 01"
-            href: modules/module-01.qmd
+            href: modules/intro-ai/intro-content.qmd
           - text: "Module 02"
-            href: modules/module-02.qmd
+            href: modules/search-discovery/search-content.qmd
           - text: "Module 03"
-            href: modules/module-03.qmd
+            href: modules/knowledge-systems/knowledge-content.qmd
           - text: "Module 04"
-            href: modules/module-04.qmd
+            href: modules/ai-society/society-content.qmd
           - text: "Module 05"
-            href: modules/module-05.qmd
+            href: modules/ai-concepts/concepts-content.qmd
           - text: "Module 06"
-            href: modules/module-06.qmd
+            href: modules/symbolic-ai/symbolic-content.qmd
           - text: "Module 07"
-            href: modules/module-07.qmd
+            href: modules/machine-learning/ml-content.qmd
           - text: "Module 08"
-            href: modules/module-08.qmd
+            href: modules/ml-applications/mla-content.qmd
           - text: "Module 09"
-            href: modules/module-09.qmd
+            href: modules/llms/llm-content.qmd
           - text: "Module 10"
-            href: modules/module-10.qmd
+            href: modules/prompting/prompt-content.qmd
           - text: "Module 11"
-            href: modules/module-11.qmd
+            href: modules/llm-tools/llmtool-content.qmd
           - text: "Module 12"
-            href: modules/module-12.qmd
+            href: modules/ai-concerns/concerns-content.qmd
           - text: "Module 13"
-            href: modules/module-13.qmd
+            href: modules/ai-governance/governance-content.qmd
           - text: "Module 14"
-            href: modules/module-14.qmd
+            href: modules/project-workshop/workshop-content.qmd
           - text: "Module 15"
-            href: modules/module-15.qmd
+            href: modules/final-project/fproject-content.qmd
       - text: "AI Watchlist"
         href: resources.qmd
 

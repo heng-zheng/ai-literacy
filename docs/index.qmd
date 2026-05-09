@@ -61,9 +61,9 @@ Materials on this site may be revised or expanded as the course progresses.
 
 **Module 7: Machine Learning Foundations**  
 <div style="margin-left: 1.5rem;">
-[Content](modules/ml-foundations/ml-content.qmd) ·
-[Discussion](modules/ml-foundations/ml-discussion.qmd) ·
-[Readings](modules/ml-foundations/ml-readings.qmd)
+[Content](modules/machine-learning/ml-content.qmd) ·
+[Discussion](modules/machine-learning/ml-discussion.qmd) ·
+[Readings](modules/machine-learning/ml-readings.qmd)
 </div>
 
 **Module 8: Machine Learning Applications**  
