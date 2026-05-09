@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Discussion: AI Behind the Scenes
 
 Please submit all **graded work** via Canvas.  

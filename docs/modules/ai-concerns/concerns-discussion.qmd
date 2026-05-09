@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Module 12 Discussion: Evaluating AI Trade-offs
 
 **Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**

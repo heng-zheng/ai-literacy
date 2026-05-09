@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Communicating with AI
 
 Generative AI systems are often used through natural language interaction. Users type instructions, questions, or requests, and the system produces a response based on the text it receives.

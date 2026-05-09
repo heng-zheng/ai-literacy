@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Module 13 Readings
 
 - [OECD - Data governance](https://www.oecd.org/en/topics/sub-issues/data-governance.html)

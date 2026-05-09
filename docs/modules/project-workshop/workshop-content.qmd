@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Content: Final Project Work Session and Q&A
 
 This week does not introduce new topics. It is dedicated to working on your [final project](/docs/assignments/haic.qmd). 

@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Content: Introduction to Generative AI
 
 Generative AI includes many types of systems, such as models that generate images, audio, video, or text. In this course, we begin with large language models (LLMs). LLMs are one of the most widely used forms of generative AI today and power tools such as ChatGPT, Claude, and Gemini. These systems interact with users through language and are increasingly used in research, writing, and information services.

@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Discussion: Tracing an AI-Generated Piece of Information
 
 Please submit all graded work via Canvas.

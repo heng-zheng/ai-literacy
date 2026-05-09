@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Discussion: Identifying Machine Learning in Everyday Contexts
 
 **Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**

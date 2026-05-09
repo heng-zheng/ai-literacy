@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Introduction to AI and Its Role in Information Professions
 
 ## What Is Artificial Intelligence?

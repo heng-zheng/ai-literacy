@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # AI, Communication, and Information Exposure
 
 ## How AI Shapes Information Exposure

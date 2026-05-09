@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Concepts for Understanding AI
 
 This week introduces core concepts that support later discussions of symbolic AI, machine learning, and large language models. The goal is not to learn implementation details. Instead, the goal is to introduce a set of basic ideas that will help you make sense of how AI systems behave and how claims about AI are made in real workflows.

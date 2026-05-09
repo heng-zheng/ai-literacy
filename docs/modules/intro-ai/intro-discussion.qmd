@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Discussion: Introductions & Our Experiences with AI
 
 Please submit all **graded work** via Canvas.  

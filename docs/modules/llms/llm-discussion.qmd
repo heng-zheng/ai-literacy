@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Discussion: Trust and Decision-Making with Generative AI
 
 **Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**

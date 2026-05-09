@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Module 12 Readings
 
 - Business Insider: 

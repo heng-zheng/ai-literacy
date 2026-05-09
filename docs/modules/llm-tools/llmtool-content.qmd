@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Content: Generative AI Tools
 
 In previous sections, we focused on what large language models are, how to communicate with them, and what their limitations are.

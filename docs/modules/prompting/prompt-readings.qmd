@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Readings
 
 - Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapters 4, 5, & 6

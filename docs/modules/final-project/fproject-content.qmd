@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Module 15 Content: Final Project Submission
 
 This week does not introduce new topics. It is time to submit your [final project](/docs/assignments/haic.qmd). Please submit your final project by the due date listed on Canvas.

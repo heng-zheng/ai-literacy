@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Discussion: Improving a Prompt
 
 **Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.**

@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Content: Machine Learning in Information Contexts
 
 ## Computer vision

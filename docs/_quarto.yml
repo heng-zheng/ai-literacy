@@ -1,101 +1,181 @@
 project:
-  type: book
+  type: website
   output-dir: _site
 
-book:
+website:
   title: "LIS/ICT 690 - AI Literacy for Information Organizations"
   site-url: "https://heng-zheng.github.io/ai-literacy/"
-
+  page-navigation: true
+  reader-mode: false
   navbar:
     background: "#0033A0"
     foreground: "#ffffff"
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Modules"
+        menu:
+          - text: "Module 01"
+            href: modules/intro-ai/intro-content.qmd
+          - text: "Module 02"
+            href: modules/search-discovery/search-content.qmd
+          - text: "Module 03"
+            href: modules/knowledge-systems/knowledge-content.qmd
+          - text: "Module 04"
+            href: modules/ai-society/society-content.qmd
+          - text: "Module 05"
+            href: modules/ai-concepts/concepts-content.qmd
+          - text: "Module 06"
+            href: modules/symbolic-ai/symbolic-content.qmd
+          - text: "Module 07"
+            href: modules/machine-learning/ml-content.qmd
+          - text: "Module 08"
+            href: modules/ml-applications/mla-content.qmd
+          - text: "Module 09"
+            href: modules/llms/llm-content.qmd
+          - text: "Module 10"
+            href: modules/prompting/prompt-content.qmd
+          - text: "Module 11"
+            href: modules/llm-tools/llmtool-content.qmd
+          - text: "Module 12"
+            href: modules/ai-concerns/concerns-content.qmd
+          - text: "Module 13"
+            href: modules/ai-governance/governance-content.qmd
+          - text: "Module 14"
+            href: modules/project-workshop/workshop-content.qmd
+          - text: "Module 15"
+            href: modules/final-project/fproject-content.qmd
       - text: "AI Watchlist"
         href: resources.qmd
 
   sidebar:
-    collapse-level: 1
-
-  chapters:
-    - part: "Part 1: AI and Information Professions"
-      chapters:
-        - modules/intro-ai/index.qmd
-        - modules/intro-ai/intro-content.qmd
-        - modules/intro-ai/intro-discussion.qmd
-        - modules/intro-ai/intro-readings.qmd
-
-        - modules/search-discovery/index.qmd
-        - modules/search-discovery/search-content.qmd
-        - modules/search-discovery/search-discussion.qmd
-        - modules/search-discovery/search-readings.qmd
-
-        - modules/knowledge-systems/index.qmd
-        - modules/knowledge-systems/knowledge-content.qmd
-        - modules/knowledge-systems/knowledge-discussion.qmd
-        - modules/knowledge-systems/knowledge-readings.qmd
-
-        - modules/ai-society/index.qmd
-        - modules/ai-society/society-content.qmd
-        - modules/ai-society/society-discussion.qmd
-        - modules/ai-society/society-readings.qmd
-
-    - part: "Part 2: AI Foundations"
-      chapters:
-        - modules/ai-concepts/index.qmd
-        - modules/ai-concepts/concepts-content.qmd
-        - modules/ai-concepts/concepts-discussion.qmd
-        - modules/ai-concepts/concepts-readings.qmd
-
-        - modules/symbolic-ai/index.qmd
-        - modules/symbolic-ai/symbolic-content.qmd
-        - modules/symbolic-ai/symbolic-discussion.qmd
-        - modules/symbolic-ai/symbolic-readings.qmd
-
-        - modules/machine-learning/index.qmd
-        - modules/machine-learning/ml-content.qmd
-        - modules/machine-learning/ml-discussion.qmd
-        - modules/machine-learning/ml-readings.qmd
-
-        - modules/ml-applications/index.qmd
-        - modules/ml-applications/mla-content.qmd
-        - modules/ml-applications/mla-discussion.qmd
-        - modules/ml-applications/mla-readings.qmd
-
-    - part: "Part 3: Generative AI and Large Language Models"
-      chapters:
-        - modules/llms/index.qmd
-        - modules/llms/llm-content.qmd
-        - modules/llms/llm-discussion.qmd
-        - modules/llms/llm-readings.qmd
-
-        - modules/prompting/index.qmd
-        - modules/prompting/prompt-content.qmd
-        - modules/prompting/prompt-discussion.qmd
-        - modules/prompting/prompt-readings.qmd
-
-        - modules/llm-tools/index.qmd
-        - modules/llm-tools/llmtool-content.qmd
-        - modules/llm-tools/llmtool-discussion.qmd
-        - modules/llm-tools/llmtool-readings.qmd
-
-        - modules/ai-concerns/index.qmd
-        - modules/ai-concerns/concerns-content.qmd
-        - modules/ai-concerns/concerns-discussion.qmd
-        - modules/ai-concerns/concerns-readings.qmd
-
-        - modules/ai-governance/index.qmd
-        - modules/ai-governance/governance-content.qmd
-        - modules/ai-governance/governance-discussion.qmd
-        - modules/ai-governance/governance-readings.qmd
-
-        - modules/project-workshop/index.qmd
-        - modules/project-workshop/workshop-content.qmd
-        - modules/project-workshop/workshop-discussion.qmd
-
-        - modules/final-project/index.qmd
-        - modules/final-project/fproject-content.qmd
+    - id: modules
+      title: "Modules"
+      style: docked
+      collapse-level: 1
+      contents:
+        - section: "Part 1: AI and Information Professions"
+          contents:
+            - section: "Module 01: Introduction to AI"
+              contents:
+                - text: "Content"
+                  href: modules/intro-ai/intro-content.qmd
+                - text: "Discussion"
+                  href: modules/intro-ai/intro-discussion.qmd
+                - text: "Readings"
+                  href: modules/intro-ai/intro-readings.qmd
+            - section: "Module 02: Search and Discovery"
+              contents:
+                - text: "Content"
+                  href: modules/search-discovery/search-content.qmd
+                - text: "Discussion"
+                  href: modules/search-discovery/search-discussion.qmd
+                - text: "Readings"
+                  href: modules/search-discovery/search-readings.qmd
+            - section: "Module 03: Knowledge Systems"
+              contents:
+                - text: "Content"
+                  href: modules/knowledge-systems/knowledge-content.qmd
+                - text: "Discussion"
+                  href: modules/knowledge-systems/knowledge-discussion.qmd
+                - text: "Readings"
+                  href: modules/knowledge-systems/knowledge-readings.qmd
+            - section: "Module 04: AI and Society"
+              contents:
+                - text: "Content"
+                  href: modules/ai-society/society-content.qmd
+                - text: "Discussion"
+                  href: modules/ai-society/society-discussion.qmd
+                - text: "Readings"
+                  href: modules/ai-society/society-readings.qmd
+        - section: "Part 2: AI Foundations"
+          contents:
+            - section: "Module 05: AI Concepts"
+              contents:
+                - text: "Content"
+                  href: modules/ai-concepts/concepts-content.qmd
+                - text: "Discussion"
+                  href: modules/ai-concepts/concepts-discussion.qmd
+                - text: "Readings"
+                  href: modules/ai-concepts/concepts-readings.qmd
+            - section: "Module 06: Symbolic AI"
+              contents:
+                - text: "Content"
+                  href: modules/symbolic-ai/symbolic-content.qmd
+                - text: "Discussion"
+                  href: modules/symbolic-ai/symbolic-discussion.qmd
+                - text: "Readings"
+                  href: modules/symbolic-ai/symbolic-readings.qmd
+            - section: "Module 07: Machine Learning"
+              contents:
+                - text: "Content"
+                  href: modules/machine-learning/ml-content.qmd
+                - text: "Discussion"
+                  href: modules/machine-learning/ml-discussion.qmd
+                - text: "Readings"
+                  href: modules/machine-learning/ml-readings.qmd
+            - section: "Module 08: ML Applications"
+              contents:
+                - text: "Content"
+                  href: modules/ml-applications/mla-content.qmd
+                - text: "Discussion"
+                  href: modules/ml-applications/mla-discussion.qmd
+                - text: "Readings"
+                  href: modules/ml-applications/mla-readings.qmd
+        - section: "Part 3: Generative AI and Large Language Models"
+          contents:
+            - section: "Module 09: Large Language Models"
+              contents:
+                - text: "Content"
+                  href: modules/llms/llm-content.qmd
+                - text: "Discussion"
+                  href: modules/llms/llm-discussion.qmd
+                - text: "Readings"
+                  href: modules/llms/llm-readings.qmd
+            - section: "Module 10: Prompting"
+              contents:
+                - text: "Content"
+                  href: modules/prompting/prompt-content.qmd
+                - text: "Discussion"
+                  href: modules/prompting/prompt-discussion.qmd
+                - text: "Readings"
+                  href: modules/prompting/prompt-readings.qmd
+            - section: "Module 11: Generative AI Tools"
+              contents:
+                - text: "Content"
+                  href: modules/llm-tools/llmtool-content.qmd
+                - text: "Discussion"
+                  href: modules/llm-tools/llmtool-discussion.qmd
+                - text: "Readings"
+                  href: modules/llm-tools/llmtool-readings.qmd
+            - section: "Module 12: Concerns of AI"
+              contents:
+                - text: "Content"
+                  href: modules/ai-concerns/concerns-content.qmd
+                - text: "Discussion"
+                  href: modules/ai-concerns/concerns-discussion.qmd
+                - text: "Readings"
+                  href: modules/ai-concerns/concerns-readings.qmd
+            - section: "Module 13: AI Governance"
+              contents:
+                - text: "Content"
+                  href: modules/ai-governance/governance-content.qmd
+                - text: "Discussion"
+                  href: modules/ai-governance/governance-discussion.qmd
+                - text: "Readings"
+                  href: modules/ai-governance/governance-readings.qmd
+            - section: "Module 14: Project Workshop"
+              contents:
+                - text: "Content"
+                  href: modules/project-workshop/workshop-content.qmd
+                - text: "Discussion"
+                  href: modules/project-workshop/workshop-discussion.qmd
+            - section: "Module 15: Final Project"
+              contents:
+                - text: "Content"
+                  href: modules/final-project/fproject-content.qmd
+                - text: "Discussion"
+                  href: modules/final-project/fproject-discussion.qmd
 
 format:
   html:

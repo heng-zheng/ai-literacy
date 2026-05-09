@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Symbolic AI
 
 Symbolic AI is about representing knowledge explicitly and using rules or logic so machines can reason about it. Symbolic AI matters for LIS because many information systems already rely on explicit knowledge organization, including metadata schemas, controlled vocabularies, authority control, and linked data.

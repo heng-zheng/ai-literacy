@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Module 12 Content: Concerns of AI
 
 In previous sections, we introduced what AI systems are and how they work, along with basic ways of interacting with them in practice. This section shifts attention to their limitations and risks. As AI becomes more common in everyday contexts, it is necessary to examine not only what these systems can do, but also the constraints and tradeoffs they bring.

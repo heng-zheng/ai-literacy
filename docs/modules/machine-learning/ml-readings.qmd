@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Readings
 
 - [How the machine 'thinks': Understanding opacity in machine learning algorithms](https://doi.org/10.1177/2053951715622512)

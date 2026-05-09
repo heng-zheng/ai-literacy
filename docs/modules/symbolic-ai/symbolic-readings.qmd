@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Reading
 
 - [Knowledge Acquisition](https://www.sciencedirect.com/topics/computer-science/knowledge-acquisition)

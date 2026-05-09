@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Readings
 
 - [GeeksforGeeks: What are LLM Parameters?](https://www.geeksforgeeks.org/artificial-intelligence/what-are-llm-parameters/)

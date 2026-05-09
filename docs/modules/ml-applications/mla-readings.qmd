@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Readings
 - Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapters 3, 8, 9
 - Why Computer Vision Is a Hard Problem for AI

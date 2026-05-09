@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Discussion: Is Data Ever Neutral?
 
 **Please submit all graded work via Canvas.**  

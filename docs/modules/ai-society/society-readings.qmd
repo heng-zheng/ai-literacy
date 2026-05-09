@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Readings
 
 - [Algorithmic people-pleasers: Are AI chatbots telling you what you want to hear?](https://www.article19.org/resources/algorithmic-people-pleasers-are-ai-chatbots-telling-you-what-you-want-to-hear/)

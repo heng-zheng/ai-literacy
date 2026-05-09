@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Readings
 
 - [Superagency in the workplace: Empowering people to unlock AI’s full potential](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work)

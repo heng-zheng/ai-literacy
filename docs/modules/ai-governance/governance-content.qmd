@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Module 13 Content: AI Governance and the Future of AI
 
 AI systems introduce risks that individual users cannot manage alone. Governance addresses these issues through rules, institutional practices, and shared standards.

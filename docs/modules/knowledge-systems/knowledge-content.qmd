@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # AI for Information Organization and Systems
 
 ## AI in Digital Archives and Preservation 

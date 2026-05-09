@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # AI for Search, Discovery, and Recommendation
 
 ## How AI Enhances Information Retrieval

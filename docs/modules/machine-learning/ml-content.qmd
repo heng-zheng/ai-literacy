@@ -1,3 +1,7 @@
+---
+sidebar: modules
+---
+
 # Machine learning foundations
 
 Subsymbolic AI refers to approaches that learn patterns from data rather than relying on explicitly written rules. In this course, subsymbolic AI mainly refers to data-driven statistical learning approaches, especially machine learning models. Machine learning is widely used in information systems because it learns patterns from data and applies those learned patterns to new cases. It is often applied to tasks such as classification, recommendation, and text and data mining.
