@@ -1,3 +1,37 @@
+### [This is AGI: Sequoia AI Ascent 2026 Keynote](https://youtu.be/LRo33rnv6rQ?si=Ucs3aTtuR2PX0Imq)
+
+<small>
+Added 2026-05-07 · Video · Published 2026 · Sequoia Capital
+</small>
+
+---
+
+### [An update on recent Claude Code quality reports](https://www.anthropic.com/engineering/april-23-postmortem)
+
+<small>
+Added 2026-05-04 · Article · Published 2026 · Anthropic
+</small>
+
+A post-mortem on Claude Code quality issues
+
+---
+
+### [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter/)
+
+<small>
+Added 2026-05-04 · Article · Published 2026 · OpenAI
+</small>
+
+---
+
+### [Meta to track workers' clicks and keystrokes to train AI](https://www.bbc.com/news/articles/cvglyklz49jo)
+
+<small>
+Added 2026-04-28 · Article · Published 2026 · BBC
+</small>
+
+---
+
 ### [Labor market impacts of AI](https://www.anthropic.com/research/labor-market-impacts)
 
 <small>

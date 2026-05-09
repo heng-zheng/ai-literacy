@@ -42,14 +42,9 @@ AI literacy can be interpreted through the framework developed by Dr. Kara Kenne
 
   <details class="image-source">
     <summary>Image source</summary>
-    <div class="image-source-body">
-Image: Kara Kennedy (2023), <em>AI Literacy Framework</em><br>
+    <div class="image-source-body">Image: Kara Kennedy (2023), <em>AI Literacy Framework</em><br>
 License: CC BY 4.0<br>
-<a href="https://kennedyhq.com/wp/2023/12/21/ai-literacy-framework/"
-   target="_blank" rel="noopener">
-kennedyhq.com
-</a>
-    </div>
+<a href="https://kennedyhq.com/wp/2023/12/21/ai-literacy-framework/" target="_blank" rel="noopener">kennedyhq.com</a></div>
   </details>
 </figure>
 
@@ -100,10 +95,8 @@ Introduces the **Imitation Game (Turing Test)** as an evaluation criterion for m
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (Public Domain)
-        https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (Public Domain)<br>
+https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg</div>
     </details>
   </figure>
 </div>
@@ -134,10 +127,8 @@ Significance:
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY-SA 2.0)  
-        https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY-SA 2.0)<br>
+https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg</div>
     </details>
   </figure>
 
@@ -149,10 +140,8 @@ Significance:
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY-SA 4.0)  
-        https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY-SA 4.0)<br>
+https://commons.wikimedia.org/wiki/File:Marvin_Minsky_at_OLPCb_(3x4_cropped).jpg</div>
     </details>
   </figure>
 
@@ -164,10 +153,8 @@ Significance:
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY 2.0)  
-        https://commons.wikimedia.org/wiki/File:C.E._Shannon._Tekniska_museet_43069_(cropped).jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY 2.0)<br>
+https://commons.wikimedia.org/wiki/File:C.E._Shannon._Tekniska_museet_43069_(cropped).jpg</div>
     </details>
   </figure>
 
@@ -200,10 +187,8 @@ Well-known examples:
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY 2.0)  
-        https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY 2.0)<br>
+https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg</div>
     </details>
   </figure>
 
@@ -244,10 +229,8 @@ Deep learning era (2000s–2010s):
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (Public Domain)  
-        https://commons.wikimedia.org/wiki/File:Alphago_logo_Reversed.svg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (Public Domain)<br>
+https://commons.wikimedia.org/wiki/File:Alphago_logo_Reversed.svg</div>
     </details>
   </figure>
 
@@ -259,10 +242,8 @@ Deep learning era (2000s–2010s):
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY 3.0)  
-        https://commons.wikimedia.org/wiki/File:Lee_Se-dol_2012.jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY 3.0)<br>
+https://commons.wikimedia.org/wiki/File:Lee_Se-dol_2012.jpg</div>
     </details>
   </figure>
 
@@ -274,10 +255,8 @@ Deep learning era (2000s–2010s):
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY-SA 4.0)  
-        https://en.wikipedia.org/wiki/File:Tesla_Autopilot_engaged_on_I-80_near_Lake_Tahoe.jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY-SA 4.0)<br>
+https://en.wikipedia.org/wiki/File:Tesla_Autopilot_engaged_on_I-80_near_Lake_Tahoe.jpg</div>
     </details>
   </figure>
 </div>
@@ -297,10 +276,8 @@ Demis Hassabis’s [Nobel Prize in Chemistry](https://www.nobelprize.org/prizes/
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY-SA 4.0)  
-        https://commons.wikimedia.org/wiki/File:Demis_Hassabis_in_2025_by_Christopher_Michel_A.jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY-SA 4.0)<br>
+https://commons.wikimedia.org/wiki/File:Demis_Hassabis_in_2025_by_Christopher_Michel_A.jpg</div>
     </details>
   </figure>
 
@@ -312,10 +289,8 @@ Demis Hassabis’s [Nobel Prize in Chemistry](https://www.nobelprize.org/prizes/
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY-SA 4.0)  
-        https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(cropped1).jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY-SA 4.0)<br>
+https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(cropped1).jpg</div>
     </details>
   </figure>
 
@@ -348,10 +323,8 @@ Instead, the newly founded company OpenAI was among the first to successfully de
 
     <details class="image-source">
       <summary>Image source</summary>
-      <div class="image-source-body">
-        Image: Wikimedia Commons (CC BY 2.0)  
-        https://commons.wikimedia.org/wiki/File:Mobile_phone_with_ChatGPT_on_keyboard_(52916924616).jpg
-      </div>
+      <div class="image-source-body">Image: Wikimedia Commons (CC BY 2.0)<br>
+https://commons.wikimedia.org/wiki/File:Mobile_phone_with_ChatGPT_on_keyboard_(52916924616).jpg</div>
     </details>
   </figure>
 
