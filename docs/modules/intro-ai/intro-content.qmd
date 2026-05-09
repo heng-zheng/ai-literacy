@@ -43,12 +43,12 @@ AI literacy can be interpreted through the framework developed by Dr. Kara Kenne
   <details class="image-source">
     <summary>Image source</summary>
     <div class="image-source-body">
-      Image: Kara Kennedy (2023), <em>AI Literacy Framework</em><br>
-      License: CC BY 4.0<br>
-      <a href="https://kennedyhq.com/wp/2023/12/21/ai-literacy-framework/"
-         target="_blank" rel="noopener">
-        kennedyhq.com
-      </a>
+Image: Kara Kennedy (2023), <em>AI Literacy Framework</em><br>
+License: CC BY 4.0<br>
+<a href="https://kennedyhq.com/wp/2023/12/21/ai-literacy-framework/"
+   target="_blank" rel="noopener">
+kennedyhq.com
+</a>
     </div>
   </details>
 </figure>
