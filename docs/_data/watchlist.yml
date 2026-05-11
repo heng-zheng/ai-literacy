@@ -1,4 +1,18 @@
 items:
+  - type: article
+    added: 2026-05-10
+    published: 2026
+    title: "Natural Language Autoencoders: Turning Claude’s thoughts into text"
+    source: "Anthropic"
+    url: "https://www.anthropic.com/research/natural-language-autoencoders"
+
+  - type: video
+    added: 2026-05-10
+    published: 2026
+    title: "Demis Hassabis: We're Three Quarters of the Way to AGI"
+    source: "Sequoia Capital"
+    url: "https://youtu.be/AFpeWo1GTeg?si=02s7BsozG6xh2-V-"
+
   - type: video
     added: 2026-05-07
     published: 2026
