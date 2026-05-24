@@ -1,4 +1,19 @@
 items:
+
+  - type: article
+    added: 2026-05-24
+    published: 2026
+    title: "Labor as Capital: AI and the Ownership of Expert"
+    source: "Zoe Cullen and Shengwu Li"
+    url: "https://www.hbs.edu/ris/Publication%20Files/26-063_6b332c34-be84-4af4-9d29-1107d22419e9.pdf"
+
+  - type: article
+    added: 2026-05-24
+    published: 2026
+    title: "Large language models pass a standard three-party Turing test"
+    source: "Cameron R. Jones and Benjamin K. Bergen"
+    url: "https://doi.org/10.1073/pnas.2524472123"
+
   - type: article
     added: 2026-05-10
     published: 2026
