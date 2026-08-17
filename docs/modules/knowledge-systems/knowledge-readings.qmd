@@ -3,6 +3,15 @@ sidebar: modules
 ---
 
 # Readings
+
+For this module, choose one or more materials directly related to the module's topic. You may select materials from the course reading list or use relevant materials found elsewhere.
+
+As a general guide, read one or more articles or other written materials totaling approximately 10,000–12,000 words, listen to or watch at least 90 minutes of podcasts or videos, or complete a comparable combination of written and audiovisual materials. You may engage with additional materials.
+
+Please submit all graded work via Canvas. Participation requirements and grading details are provided in Canvas.
+
+## Suggested Materials
+
 - [AI’s Role in Preserving Digital Archives](https://www.historica.org/blog/ais-role-in-preserving-digital-archives)
 - [Are Users of Digital Archives Ready for the AI Era? Obstacles to the Application of Computational Research Methods and New Opportunities](https://doi.org/10.1145/3631125)
 - Martin Frické, [*Artificial Intelligence: Foundations of Computational Agents*](https://softoption.us/sites/default/files/AIinLibrariesNotesForTeaching3rdEd.pdf), Chapter 14 & Chapter 15
