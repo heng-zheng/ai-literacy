@@ -47,15 +47,17 @@ LLMs process text as small units called tokens. A token may be a word, part of a
 Example: When a student asks an LLM to summarize a journal article, the model processes the text as a sequence of tokens.
 
 Before exploring tokenization hands-on, watch the following short video explaining what tokens are and how language models represent text.
+```{=html}
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-    <iframe
-        src="https://www.youtube-nocookie.com/embed/Gauk0F6UBFo"
-        title="AI Foundations: Tokens & Pricing"
-        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-    </iframe>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/Gauk0F6UBFo"
+    title="AI Foundations: Tokens &amp; Pricing"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
 </div>
+```
 
 :::{.callout-tip title="Hands-on: Exploring Tokenization"}
 
